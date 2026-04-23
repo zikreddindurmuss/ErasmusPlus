@@ -1,0 +1,10453 @@
+--- Erasmus Grupları ve Öğrenci Sorunları Araştırması.pdf İÇERİĞİ ---
+Türkiye-Avrupa  Uzun  Dönem  Öğrenci  
+Hareketliliği:
+ 
+Dijital
+ 
+Pazar
+ 
+Yeri
+ 
+Müşteri
+ 
+Keşfi
+ 
+ve
+ 
+Eko-Sistem
+ 
+Analiz
+ 
+Raporu
+ Yönetici  Özeti  ve  Makro-Çevresel  Bağlam  
+Türkiye  yükseköğretim  sisteminden  Avrupa  Birliği  (AB)  ülkelerine  yönelik  gerçekleştirilen  uzun  
+dönemli
+ 
+(altı
+ 
+ay
+ 
+ile
+ 
+bir
+ 
+yıl
+ 
+arası)
+ 
+öğrenci
+ 
+ve
+ 
+staj
+ 
+hareketliliği,
+ 
+giderek
+ 
+karmaşıklaşan
+ 
+yapısal,
+ 
+bürokratik
+ 
+ve
+ 
+ekonomik
+ 
+dinamiklerin
+ 
+etkisi
+ 
+altındadır.
+ 
+Bu
+ 
+araştırma
+ 
+raporu,
+ 
+Avrupa
+ 
+Dayanışma
+ 
+Programı
+ 
+(ESC)
+ 
+ve
+ 
+kısa
+ 
+dönemli
+ 
+gençlik
+ 
+projeleri
+ 
+gibi
+ 
+alternatif
+ 
+hareketlilikleri
+ 
+kesin
+ 
+bir
+ 
+dille
+ 
+kapsam
+ 
+dışında
+ 
+bırakarak,
+ 
+bütünüyle
+ 
+akademik
+ 
+nitelik
+ 
+taşıyan
+ 
+Erasmus+
+ 
+yükseköğrenim
+ 
+değişim
+ 
+programlarına
+ 
+odaklanmaktadır.
+ 
+Temel
+ 
+amaç,
+ 
+bu
+ 
+karmaşık
+ 
+ekosistem
+ 
+içerisinde
+ 
+öğrencilere
+ 
+uçtan
+ 
+uca
+ 
+rehberlik
+ 
+ve
+ 
+mentorluk
+ 
+sunacak
+ 
+bir
+ 
+dijital
+ 
+pazar
+ 
+yerinin
+ 
+(marketplace)
+ 
+kuruluş
+ 
+aşamasında
+ 
+ihtiyaç
+ 
+duyduğu
+ 
+pazar
+ 
+istihbaratını
+ 
+(market
+ 
+intelligence)
+ 
+sağlamaktır.
+ 
+Rapor,
+ 
+vizyonu
+ 
+tüm
+ 
+Türkiye
+ 
+sathına
+ 
+yayılan
+ 
+bu
+ 
+girişimin
+ 
+"Minimum
+ 
+Uygulanabilir
+ 
+Ürün"
+ 
+(MVP)
+ 
+fazı
+ 
+için
+ 
+stratejik
+ 
+bir
+ 
+test
+ 
+alanı
+ 
+olarak
+ 
+belirlenen
+ 
+Ankara
+ 
+Üniversitesi
+ 
+ekosistemini
+ 
+mikro
+ 
+düzeyde
+ 
+incelemekte
+ 
+ve
+ 
+genel
+ 
+Türkiye-Avrupa
+ 
+eksenindeki
+ 
+makro
+ 
+problemleri
+ 
+bu
+ 
+lokal
+ 
+test
+ 
+alanının
+ 
+dinamikleriyle
+ 
+sentezlemektedir.
+ 
+Analizler,  hedef  kitlenin  dijital  ayak  izlerinin  yoğunlaştığı  platformların  (Reddit,  Facebook,  
+Telegram
+ 
+vb.)
+ 
+salt
+ 
+birer
+ 
+iletişim
+ 
+aracı
+ 
+olmaktan
+ 
+çıkarak,
+ 
+asimetrik
+ 
+bilgi
+ 
+krizlerinin
+ 
+yönetildiği,
+ 
+yüksek
+ 
+stresli
+ 
+"hayatta
+ 
+kalma"
+ 
+forumlarına
+ 
+dönüştüğünü
+ 
+ortaya
+ 
+koymaktadır.
+ 
+Avrupa
+ 
+Birliği
+ 
+üyesi
+ 
+olmayan
+ 
+(non-EU)
+ 
+bir
+ 
+ülkeden
+ 
+hareketlilik
+ 
+gerçekleştiren
+ 
+Türk
+ 
+öğrencilerin
+ 
+deneyimi;
+ 
+vize
+ 
+rejimlerinin
+ 
+katılığı,
+ 
+kur
+ 
+dalgalanmalarının
+ 
+yarattığı
+ 
+finansal
+ 
+yıkım,
+ 
+konut
+ 
+krizleri
+ 
+ve
+ 
+kurumsal
+ 
+iletişimsizlikler
+ 
+nedeniyle
+ 
+Avrupalı
+ 
+bir
+ 
+akranının
+ 
+deneyiminden
+ 
+radikal
+ 
+biçimde
+ 
+ayrışmaktadır.
+ 
+Öğrenci
+ 
+hareketliliği
+ 
+süreci,
+ 
+akademik
+ 
+bir
+ 
+entegrasyondan
+ 
+ziyade,
+ 
+kriz
+ 
+yönetimi,
+ 
+bürokratik
+ 
+hayatta
+ 
+kalma
+ 
+ve
+ 
+finansal
+ 
+optimizasyon
+ 
+becerilerinin
+ 
+sınandığı
+ 
+bir
+ 
+darboğaza
+ 
+dönüşmüştür.
+ 
+Bu
+ 
+bağlamda,
+ 
+inşa
+ 
+edilecek
+ 
+dijital
+ 
+pazar
+ 
+yerinin
+ 
+yalnızca
+ 
+bilgi
+ 
+veren
+ 
+pasif
+ 
+bir
+ 
+dizin
+ 
+(directory)
+ 
+değil,
+ 
+öğrencilerin
+ 
+finansal
+ 
+ve
+ 
+psikolojik
+ 
+risklerini
+ 
+hedge
+ 
+eden
+ 
+(koruma
+ 
+altına
+ 
+alan)
+ 
+proaktif
+ 
+bir
+ 
+"güven
+ 
+katmanı"
+ 
+(trust
+ 
+layer)
+ 
+olarak
+ 
+konumlandırılması
+ 
+stratejik
+ 
+bir
+ 
+zorunluluktur.
+ 
+Dijital  Ekosistem  ve  Platform  Topografyası:  Genel  
+Pazar
+ 
+Analizi
+ 
+Türkiye'deki  üniversitelerden  Almanya,  İtalya,  İspanya,  Polonya  ve  Çekya  gibi  yoğun  talep  gören  
+ülkelere
+ 
+yönelen
+ 
+öğrencilerin
+ 
+dijital
+ 
+platform
+ 
+kullanımları,
+ 
+karşılaştıkları
+ 
+problemin
+ 
+aciliyet
+ 
+derecesine
+ 
+ve
+ 
+aradıkları
+ 
+çözümün
+ 
+niteliğine
+ 
+göre
+ 
+kesin
+ 
+hatlarla
+ 
+birbirinden
+ 
+ayrışmaktadır.
+ 
+Dijital
+ 
+pazar
+ 
+yerinin
+ 
+müşteri
+ 
+keşfi
+ 
+(customer
+ 
+discovery)
+ 
+ve
+ 
+müşteri
+ 
+edinimi
+ 
+(customer
+ 
+acquisition)
+ 
+stratejileri,
+ 
+bu
+ 
+platformların
+ 
+sosyolojik
+ 
+ve
+ 
+işlevsel
+ 
+farklılıkları
+ 
+üzerine
+ 
+inşa
+ 
+edilmelidir.
+ 
+Müşteri
+ 
+kitlesi,
+ 
+resmi
+ 
+kurumların
+ 
+(üniversite
+ 
+uluslararası
+ 
+ofisleri,
+ 
+konsolosluklar,
+ 
+aracı
+ 
+vize
+ 
+kurumları)
+ 
+sağladığı  bilgi  akışının  yetersiz  kaldığı  veya  tıkandığı  noktalarda,  gayriresmi  yardımlaşma  
+ağlarına
+ 
+yönelmektedir.
+ 
+Aşağıdaki  tablo,  genel  pazar  bağlamında  aktif  olan  dijital  platformların  yapısal  analizini,  hedef  
+kitle
+ 
+davranışlarını
+ 
+ve
+ 
+girişimin
+ 
+pazarlama
+ 
+stratejilerinde
+ 
+kullanabileceği
+ 
+anahtar
+ 
+kelime/topluluk
+ 
+yapılarını
+ 
+detaylandırmaktadır.
+ 
+ 
+Platform  Tipi  ve  Karakteristiği  
+Kullanıcı  Motivasyonu  ve  Etkileşim  Dinamikleri  
+Topluluk  İsimleri  ve  Arama  Anahtar  Kelimeleri  
+Dijital  Pazar  Yeri  İçin  Stratejik  Değer  Teklifi  
+Reddit  (Anonim  Kriz  Yönetimi)  
+Kullanıcıların  kimliklerini  gizleyerek  en  derin  anksiyetelerini,  resmi  süreçlerde  yaşadıkları  çaresizlikleri  ve  psikolojik  çöküntülerini  paylaştıkları  ana  merkezdir.  Uzun  formatlı  vaka  analizleri  ve  karmaşık  sorular  burada  tartışılır.
+1  
+r/Erasmus,  r/UniversityTR,  r/AskTurkey,  r/istanbul,  r/GoingToSpain,  r/poland.
+1  
+İçerik  pazarlaması  (content  marketing)  için  en  zengin  veri  kaynağıdır.  Kriz  anlarında  çözüm  arayan  kitleye  "dolaylı  mentorluk"  yapılarak  marka  otoritesi  kurulabilir.  
+Facebook  (İşlemsel  ve  Lojistik  Ağlar)  
+Daha  çok  fiziksel  ihtiyaçların  (konaklama  bulma,  eşya  devretme,  ev  arkadaşı  arama)  giderildiği,  kimliklerin  açık  olduğu  işlemsel  (transactional)  bir  pazar  yeridir.  Dolandırıcılık  vakalarının  da  en  sık  yaşandığı  ağdır.
+1  
+"Erasmus  Accommodation  [Şehir]",  "Erasmus  Türkiye",  "[Şehir]  Türk  Öğrencileri  2024-2025",  "Erasmus  Housing  in  Istanbul".
+1  
+İlan  doğrulama  ve  anti-dolandırıcılık  (anti-scam)  hizmetlerinin  doğrudan  pazarlandığı,  arz  ve  talebin  buluştuğu  birincil  kanal  olarak  kullanılmalıdır.  
+Telegram  /  Discord  (Anlık  Operasyonel  Koordinasyon)  
+Zaman  duyarlılığı  en  yüksek  olan  krizlerin  (vize  randevusu  bulma,  konsolosluk  güncellemeleri,  iData  botları)  anlık  olarak  yönetildiği,  yüksek  frekanslı  mesajlaşma  alanlarıdır.
+1  
+Genellikle  kapalı  uçludur.  Reddit  ve  Facebook  üzerinden  "Telegram  Group  for"  şeklinde  davet  linkleri  ile  yayılır.
+1  
+"Randevu  Takip  Sistemleri"  ve  anlık  bildirim  gerektiren  modüllerin  test  edileceği,  aciliyet  hissinin  en  yüksek  olduğu  müşteri  segmentini  barındırır.  
+Bu  dijital  ekosistem  içerisinde  öğrencilerin  arama  niyetleri  (search  intent)  incelendiğinde,  sürecin  
+başındaki
+ 
+"nereye
+ 
+gitmeliyim?"
+ 
+romantizminden
+ 
+ziyade,
+ 
+sürecin
+ 
+ortasındaki
+ 
+"hayatta
+ 
+nasıl
+ 
+kalırım?"
+ 
+pragmatizmine
+ 
+keskin
+ 
+bir
+ 
+geçiş
+ 
+yaşandığı
+ 
+görülmektedir.
+ 
+Örneğin,
+ 
+Reddit
+ 
+platformunda
+ 
+r/Erasmus
+ 
+alt
+ 
+dizinindeki
+ 
+tartışmalar
+ 
+incelendiğinde,
+ 
+en
+ 
+çok
+ 
+etkileşim
+ 
+alan
+ 
+başlıkların
+ 
+"Accommodation
+ 
+trouble"
+ 
+(Konaklama
+ 
+sorunu),
+ 
+"Visa
+ 
+issues"
+ 
+(Vize
+ 
+sorunları),
+ 
+"Hating
+ 
+my
+ 
+stay"
+ 
+(Konaklamamdan
+ 
+nefret
+ 
+ediyorum)
+ 
+ve
+ 
+"Should
+ 
+I
+ 
+go
+ 
+home?"
+ 
+(Eve
+ 
+dönmeli
+ 
+miyim?)
+ 
+gibi
+ 
+derin
+ 
+yapısal
+ 
+krizlere
+ 
+işaret
+ 
+ettiği
+ 
+açıkça
+ 
+gözlemlenmektedir.
+2
+ Bu  durum,  öğrenci  kitlesinin  yalnızca  
+bilgiye
+ 
+değil,
+ 
+aktif
+ 
+bir
+ 
+kriz
+ 
+müdahale
+ 
+mekanizmasına
+ 
+ihtiyaç
+ 
+duyduğunu
+ 
+kanıtlamaktadır.
+ 
+Mikro-Ekosistem  Analizi:  Ankara  Üniversitesi  ve  MVP  
+Pazara
+ 
+Giriş
+ 
+Stratejisi
+ 
+Dijital  pazar  yerinin  ilk  test  aşaması  (MVP)  için  Ankara  Üniversitesi'nin  seçilmesi,  Türkiye'nin  en  
+köklü
+ 
+ve
+ 
+bürokratik
+ 
+açıdan
+ 
+en
+ 
+karmaşık
+ 
+yapılarından
+ 
+birinin
+ 
+modellenmesi
+ 
+anlamına
+ 
+gelmektedir.
+ 
+Ankara
+ 
+Üniversitesi
+ 
+özelindeki
+ 
+süreçleri
+ 
+başarıyla
+ 
+dijitalleştiren
+ 
+ve
+ 
+buradaki
+ 
+sorunları
+ 
+çözen
+ 
+bir
+ 
+sistemin,
+ 
+diğer
+ 
+üniversitelere
+ 
+ölçeklenmesi
+ 
+(scaling)
+ 
+çok
+ 
+daha
+ 
+az
+ 
+sürtünme
+ 
+(friction)
+ 
+yaratacaktır.
+ 
+Bu
+ 
+aşamada,
+ 
+doğrudan
+ 
+Ankara
+ 
+Üniversitesi
+ 
+öğrencilerine
+ 
+ulaşmak
+ 
+ve
+ 
+kurumun
+ 
+iç
+ 
+dinamiklerini
+ 
+çözümlemek
+ 
+için
+ 
+özelleştirilmiş
+ 
+bir
+ 
+sızma
+ 
+ve
+ 
+haritalandırma
+ 
+stratejisi
+ 
+gerekmektedir.
+ 
+Ankara  Üniversitesi  AB  Eğitim  Programları  Koordinatörlüğü'nün  (Erasmus+  Ofisi)  operasyonel  
+mimarisi,
+ 
+resmi
+ 
+web
+ 
+sitesi
+ 
+(erasmus.ankara.edu.tr)
+ 
+üzerinden
+ 
+yönetilmektedir.
+11
+ Ancak  bu  
+yapının
+ 
+resmiyeti,
+ 
+öğrencilerin
+ 
+esnek
+ 
+ve
+ 
+hızlı
+ 
+bilgi
+ 
+alma
+ 
+ihtiyaçlarıyla
+ 
+örtüşmemektedir.
+ 
+Kurumun
+ 
+resmi
+ 
+iletişim
+ 
+kanalları
+ 
+Facebook,
+ 
+X
+ 
+(Twitter),
+ 
+YouTube
+ 
+ve
+ 
+Instagram
+ 
+olarak
+ 
+belirlenmiş
+ 
+olup,
+ 
+resmi
+ 
+duyurular,
+ 
+hibe
+ 
+listeleri
+ 
+ve
+ 
+Avrupa
+ 
+Birliği
+ 
+Erasmus
+ 
+Programı
+ 
+Uygulama
+ 
+Yönergesi
+ 
+gibi
+ 
+kritik
+ 
+belgeler
+ 
+bu
+ 
+platformlar
+ 
+üzerinden
+ 
+entegre
+ 
+bir
+ 
+şekilde
+ 
+sunulmaktadır.
+11
+ Ancak,  öğrencilerin  asıl  
+tartışma
+ 
+ve
+ 
+kriz
+ 
+çözme
+ 
+alanları
+ 
+bu
+ 
+resmi
+ 
+duyuruların
+ 
+altındaki
+ 
+yorum
+ 
+bölümlerinde
+ 
+veya
+ 
+bu
+ 
+platformlardan
+ 
+bağımsız
+ 
+olarak
+ 
+kurulan
+ 
+WhatsApp
+ 
+ve
+ 
+Telegram
+ 
+gruplarında
+ 
+gerçekleşmektedir.
+ 
+MVP'nin  pazara  girişi  için  Ankara  Üniversitesi  içerisinde  kullanılabilecek  temel  temas  noktaları  
+ve
+ 
+bürokratik
+ 
+düğümler
+ 
+şu
+ 
+şekildedir:
+ 
+1.  İdari  İletişim  Hatları  ve  Bürokratik  Düğümler:  Ankara  Üniversitesi'nin  süreçleri  spesifik  
+dahili
+ 
+numaralar
+ 
+ve
+ 
+kompartımanlara
+ 
+ayrılmış
+ 
+bölümler
+ 
+üzerinden
+ 
+yürütülmektedir.
+ 
+Genel
+ 
+iletişim
+ 
+için
+ 
+kullanılan
+ 
+numara
+ 
++90
+ 
+312
+ 
+212
+ 
+60
+ 
+40
+ 
+(Dahili:
+ 
+2294-2299)
+ 
+olmakla
+ 
+birlikte,
+ 
+operasyonel
+ 
+süreçler
+ 
+parçalanmıştır.
+11
+ Öğrenim  hareketliliği  (KA131)  için  2099,  staj  
+hareketliliği
+ 
+(KA131)
+ 
+için
+ 
+2297
+ 
+ve
+ 
+2038,
+ 
+partner
+ 
+ülkeler
+ 
+hareketliliği
+ 
+(KA171)
+ 
+için
+ 
+2434
+ 
+numaralı
+ 
+dahili
+ 
+hatlar
+ 
+kullanılmaktadır.
+12
+ Ayrıca,  Dil  ve  Tarih-Coğrafya  Fakültesi  (Dahili:  
+1705)
+ 
+ve
+ 
+Siyasal
+ 
+Bilgiler
+ 
+Fakültesi
+ 
+(+90
+ 
+312
+ 
+595
+ 
+14
+ 
+12)
+ 
+gibi
+ 
+devasa
+ 
+fakültelerin
+ 
+kendi
+ 
+iç
+ 
+temas
+ 
+noktaları
+ 
+bulunmaktadır.
+12
+ Öğrencilerin  bu  labirent  içerisinde  kaybolması  
+muhtemeldir.
+ 
+Çözülemeyen
+ 
+sorunlar
+ 
+genellikle
+ 
+Ankara
+ 
+Üniversitesi
+ 
+Çözüm
+ 
+Merkezi'ne
+ 
+(0
+ 
+850
+ 
+840
+ 
+76
+ 
+89)
+ 
+yönlendirilmektedir.
+12
+ Kurulacak  platform,  bu  karmaşık  "İş  Akışlarını"  
+(Workflows)
+ 
+ve
+ 
+"Hizmet
+ 
+Standartlarını"
+ 
+11
+ dijitalleştirerek,  öğrencilere  adım  adım  ne  
+zaman,
+ 
+hangi
+ 
+fakülte
+ 
+koordinatörüne
+ 
+gitmeleri
+ 
+gerektiğini
+ 
+gösteren
+ 
+bir
+ 
+navigasyon
+ 
+sistemi
+ 
+sunmalıdır.
+ 2.  Öğrenci  Toplulukları  Üzerinden  B2B2C  Yaklaşımı:  Türkiye'deki  köklü  üniversitelerin  
+sosyal
+ 
+dokusu,
+ 
+sayıları
+ 
+yüzleri
+ 
+bulan
+ 
+öğrenci
+ 
+toplulukları
+ 
+etrafında
+ 
+şekillenmektedir.
+ 
+Uludağ
+ 
+Üniversitesi
+ 
+veya
+ 
+TOBB
+ 
+ETÜ
+ 
+örneklerinde
+ 
+görüldüğü
+ 
+gibi,
+ 
+üniversitelerde
+ 
+Havacılık
+ 
+ve
+ 
+Uzay,
+ 
+Kültür
+ 
+Sanat,
+ 
+Mesleki
+ 
+Topluluklar,
+ 
+Tıp
+ 
+Öğrencileri
+ 
+Birliği
+ 
+gibi
+ 
+çok
+ 
+çeşitli
+ 
+ve
+ 
+aktif
+ 
+gruplar
+ 
+bulunmaktadır.
+13
+ Ankara  Üniversitesi'nin  MVP  aşamasında,  bu  
+toplulukların
+ 
+liderleriyle
+ 
+(özellikle
+ 
+dışa
+ 
+dönük,
+ 
+uluslararası
+ 
+ilişkiler,
+ 
+Avrupa
+ 
+gönüllüleri
+ 
+veya
+ 
+dil
+ 
+odaklı
+ 
+topluluklar)
+ 
+kurulacak
+ 
+stratejik
+ 
+ortaklıklar,
+ 
+platforma
+ 
+kitlesel
+ 
+öğrenci
+ 
+akışını
+ 
+(user
+ 
+acquisition)
+ 
+sağlayacak
+ 
+en
+ 
+düşük
+ 
+maliyetli
+ 
+büyüme
+ 
+kanalıdır.
+ 
+Kriz  Anatomisi  ve  Temel  Acı  Noktaları  (Pain  Points):  
+"Öğrenci
+ 
+İsyanları"
+ 
+Müşteri  keşfi  bağlamında  incelenen  veriler,  Erasmus  sürecinin  yalnızca  evrak  toplama  
+aşamasından
+ 
+ibaret
+ 
+olmadığını,
+ 
+birbirini
+ 
+tetikleyen
+ 
+zincirleme
+ 
+krizlerden
+ 
+oluştuğunu
+ 
+göstermektedir.
+ 
+Dijital
+ 
+pazar
+ 
+yerinin
+ 
+ürün
+ 
+mimarisi
+ 
+(product
+ 
+architecture)
+ 
+ve
+ 
+pazarlama
+ 
+dili,
+ 
+doğrudan
+ 
+bu
+ 
+dört
+ 
+temel
+ 
+kriz
+ 
+eksenine
+ 
+hitap
+ 
+edecek
+ 
+şekilde
+ 
+kurgulanmalıdır.
+ 
+1.  Vize  Bürokrasisi  ve  Zamanlama  Paradoksu  
+Avrupa  Birliği  üyesi  olmayan  bir  vatandaş  olarak  Avrupa'da  uzun  dönemli  oturum  ve  eğitim  hakkı  
+elde
+ 
+etmeye
+ 
+çalışmak,
+ 
+sürecin
+ 
+en
+ 
+büyük
+ 
+tıkanıklık
+ 
+noktasıdır.
+ 
+Konsoloslukların
+ 
+ve
+ 
+iData
+ 
+gibi
+ 
+aracı
+ 
+kurumların
+ 
+kapasite
+ 
+yetersizlikleri,
+ 
+öğrencileri
+ 
+devasa
+ 
+bir
+ 
+belirsizliğin
+ 
+içine
+ 
+itmektedir.
+ 
+Bu
+ 
+belirsizlik
+ 
+salt
+ 
+zaman
+ 
+kaybı
+ 
+değil,
+ 
+aynı
+ 
+zamanda
+ 
+ağır
+ 
+bir
+ 
+finansal
+ 
+ve
+ 
+akademik
+ 
+yıkım
+ 
+potansiyeli
+ 
+taşımaktadır.
+ 
+Araştırma  bulguları,  vize  başvuru  süreçlerindeki  iletişimsizliğin  ve  öngörülemezliğin  ulaştığı  
+boyutu
+ 
+çarpıcı
+ 
+vaka
+ 
+analizleriyle
+ 
+ortaya
+ 
+koymaktadır.
+ 
+Almanya'daki
+ 
+Köln
+ 
+Üniversitesi'nden
+ 
+bahar
+ 
+dönemi
+ 
+için
+ 
+kabul
+ 
+alan
+ 
+ve
+ 
+hibesi
+ 
+onaylanan
+ 
+bir
+ 
+öğrencinin
+ 
+yaşadığı
+ 
+süreç,
+ 
+sistemik
+ 
+çöküşün
+ 
+mükemmel
+ 
+bir
+ 
+örneğidir.
+3
+ Akademik  dönemi  1  Nisan'da,  dersleri  ise  7  Nisan'da  başlayan  bu  
+öğrenci,
+ 
+3
+ 
+Nisan'da
+ 
+vize
+ 
+görüşmesine
+ 
+girmesine
+ 
+rağmen
+ 
+dört
+ 
+hafta
+ 
+boyunca
+ 
+hiçbir
+ 
+şekilde
+ 
+geri
+ 
+dönüş  alamamıştır.
+3
+ Konsoloslukların  başlangıç  tarihlerini  dikkate  aldığı  yönündeki  resmi  
+söylemlerin
+ 
+gerçeklikte
+ 
+hiçbir
+ 
+karşılığı
+ 
+olmadığı,
+ 
+öğrencilerin
+ 
+forumlardaki
+ 
+isyanlarında
+ 
+açıkça
+ 
+dile
+ 
+getirilmektedir.
+3
+ E-postaların  üç  farklı  dilde  gönderilmesine  ve  tüm  iletişim  kanallarının  
+zorlanmasına
+ 
+rağmen
+ 
+kurumların
+ 
+bir
+ 
+"kara
+ 
+kutu"
+ 
+gibi
+ 
+davranması,
+ 
+öğrencilerin
+ 
+çaresizlik
+ 
+içinde
+ 
+Türkiye'nin
+ 
+iç
+ 
+idari
+ 
+şikayet
+ 
+mekanizması
+ 
+olan
+ 
+CİMER'e
+ 
+başvurmalarına
+ 
+dahi
+ 
+neden
+ 
+olmaktadır.
+3  
+Bu  gecikmelerin  yarattığı  zincirleme  reaksiyon  son  derece  yıkıcıdır.  Öğrenci,  henüz  Türkiye'de  
+olmasına
+ 
+rağmen,
+ 
+konaklama
+ 
+zorunluluğu
+ 
+nedeniyle
+ 
+yurt
+ 
+dışındaki
+ 
+evinin
+ 
+kirasını
+ 
+(aylık
+ 
+339
+ 
+Euro
+ 
+gibi
+ 
+meblağlar)
+ 
+işlemeyen
+ 
+bir
+ 
+süre
+ 
+için
+ 
+ödemek
+ 
+zorunda
+ 
+kalmıştır.
+3
+ Nisan  ve  Mayıs  
+aylarının
+ 
+kirasını
+ 
+Türkiye'den
+ 
+ödeyen
+ 
+öğrencinin
+ 
+yaşadığı
+ 
+finansal
+ 
+tükenmişlik,
+ 
+akademik
+ 
+hayatının
+ 
+tehlikeye
+ 
+girmesiyle
+ 
+birleştiğinde
+ 
+derin
+ 
+bir
+ 
+psikolojik
+ 
+krize
+ 
+dönüşmektedir.
+3  
+Girişim  İçin  Stratejik  Fırsat:  Platform,  konsoloslukların  işlem  sürelerini  kitle  kaynaklı  
+(crowdsourced)
+ 
+verilerle
+ 
+analiz
+ 
+eden
+ 
+bir
+ 
+"Vize
+ 
+Isı
+ 
+Haritası"
+ 
+(Visa
+ 
+Heatmap)
+ 
+oluşturabilir.
+ 
+Ayrıca,
+ 
+iData
+ 
+veya
+ 
+konsolosluklara
+ 
+gönderilecek,
+ 
+ilgili
+ 
+ülkenin
+ 
+dilinde
+ 
+ve
+ 
+hukuki
+ 
+standartlarında
+ 
+yazılmış,
+ 
+eskalasyon
+ 
+(durumu
+ 
+üst
+ 
+mercilere
+ 
+taşıma)
+ 
+talebi
+ 
+içeren
+ 
+şablon
+ 
+dilekçeler
+ 
+sunarak
+ 
+öğrencilerin
+ 
+kurumsal
+ 
+iletişimsizlik
+ 
+krizini
+ 
+aşmalarına
+ 
+yardımcı
+ 
+olabilir.
+ 
+2.  Barınma  Krizi,  Dolandırıcılık  Piyasası  ve  Güven  Erozyonu  
+Vize  sürecini  atlatan  (veya  vize  başvurusu  yapmak  için  zorunlu  olan  "konaklama  kanıtı"  
+belgesini
+ 
+sağlamaya
+ 
+çalışan)
+ 
+öğrencilerin
+ 
+karşısına
+ 
+çıkan
+ 
+ikinci
+ 
+büyük
+ 
+kriz,
+ 
+barınmadır.
+ 
+Gidilecek
+ 
+ülkenin
+ 
+dilini,
+ 
+emlak
+ 
+hukukunu
+ 
+ve
+ 
+mahalle
+ 
+dinamiklerini
+ 
+bilmeyen
+ 
+öğrenciler,
+ 
+global
+ 
+konut
+ 
+krizinin
+ 
+ortasında
+ 
+organize
+ 
+dolandırıcılık
+ 
+şebekelerinin
+ 
+birincil
+ 
+hedefi
+ 
+haline
+ 
+gelmektedir.
+ 
+Bu  asimetrik  bilgi  ortamı,  dolandırıcılar  için  kusursuz  bir  ekosistem  yaratmaktadır.  Öğrenciler,  
+sadece
+ 
+vize
+ 
+başvurusunda
+ 
+bulunabilmek
+ 
+adına,
+ 
+hiç
+ 
+görmedikleri
+ 
+ve
+ 
+fiziksel
+ 
+olarak
+ 
+teyit
+ 
+edemedikleri
+ 
+apartman
+ 
+daireleri
+ 
+için
+ 
+sözleşme
+ 
+yapmak
+ 
+ve
+ 
+depozito
+ 
+göndermek
+ 
+zorundadır.
+15
+ 
+Uniplaces
+ 
+veya
+ 
+Spotahome
+ 
+gibi
+ 
+nispeten
+ 
+güvenilir
+ 
+olarak
+ 
+konumlanan
+ 
+uluslararası
+ 
+platformların
+ 
+bile
+ 
+çok
+ 
+sayıda
+ 
+olumsuz
+ 
+yoruma
+ 
+ve
+ 
+şüpheli
+ 
+işleme
+ 
+sahne
+ 
+olması
+ 
+15
+,  pazardaki  güven  krizinin  
+derinliğini
+ 
+göstermektedir.
+ 
+İtalya'nın
+ 
+Bologna
+ 
+şehri
+ 
+veya
+ 
+İspanya'nın
+ 
+Barselona
+ 
+şehri
+ 
+gibi
+ 
+öğrenci
+ 
+popülasyonunun
+ 
+yoğun
+ 
+olduğu
+ 
+yerlerdeki
+ 
+özel
+ 
+yurtlar
+ 
+güvenli
+ 
+olsa
+ 
+da,
+ 
+talep
+ 
+edilen
+ 
+fiyatlar
+ 
+öğrencilerin
+ 
+ellerindeki
+ 
+Erasmus
+ 
+hibelerinin
+ 
+çok
+ 
+üzerindedir.
+2
+ Bu  finansal  imkansızlık,  öğrencileri  
+"yerine
+ 
+gidince
+ 
+ararım"
+ 
+stratejisi
+ 
+ile
+ 
+"ucuz
+ 
+ilanlara
+ 
+kanma"
+ 
+riski
+ 
+arasında
+ 
+tehlikeli
+ 
+bir
+ 
+seçime
+ 
+zorlamaktadır.
+2
+ Gelen  öğrenciler  açısından  İstanbul  gibi  metropollerde  de  durum  farksızdır;  yerel  
+öğrenciler
+ 
+için
+ 
+dahi
+ 
+barınma
+ 
+krizi
+ 
+yaşanırken,
+ 
+dil
+ 
+bariyeri
+ 
+ve
+ 
+uluslararası
+ 
+numara
+ 
+eksikliği
+ 
+nedeniyle
+ 
+emlak
+ 
+piyasasında
+ 
+tamamen
+ 
+dışlanan
+ 
+Erasmus
+ 
+öğrencileri
+ 
+4
+,  Yurtlarburada  gibi  
+platformlar
+ 
+üzerinden
+ 
+özel
+ 
+yurtlara
+ 
+mecbur
+ 
+kalmakta
+ 
+veya
+ 
+güvenilmez
+ 
+ev
+ 
+arkadaşlığı
+ 
+ilanlarına
+ 
+mahkum
+ 
+olmaktadır.
+9  
+Araştırma  verileri,  bu  konaklama  dolandırıcılıklarının  oldukça  spesifik  bir  metodoloji  izlediğini  
+kanıtlamaktadır.
+ 
+Aşağıdaki
+ 
+tablo,
+ 
+forumlarda
+ 
+paylaşılan
+ 
+vaka
+ 
+analizlerinden
+ 
+elde
+ 
+edilen
+ 
+ve
+ 
+öğrencilerin
+ 
+"Red
+ 
+Flags"
+ 
+(Kırmızı
+ 
+Bayraklar)
+ 
+olarak
+ 
+tanımladığı
+ 
+dolandırıcılık
+ 
+örüntülerini
+ 
+analiz
+ 
+etmektedir.
+ 
+Kurulacak
+ 
+platformun
+ 
+mentorları,
+ 
+bu
+ 
+kalıpları
+ 
+ezbere
+ 
+bilmeli
+ 
+ve
+ 
+öğrenciyi
+ 
+bu
+ 
+risklerden  korumalıdır.  
+ 
+Dolandırıcılık  Taktikleri  ve  Risk  Göstergeleri  (Red  Flags)  
+Arka  Plan  Analizi  ve  Dolandırıcılık  Mekanizması  
+Mentorluk  Platformunun  Çözüm  Yaklaşımı  
+Banka  Havalesi  Zorunluluğu  ve  Hesap  Uyuşmazlıkları  
+Resmi  web  sitesi  üzerinden  güvenli  ödeme  (escrow)  yerine,  öğrenciden  doğrudan  IBAN'a  banka  havalesi  talep  edilmesi.
+16
+ Yatırılacak  hesabın  şube  kodu,  hesap  numarası  ve  alıcı  adının  (bireysel/ticari)  bankacılık  sistemlerinde  eşleşmemesi,  paranın  izini  kaybettirme  çabasıdır.
+16  
+Mentorlar,  her  ilanın  ödeme  altyapısını  analiz  ederek  öğrenciye  güvenli  ödeme  geçitlerini  (payment  gateways)  kullanma  zorunluluğunu  dikte  etmelidir.  
+Görüntüleme  Randevularının  Manipülasyonu  
+Evin  "Eylül  ayında  tadilatta"  olduğu  bahanesiyle  fiziksel  görüntülemenin  reddedilmesi.
+16
+ Ya  da  ayarlanmış  bir  görüntüleme  rezervasyonunun  son  anda  iptal  edilerek  öğrencinin  panikle  ödemeye  zorlanması.
+16  
+Pazar  yeri,  hedeflenen  şehirde  halihazırda  bulunan  bir  mentoru  fiziksel  adrese  göndererek  "Canlı  Görüntüleme"  (Live  Viewing)  hizmeti  sunmalıdır.  
+Görsel  Veri  Eksikliği  İlanlarda  sadece  yatak  odası,  oyun  odası  veya  banyo  gibi  sınırlı  fotoğrafların  bulunması;  mutfak  veya  genel  yaşam  alanlarının  görsellerinin  eksik  olması.
+16  
+İlanların  doğrulanması  için  çapraz  görsel  arama  algoritmaları  ve  eksik  alanların  talep  edilmesi  standart  prosedür  haline  getirilmelidir.  
+Kişisel  Veri  ve  Gizlilik  İhlalleri  
+Süresi  dolmuş  pasaport  veya  göçmenlik  belgelerinin  sorgusuz  sualsiz  kimlik  olarak  kabul  edilmesi.
+16
+ Öğrenciye  ve  diğer  
+Bu  tür  amatör  ve  şüpheli  iletişimlerin  tespit  edildiği  kurumlar  anında  platformun  "Kara  Listesine"  (Blacklist)  alınmalıdır.  
+sahte/gerçek  başvuru  sahiplerine  aynı  e-postanın  açık  karbon  kopya  (CC)  ile  gönderilerek  telefon  numarası  ve  adres  gibi  kişisel  verilerin  ifşa  edilmesi.
+16  
+Girişim  İçin  Stratejik  Fırsat:  Pazar  yeri,  "Onaylanmış  Konaklama"  sertifikasyonu  ve  "Eşler  
+Arası
+ 
+Ev
+ 
+Gezdirme"
+ 
+(Peer-to-Peer
+ 
+Flat
+ 
+Viewing)
+ 
+hizmeti
+ 
+sunabilir.
+ 
+Gig
+ 
+ekonomisi
+ 
+mantığıyla,
+ 
+Bologna'da
+ 
+eğitim
+ 
+gören
+ 
+bir
+ 
+Ankara
+ 
+Üniversitesi
+ 
+öğrencisi,
+ 
+platform
+ 
+üzerinden
+ 
+cüzi
+ 
+bir
+ 
+ücret
+ 
+karşılığında
+ 
+yeni
+ 
+gelecek
+ 
+öğrencinin
+ 
+tutmayı
+ 
+planladığı
+ 
+eve
+ 
+gidip
+ 
+canlı
+ 
+yayınla
+ 
+ortamı
+ 
+teyit
+ 
+edebilir.
+ 
+Bu
+ 
+hizmet,
+ 
+500-1000
+ 
+Euro
+ 
+arası
+ 
+bir
+ 
+dolandırıcılık
+ 
+kaybını
+ 
+önleyeceği
+ 
+için
+ 
+yüksek
+ 
+bir
+ 
+fiyatlandırma
+ 
+potansiyeline
+ 
+sahiptir.
+ 
+3.  Finansal  Yetersizlikler  ve  "Hibesiz"  (Zero-Grant)  Öğrenci  Gerçekliği  
+Erasmus  programının  temel  felsefesi  olan  hareketlilikte  fırsat  eşitliği,  Türkiye'deki  
+makroekonomik
+ 
+dalgalanmalar
+ 
+ve
+ 
+Avrupa
+ 
+Birliği
+ 
+bütçe
+ 
+kısıtlamaları
+ 
+nedeniyle
+ 
+ciddi
+ 
+yara
+ 
+almıştır.
+ 
+Öğrencilerin
+ 
+en
+ 
+yoğun
+ 
+tartıştıkları
+ 
+konulardan
+ 
+biri,
+ 
+hibe
+ 
+yetersizliği
+ 
+ve
+ 
+artan
+ 
+oranda
+ 
+görülen
+ 
+"hibesiz"
+ 
+hareketlilik
+ 
+mecburiyetidir.
+ 
+İspanya,  İtalya  veya  Polonya  gibi  ülkelere  gitmeye  hak  kazanan  ancak  üniversite  bütçesinin  
+yetersizliği
+ 
+nedeniyle
+ 
+hibe
+ 
+alamayan
+ 
+öğrenciler,
+ 
+devasa
+ 
+bir
+ 
+finansal
+ 
+belirsizlikle
+ 
+yüzleşmektedir.
+5
+ 
+Hibesiz
+ 
+bir
+ 
+öğrencinin
+ 
+Avrupa'da
+ 
+uzun
+ 
+dönem
+ 
+yaşama
+ 
+çabası,
+ 
+yalnızca
+ 
+bütçe
+ 
+planlamasını
+ 
+değil,
+ 
+vize
+ 
+süreçlerini
+ 
+de
+ 
+temelden
+ 
+sarsmaktadır.
+ 
+Vize
+ 
+memurları,
+ 
+hibesi
+ 
+olmayan
+ 
+bir
+ 
+öğrencinin
+ 
+o
+ 
+ülkede
+ 
+nasıl
+ 
+hayatta
+ 
+kalacağını
+ 
+kanıtlamasını
+ 
+(bloke
+ 
+hesaplar,
+ 
+garantör
+ 
+mektupları,
+ 
+yüksek
+ 
+meblağlı
+ 
+sponsorluklar)
+ 
+beklemektedir.
+5
+ Bu  belgelerin  temini  ve  bürokrasisi  başlı  başına  bir  
+uzmanlık
+ 
+alanıdır.
+ 
+Öte  yandan,  hibe  alan  öğrenciler  için  dahi  finansal  planlama  büyük  bir  sorundur.  Romanya  gibi  
+Avrupa
+ 
+Birliği
+ 
+üyesi
+ 
+ancak
+ 
+yaşam
+ 
+maliyeti
+ 
+nispeten
+ 
+düşük
+ 
+bir
+ 
+ülkede
+ 
+eğitim
+ 
+gören
+ 
+ve
+ 
+AB
+ 
+vatandaşı
+ 
+olmayan
+ 
+(non-EU)
+ 
+bir
+ 
+öğrencinin
+ 
+dahi
+ 
+oturum
+ 
+izni
+ 
+(residency
+ 
+permit)
+ 
+başvuru
+ 
+ücretleri,
+ 
+zorunlu
+ 
+sağlık
+ 
+sigortaları
+ 
+ve
+ 
+bürokratik
+ 
+çeviri/noter
+ 
+maliyetleri
+ 
+nedeniyle
+ 
+yaşadığı
+ 
+bütçe
+ 
+kaygıları
+ 
+forumlarda
+ 
+yankılanmaktadır.
+17
+ Almanya'da  ikamet  edip  İstanbul'a  gelen  bir  öğrenci  için  sürecin  
+nasıl
+ 
+işleyeceği
+ 
+veya
+ 
+oturum
+ 
+izni
+ 
+için
+ 
+ülkesine
+ 
+dönüp
+ 
+dönmemesi
+ 
+gerektiği
+ 
+gibi
+ 
+operasyonel
+ 
+sorular,
+ 
+sınır
+ 
+ötesi
+ 
+hareketliliğin
+ 
+finansal
+ 
+ve
+ 
+lojistik
+ 
+yükünü
+ 
+göstermektedir.
+8
+ "Aylık  ne  kadar  
+harcarım?",
+ 
+"Yurt
+ 
+çıkmazsa
+ 
+eve
+ 
+ne
+ 
+kadar
+ 
+bütçe
+ 
+ayırmalıyım?"
+ 
+soruları,
+ 
+öğrencilerin
+ 
+kendi
+ 
+üniversitelerinden
+ 
+net
+ 
+bir
+ 
+"hayat
+ 
+pahalılığı
+ 
+endeksi"
+ 
+alamadıklarını
+ 
+kanıtlamaktadır.
+4  
+Girişim  İçin  Stratejik  Fırsat:  Pazar  yeri,  şehirlere  ve  ülkelere  göre  dinamik  olarak  güncellenen,  
+eski
+ 
+öğrencilerin
+ 
+verilerine
+ 
+dayanan
+ 
+"Gerçek
+ 
+Maliyet
+ 
+ve
+ 
+Hayatta
+ 
+Kalma
+ 
+Endeksleri"
+ 
+oluşturmalıdır.
+ 
+Hangi
+ 
+indirim
+ 
+kartlarının
+ 
+(ESN
+ 
+Card,
+ 
+yerel
+ 
+ulaşım
+ 
+kartları)
+ 
+nasıl
+ 
+alınacağı,
+ 
+ucuz
+ 
+market
+ 
+zincirleri
+ 
+ve
+ 
+ikinci
+ 
+el
+ 
+eşya
+ 
+temin
+ 
+noktaları
+ 
+gibi
+ 
+hiper-lokal
+ 
+bilgiler
+ 
+mentorluk
+ 
+hizmetinin
+ 
+temel  taşlarından  biri  olmalıdır.  
+4.  Kurumsal  İzolasyon  ve  Bürokratik  Labirentler  
+Ankara  Üniversitesi  özelinde  ve  Türkiye  genelinde  yaşanan  bir  diğer  büyük  acı  noktası,  
+uluslararası
+ 
+ofislerin
+ 
+(AB
+ 
+Ofisleri)
+ 
+belirlediği
+ 
+iş
+ 
+akışları
+ 
+ile
+ 
+öğrencilerin
+ 
+gerçekte
+ 
+yaşadıkları
+ 
+kafa
+ 
+karışıklığı
+ 
+arasındaki
+ 
+uçurumdur.
+ 
+Kurumlar,
+ 
+yönergeler
+ 
+ve
+ 
+prosedürler
+ 
+üzerinden
+ 
+iletişim
+ 
+kurarken
+ 
+11
+,  öğrenciler  süreçlerin  insani  ve  pratik  tarafında  tıkanmaktadır.  
+Ders  saydırma  (Learning  Agreement)  belgelerinin  hazırlanması,  bölüm  koordinatörü  ile  fakülte  
+yönetimi
+ 
+arasındaki
+ 
+iletişimsizlikler
+ 
+ve
+ 
+onay
+ 
+süreçlerindeki
+ 
+gecikmeler,
+ 
+öğrencilerin
+ 
+Erasmus
+ 
+hareketliliklerini
+ 
+kaybetme
+ 
+korkusu
+ 
+yaşamalarına
+ 
+neden
+ 
+olmaktadır.
+ 
+Ankara
+ 
+Üniversitesi'nin
+ 
+süreçlerinin
+ 
+KA131,
+ 
+KA171,
+ 
+staj
+ 
+ve
+ 
+öğrenim
+ 
+olarak
+ 
+farklı
+ 
+kompartımanlara
+ 
+ayrılmış
+ 
+olması
+ 
+11
+,  
+öğrenci
+ 
+tarafında
+ 
+hangi
+ 
+evrakı
+ 
+kime
+ 
+imzalatacağı
+ 
+konusunda
+ 
+derin
+ 
+bir
+ 
+anksiyete
+ 
+yaratmaktadır.
+ 
+Öğrenci,
+ 
+konsoloslukta
+ 
+vize
+ 
+reddi
+ 
+yediğinde
+ 
+veya
+ 
+ev
+ 
+sahibi
+ 
+üniversite
+ 
+(host
+ 
+university)
+ 
+kabul
+ 
+mektubunu
+ 
+geciktirdiğinde,
+ 
+kendi
+ 
+üniversitesinin
+ 
+çözüm
+ 
+merkezine
+ 
+başvursa
+ 
+dahi
+ 
+12
+ çoğu  zaman  
+sorumluluğun
+ 
+karşı
+ 
+tarafa
+ 
+atıldığı
+ 
+bir
+ 
+boşlukta
+ 
+kalmaktadır.
+ 
+Bu  kurumsal  izolasyonun  en  yıkıcı  etkisi  psikolojiktir.  Öğrenciler  forumlarda  "Eğitimim  tehlikede",  
+"Çok
+ 
+yoruldum"
+ 
+(I'm
+ 
+really
+ 
+exhausted)
+ 
+3
+,  "Buradaki  konaklamamdan  nefret  ediyorum"  (Hating  my  
+stay)
+ 
+2
+ diyerek  isyan  etmektedir.  Vizesi  geciktiği  için  akademik  dönemin  ilk  oryantasyon  
+haftalarını
+ 
+kaçıran
+ 
+bir
+ 
+öğrenci,
+ 
+hedef
+ 
+ülkeye
+ 
+ulaştığında
+ 
+sosyal
+ 
+gruplar
+ 
+çoktan
+ 
+kurulmuş
+ 
+olduğu
+ 
+için
+ 
+entegrasyon
+ 
+sağlayamamakta
+ 
+ve
+ 
+derin
+ 
+bir
+ 
+yalnızlık
+ 
+çekmektedir
+ 
+("Haven't
+ 
+made
+ 
+any
+ 
+friends
+ 
+in
+ 
+my
+ 
+erasmus").
+1
+ Bu  durum,  projenin  sadece  akademik  bir  değişim  değil,  öğrencilerin  psikolojik  
+dayanıklılığının
+ 
+test
+ 
+edildiği
+ 
+bir
+ 
+süreç
+ 
+olduğunu
+ 
+göstermektedir.
+ 
+Sistemik  Etkiler:  İkinci  ve  Üçüncü  Derece  Dinamikler  
+(Ripple
+ 
+Effects)
+ 
+Toplanan  veri  setlerinin  yüzey  seviyesindeki  şikayetlerini  aşarak,  bu  problemlerin  birbirini  nasıl  
+tetiklediğini
+ 
+anlamak,
+ 
+kurulacak
+ 
+platformun
+ 
+uzun
+ 
+vadeli
+ 
+stratejisi
+ 
+için
+ 
+kritik
+ 
+öneme
+ 
+sahiptir.
+ 
+İkinci  Derece  Etkiler  (Causal  Relationships)  
+1.  Ekonomik  Kısıtların  Dolandırıcılık  Riskini  Katlaması:  "Hibesiz  Öğrenci"  segmentinin  
+büyümesi,
+ 
+doğrudan
+ 
+konaklama
+ 
+krizini
+ 
+alevlendirmektedir.
+ 
+Hibe
+ 
+alamayan
+ 
+veya
+ 
+yetersiz
+ 
+hibe
+ 
+alan
+ 
+öğrenciler,
+ 
+merkezdeki
+ 
+güvenli
+ 
+yurtlar
+ 
+veya
+ 
+bilindik
+ 
+emlak
+ 
+acenteleri
+ 
+yerine,
+ 
+sosyal
+ 
+medya
+ 
+üzerindeki
+ 
+filtrelenmemiş,
+ 
+ucuz
+ 
+ve
+ 
+teyitsiz
+ 
+ilanlara
+ 
+yönelmek
+ 
+zorunda
+ 
+kalmaktadır.
+ 
+Öğrencinin
+ 
+bütçesindeki
+ 
+her
+ 
+yüzde
+ 
+onluk
+ 
+düşüş,
+ 
+dolandırıcılara
+ 
+(scammers)
+ 
+hedef
+ 
+olma
+ 
+olasılığını
+ 
+eksponansiyel
+ 
+olarak
+ 
+artırmaktadır.
+5
+ Pazar  yeriniz,  bu  ekonomik  
+çaresizliği
+ 
+anlayan
+ 
+ve
+ 
+ucuz
+ 
+ama
+ 
+doğrulanmış
+ 
+alternatifler
+ 
+sunan
+ 
+bir
+ 
+mekanizma
+ 
+kurmak
+ 
+zorundadır.
+ 2.  Lokal  Konut  Krizlerinin  Uluslararası  Hareketliliği  Vurması:  Hedef  ülkelerdeki  yerel  
+konut
+ 
+piyasalarının
+ 
+daralması,
+ 
+üniversitelerin
+ 
+mevcut
+ 
+yurt
+ 
+kapasitelerini
+ 
+öncelikli
+ 
+olarak
+ 
+kendi  yerel  öğrencilerine  tahsis  etmelerine  neden  olmaktadır.
+4
+ Bu  durum,  dil  bariyeri  olan  
+ve
+ 
+yasal
+ 
+haklarını
+ 
+bilmeyen
+ 
+Erasmus
+ 
+öğrencisini
+ 
+doğrudan
+ 
+özel
+ 
+emlak
+ 
+piyasasının
+ 
+vahşi
+ 
+dinamikleriyle
+ 
+baş
+ 
+başa
+ 
+bırakmaktadır.
+ 
+Bu
+ 
+yapısal
+ 
+itilme,
+ 
+pazar
+ 
+yerinizin
+ 
+konaklama
+ 
+mentorluğu
+ 
+hizmetini
+ 
+lüks
+ 
+bir
+ 
+danışmanlıktan
+ 
+ziyade
+ 
+mutlak
+ 
+bir
+ 
+gerekliliğe
+ 
+dönüştürmektedir.
+ 
+Üçüncü  Derece  Etkiler  (Macro  Trends)  
+1.  Güven  İkamesi  Olarak  Dijital  Topluluklar:  Üniversitelerin  uluslararası  ofislerine,  
+konsolosluklara
+ 
+ve
+ 
+iData
+ 
+gibi
+ 
+aracı
+ 
+kurumlara
+ 
+duyulan
+ 
+kurumsal
+ 
+güven
+ 
+sıfırlanmıştır.
+ 
+Öğrencilerin
+ 
+"Konsolosluk
+ 
+böyle
+ 
+detayları
+ 
+dikkate
+ 
+alıyor
+ 
+diyorlar
+ 
+ama
+ 
+kesinlikle
+ 
+inanmıyorum"
+ 
+3
+ şeklindeki  ifadeleri,  resmi  beyanların  inandırıcılığını  yitirdiğini  
+kanıtlamaktadır.
+ 
+Bu
+ 
+kurumsal
+ 
+güven
+ 
+boşluğu,
+ 
+Reddit
+ 
+veya
+ 
+özel
+ 
+Telegram
+ 
+grupları
+ 
+gibi
+ 
+gayriresmi
+ 
+ağların
+ 
+"otorite"
+ 
+olarak
+ 
+kabul
+ 
+edilmesine
+ 
+yol
+ 
+açmıştır.
+ 
+Girişiminizin
+ 
+temel
+ 
+iş
+ 
+modeli,
+ 
+kurumların
+ 
+sağlayamadığı
+ 
+bu
+ 
+şeffaflığı
+ 
+ve
+ 
+dürüstlüğü
+ 
+monetize
+ 
+etmek
+ 
+(gelire
+ 
+dönüştürmek)
+ 
+olmalıdır.
+ 
+Pazar
+ 
+yeriniz,
+ 
+resmi
+ 
+kurumların
+ 
+yapamadığını
+ 
+yaparak
+ 
+"öğrencinin
+ 
+tarafında
+ 
+olan
+ 
+güvenilir
+ 
+vekil"
+ 
+pozisyonunu
+ 
+almalıdır.
+ 2.  Sessiz  İptaller  ve  Geri  Dönüşler  (Dropout  Rates):  Sürecin  bürokratik  ağırlığı  ve  
+barınma
+ 
+sırasındaki
+ 
+dolandırıcılık
+ 
+korkusu,
+ 
+hareketlilik
+ 
+öncesinde
+ 
+veya
+ 
+hareketliliğin
+ 
+ilk
+ 
+haftalarında
+ 
+sessiz
+ 
+iptallere
+ 
+yol
+ 
+açmaktadır.
+ 
+Gittikten
+ 
+sonra
+ 
+ilk
+ 
+ay
+ 
+içinde
+ 
+uyum
+ 
+sağlayamayıp
+ 
+geri
+ 
+dönmeyi
+ 
+düşünen
+ 
+("Should
+ 
+I
+ 
+go
+ 
+home?",
+ 
+"Dream
+ 
+is
+ 
+over")
+ 
+2
+ öğrencilerin  
+varlığı,
+ 
+pazar
+ 
+yerinin
+ 
+yalnızca
+ 
+gidiş
+ 
+öncesi
+ 
+değil,
+ 
+gidiş
+ 
+sonrası
+ 
+adaptasyon
+ 
+sürecini
+ 
+de
+ 
+kapsayan
+ 
+"yaşam
+ 
+boyu
+ 
+değer"
+ 
+(LTV
+ 
+-
+ 
+Lifetime
+ 
+Value)
+ 
+odaklı
+ 
+bir
+ 
+hizmet
+ 
+sunması
+ 
+gerektiğini
+ 
+göstermektedir.
+ 
+Gelişmiş  Pazar  Segmentasyonu  ve  Fiyatlandırma  
+Potansiyeli
+ 
+(Monetization
+ 
+Strategy)
+ 
+Müşteri  keşfi  bağlamında  tespit  edilen  acı  noktaları,  her  öğrencinin  aynı  probleme  sahip  
+olmadığını;
+ 
+problemlerin
+ 
+öğrencinin
+ 
+finansal
+ 
+durumuna
+ 
+ve
+ 
+bulunduğu
+ 
+aşamaya
+ 
+göre
+ 
+değiştiğini
+ 
+göstermektedir.
+ 
+Platform,
+ 
+tek
+ 
+tip
+ 
+bir
+ 
+fiyatlandırma
+ 
+yerine,
+ 
+krizin
+ 
+büyüklüğüne
+ 
+göre
+ 
+kademelendirilmiş
+ 
+bir
+ 
+hizmet
+ 
+modeli
+ 
+sunmalıdır.
+ 
+Aşağıdaki  tablo,  tespit  edilen  öğrenci  şikayetleri  üzerinden  kurgulanabilecek  gelir  modellerini  ve  
+ürün
+ 
+özelliklerini
+ 
+detaylandırmaktadır.
+ 
+ 
+Hedef  Müşteri  Segmenti  
+Karşılaştığı  Temel  Kriz  /  Psikolojik  Durum  
+Platform  Üzerinden  Sunulacak  Spesifik  Çözüm  (Ürün  Özelliği)  
+Ödeme  İstekliliği  (Willingness  to  Pay)  ve  Gelir  Potansiyeli  
+Tam  Hibeli  Ancak  Vizesi  Gecikmiş  Panik  Öğrenci  
+Hibe  hakkı  var  ancak  vize  çıkmadığı  için  hem  hibesi  yatmıyor  hem  de  gidilecek  ülkedeki  boş  evin  kirasını  ödüyor.
+3
+ Tam  bir  "Sunk  Cost"  (Batık  Maliyet)  sarmalı.  
+Konsolosluk  Eskalasyon  Paketi:  İlgili  ülkenin  dilinde  hukuki  ihtarname  şablonları,  CİMER  yönlendirmeleri,  vize  durum  takibi.  
+Orta/Yüksek.  Öğrenci  zaten  her  ay  yüzlerce  Euro  kira  zararı  ettiği  için,  sorunu  çözecek  bir  mentorluğa  anında  mikro-ödeme  yapmaya  hazırdır.  
+Konaklama  Aşamasında  Dolandırılma  Korkusu  Yaşayanlar  
+Vize  başvurusu  için  acilen  sözleşme  (Proof  of  Accommodation)  bulması  gereken,  ancak  karşısına  çıkan  ilanların  sahte  olup  olmadığından  şüphelenen  kitle.
+15  
+İlan  Teyit  ve  Canlı  Ev  Gezisi:  O  şehirdeki  lokal  mentora  yönlendirme,  ilanların  "Red  Flag"  (Kırmızı  Bayrak)  analizi.
+16  
+Çok  Yüksek.  500  Euro  depozito  kaybetme  korkusu,  30-50  Euro  arası  bir  danışmanlık/doğrulama  ücretini  son  derece  rasyonel  kılar.  Ana  gelir  kalemi  olmalıdır.  
+Hibesiz  (Zero-Grant)  ve  Düşük  Bütçeli  Hayatta  Kalanlar  
+Avrupa'da  tamamen  kendi  imkanlarıyla,  kısıtlı  bütçeyle  var  olmaya  çalışan,  oturum  izni  ve  sigorta  ücretlerini  dahi  ödemekte  zorlananlar.
+5  
+Düşük  Bütçeli  Hayatta  Kalma  Kılavuzu:  Ucuz  market  zincirleri,  öğrenci  ulaşım  kartı  başvuruları,  ikinci  el  platform  mentorluğu.  
+Düşük.  Fiyat  hassasiyeti  (Price  sensitivity)  maksimum  seviyededir.  Bu  gruba  ücretsiz  (Freemium)  veya  reklam  destekli  topluluk  erişimi  verilerek  içerik  üretmeleri  sağlanmalıdır.  
+Ankara  Üniversitesi  Evrak  Labirentinde  Kaybolanlar  
+KA131/KA171  ayrımını  yapamayan,  Learning  Agreement  onayını  hangi  fakülte/dahili  numaradan  
+Ankara  Üniversitesi  Süreç  Navigatörü:  Kurumun  yönergelerine  ve  iş  akışlarına  
+11
+ hakim  eski  öğrencilerle  birebir  (1-on-1)  
+Orta.  Süreçlerin  spesifikliği  
+11
+ nedeniyle  otomasyona  bağlanabilir.  Yüksek  hacimli  ancak  düşük  marjlı  bir  işlem  
+alacağını  bilmeyenler.
+11  
+Zoom  oturumları.  kalemidir.  
+Sonuç  ve  Girişimci  İçin  Stratejik  Yol  Haritası  
+Yapılan  derinlemesine  analizler  sonucunda,  Türkiye'den  Avrupa'ya  yönelik  uzun  dönem  
+Erasmus
+ 
+öğrenci
+ 
+hareketliliğinin
+ 
+salt
+ 
+akademik
+ 
+bir
+ 
+prosedür
+ 
+olmadığı;
+ 
+asimetrik
+ 
+bilgi,
+ 
+bürokratik
+ 
+hantallık,
+ 
+vize
+ 
+rejimlerinin
+ 
+katılığı
+ 
+ve
+ 
+küresel
+ 
+barınma
+ 
+krizlerinin
+ 
+kesiştiği
+ 
+devasa
+ 
+bir
+ 
+stres
+ 
+ve
+ 
+risk
+ 
+yönetimi
+ 
+ekosistemi
+ 
+olduğu
+ 
+kesinleşmiştir.
+ 
+Müşteri
+ 
+keşfi
+ 
+aşamasında
+ 
+forumlarda
+ 
+ve
+ 
+sosyal
+ 
+ağlarda
+ 
+tespit
+ 
+edilen
+ 
+"öğrenci
+ 
+isyanları"
+ 
+ve
+ 
+çaresizlik
+ 
+beyanları,
+ 
+mevcut
+ 
+resmi
+ 
+kurumların
+ 
+ve
+ 
+aracıların
+ 
+pazarın
+ 
+insani,
+ 
+psikolojik
+ 
+ve
+ 
+pratik
+ 
+ihtiyaçlarını
+ 
+karşılamakta
+ 
+tamamen
+ 
+yetersiz
+ 
+kaldığını;
+ 
+hatta
+ 
+çoğu
+ 
+durumda
+ 
+krizin
+ 
+bizzat
+ 
+kaynağı
+ 
+haline
+ 
+geldiklerini
+ 
+göstermektedir.
+ 
+Bu  veriler  ışığında,  Ankara  Üniversitesi  odaklı  olarak  pazara  giriş  yapacak  dijital  pazar  yerinin  
+ürün
+ 
+felsefesi
+ 
+"Bilgi
+ 
+Vermek"
+ 
+değil,
+ 
+"Kriz
+ 
+Çözmek
+ 
+ve
+ 
+Risk
+ 
+Minimize
+ 
+Etmek"
+ 
+üzerine
+ 
+kurulmalıdır.
+ 
+Öğrenciler
+ 
+"nereye
+ 
+gitmeliyim?"
+ 
+sorusunun
+ 
+cevabını
+ 
+değil;
+ 
+"kira
+ 
+ödediğim
+ 
+eve
+ 
+vizem
+ 
+yetişmezse
+ 
+ne
+ 
+yapmalıyım?"
+ 
+3
+,  "benden  kişisel  verilerimi  isteyen  bu  ev  sahibi  dolandırıcı  mı?"  
+15
+ ve  "hibesiz  
+statüde
+ 
+İspanya'da
+ 
+nasıl
+ 
+hayatta
+ 
+kalırım?"
+ 
+5
+ sorularının  garantili  cevaplarını  aramaktadır.  
+MVP  fazında,  Ankara  Üniversitesi'nin  bürokratik  iş  akışlarını  dijital  bir  navigasyona  dönüştüren  11
+,  dolandırıcılık  vakalarına  karşı  eşler  arası  (peer-to-peer)  konaklama  teyidi  sağlayan  ve  vize  
+gecikmelerinde
+ 
+hukuki/operasyonel
+ 
+yol
+ 
+haritası
+ 
+çizen
+ 
+bir
+ 
+platform,
+ 
+pazardaki
+ 
+güven
+ 
+boşluğunu
+ 
+hızla
+ 
+dolduracaktır.
+ 
+Kurulacak
+ 
+sistemin
+ 
+başarısı,
+ 
+öğrencinin
+ 
+maruz
+ 
+kaldığı
+ 
+psikolojik
+ 
+yıkımı
+ 
+ve
+ 
+finansal
+ 
+kaygı
+ 
+seviyesini
+ 
+doğru
+ 
+anlayıp,
+ 
+onlara
+ 
+yalnızca
+ 
+bir
+ 
+mentorluk
+ 
+paneli
+ 
+değil,
+ 
+güvenebilecekleri,
+ 
+şeffaf
+ 
+ve
+ 
+sonuç
+ 
+odaklı
+ 
+bir
+ 
+"dijital
+ 
+yol
+ 
+arkadaşı"
+ 
+sunmasına
+ 
+bağlıdır.
+ 
+Sistemin
+ 
+Ankara
+ 
+Üniversitesi'ndeki
+ 
+öğrenci
+ 
+toplulukları
+ 
+üzerinden
+ 
+edineceği
+ 
+organik
+ 
+büyüme
+ 
+ivmesi,
+ 
+modelin
+ 
+tüm
+ 
+Türkiye
+ 
+çapında
+ 
+uygulanabilirliğini
+ 
+kanıtlayacak
+ 
+yegane
+ 
+katalizör
+ 
+olacaktır.
+ 
+Alıntılanan  çalışmalar  
+1.  Telegram  group  :  r/Erasmus  -  Reddit,  erişim  tarihi  Nisan  6,  2026,  https://www.reddit.com/r/Erasmus/comments/w33qfy/telegram_group/ 2.  Accommodation  trouble  :  r/Erasmus  -  Reddit,  erişim  tarihi  Nisan  6,  2026,  https://www.reddit.com/r/Erasmus/comments/1nqxs3b/accommodation_trouble/ 3.  I've  been  waiting  for  the  National  Visa  result  for  Erasmus  for  4  weeks.  Need  
+advice.
+ 
+-
+ 
+Reddit,
+ 
+erişim
+ 
+tarihi
+ 
+Nisan
+ 
+6,
+ 
+2026,
+ https://www.reddit.com/r/UniversityTR/comments/1ka1whn/4_haftad%C4%B1r_erasmus_i%C3%A7in_ulusal_vize_sonucunu/?tl=en 4.  How  much  does  an  erasmus  student  need  live  in  istanbul  turkey  -  Reddit,  erişim  
+tarihi
+ 
+Nisan
+ 
+6,
+ 
+2026,
+ https://www.reddit.com/r/istanbul/comments/1j95ln5/how_much_does_an_erasmus_student_need_live_in/ 5.  Erasmus  in  Spain  without  grant  Visa  application  :  r/GoingToSpain  -  Reddit,  erişim  
+tarihi
+ 
+Nisan
+ 
+6,
+ 
+2026,
+ 
+https://www.reddit.com/r/GoingToSpain/comments/1odyle3/erasmus_in_spain_without_grant_visa_application/ 6.  My  Erasmus  Visa  Was  Rejected  –  What  Should  I  Do?  :  r/poland  -  Reddit,  erişim  
+tarihi
+ 
+Nisan
+ 
+6,
+ 
+2026,
+ https://www.reddit.com/r/poland/comments/1i9wh9e/my_erasmus_visa_was_rejected_what_should_i_do/ 7.  I've  been  waiting  for  the  National  Visa  result  for  Erasmus  for  4  weeks.  Need  some  
+advice.
+ 
+-
+ 
+Reddit,
+ 
+erişim
+ 
+tarihi
+ 
+Nisan
+ 
+6,
+ 
+2026,
+ https://www.reddit.com/r/AskTurkey/comments/1ka1v8w/4_haftad%C4%B1r_erasmus_i%C3%A7in_ulusal_vize_sonucunu/?tl=en 8.  Erasmus  in  Istanbul:  The  necessity  of  applying  for  a  student  visa  first  in  order  to  
+get
+ 
+a
+ 
+student
+ 
+residence
+ 
+permit.
+ 
+-
+ 
+Reddit,
+ 
+erişim
+ 
+tarihi
+ 
+Nisan
+ 
+6,
+ 
+2026,
+ https://www.reddit.com/r/Erasmus/comments/1lmgl61/erasmus_in_istanbul_the_necessity_of_applying_for/ 9.  Accommodation  in  Istanbul  :  r/Erasmus  -  Reddit,  erişim  tarihi  Nisan  6,  2026,  https://www.reddit.com/r/Erasmus/comments/1hdma4b/accommodation_in_istanbul/ 10.  Visa  issues  :  r/Erasmus  -  Reddit,  erişim  tarihi  Nisan  6,  2026,  https://www.reddit.com/r/Erasmus/comments/1mqybp7/visa_issues/ 11.  Duyurular  –  AB  Eğitim  Programları  Koordinatörlüğü  -  Erasmus  Ankara,  erişim  tarihi  Nisan  6,  2026,  https://www.erasmus.ankara.edu.tr/duyurular/ 12.  İletişim  –  AB  Eğitim  Programları  Koordinatörlüğü  -  Ankara  Üniversitesi,  erişim  tarihi  Nisan  6,  2026,  https://www.erasmus.ankara.edu.tr/iletisim/ 13.  ÖĞRENCİ  TOPLULUKLARIMIZ  -  Bursa  Uludağ  Üniversitesi,  erişim  tarihi  Nisan  6,  2026,  https://uludag.edu.tr/saglikkultur/ogrenci-topluluklarimiz-69557 14.  Öğrenci  Toplulukları  Listesi  -  TOBB  ETÜ,  erişim  tarihi  Nisan  6,  2026,  https://www.etu.edu.tr/tr/sayfa/ogrenci-topluluklari-listesi 15.  Why  is  student  housing  such  a  scam  minefield?  :  r/Erasmus  -  Reddit,  erişim  tarihi  
+Nisan
+ 
+6,
+ 
+2026,
+ https://www.reddit.com/r/Erasmus/comments/1l9hg33/why_is_student_housing_such_a_scam_minefield/ 16.  Konaklama  dolandırıcılığı  mı??  :  r/UniUK  -  Reddit,  erişim  tarihi  Nisan  6,  2026,  https://www.reddit.com/r/UniUK/comments/1498v00/accommodation_scam/?tl=tr 17.  Erasmus  grant  concerns  -  Reddit,  erişim  tarihi  Nisan  6,  2026,  https://www.reddit.com/r/Erasmus/comments/1s2qve4/erasmus_grant_concerns/ 
+
+
+
+--- Erasmus+ Girişimi İçin Pazar Araştırması.pdf İÇERİĞİ ---
+İspanya  Erasmus+  Yükseköğretim  
+Hareketliliği:
+ 
+Dijital
+ 
+Ekosistem,
+ 
+Topluluk
+ 
+Dinamikleri
+ 
+ve
+ 
+Müşteri
+ 
+Acı
+ 
+Noktaları
+ 
+(Pain
+ 
+Points)
+ 
+Analizi
+ Yönetici  Özeti  ve  Makro  Bakış  Açısı  
+Avrupa  Birliği'nin  en  aktif  ve  dönüştürücü  öğrenci  değişim  ağı  olan  Erasmus+  programı  
+kapsamında,
+ 
+Türkiye'den
+ 
+İspanya'ya
+ 
+gerçekleşen
+ 
+yükseköğretim
+ 
+öğrenim
+ 
+ve
+ 
+staj
+ 
+hareketlilikleri
+ 
+(KA131
+ 
+ve
+ 
+KA171
+ 
+projeleri),
+ 
+çok
+ 
+katmanlı
+ 
+ve
+ 
+karmaşık
+ 
+bir
+ 
+bürokratik,
+ 
+sosyal
+ 
+ve
+ 
+ekonomik
+ 
+süreçler
+ 
+bütününü
+ 
+ifade
+ 
+etmektedir.
+1
+ Ankara  Üniversitesi  gibi  köklü  kurumların  giden  öğrenci  (outgoing)  
+hacimleri
+ 
+yüksek
+ 
+olmakla
+ 
+birlikte,
+ 
+öğrencilerin
+ 
+kurumsal
+ 
+çatıdan
+ 
+çıkıp
+ 
+hedef
+ 
+ülkedeki
+ 
+yerel
+ 
+ekosisteme,
+ 
+özellikle
+ 
+de
+ 
+Universidad
+ 
+de
+ 
+Jaén
+ 
+gibi
+ 
+Endülüs
+ 
+bölgesinin
+ 
+spesifik
+ 
+dinamiklerine
+ 
+sahip
+ 
+kurumlara
+ 
+entegre
+ 
+olma
+ 
+aşamasında
+ 
+ciddi
+ 
+bir
+ 
+asimetrik
+ 
+bilgi
+ 
+ve
+ 
+rehberlik
+ 
+eksikliği
+ 
+yaşandığı
+ 
+gözlemlenmektedir.
+2  
+Uluslararası  öğrenci  hareketliliğinde,  özellikle  Türkiye  gibi  Schengen  vizesi  süreçlerinin  ağır,  
+maliyetli
+ 
+ve
+ 
+öngörülemez
+ 
+işlediği
+ 
+ülkelerden
+ 
+İspanya'ya
+ 
+giden
+ 
+öğrenciler,
+ 
+bürokratik
+ 
+işlemlerin
+ 
+(vize,
+ 
+denklik,
+ 
+sigorta),
+ 
+finansal
+ 
+planlamanın
+ 
+(hibe
+ 
+yetersizliği,
+ 
+konaklama
+ 
+dolandırıcılıkları)
+ 
+ve
+ 
+sosyal
+ 
+entegrasyonun
+ 
+devasa
+ 
+yükünü
+ 
+büyük
+ 
+ölçüde
+ 
+bireysel
+ 
+olarak
+ 
+omuzlamak
+ 
+zorunda
+ 
+kalmaktadır.
+4
+ Bu  rapor,  uçtan  uca  bir  Erasmus  mentorluk  ve  dijital  pazar  yeri  girişiminin  "Müşteri  
+Keşfi"
+ 
+(Customer
+ 
+Discovery)
+ 
+aşaması
+ 
+için
+ 
+gerekli
+ 
+olan
+ 
+hedef
+ 
+kitle
+ 
+davranışlarını,
+ 
+toplanma
+ 
+alanlarını
+ 
+ve
+ 
+çaresizlik
+ 
+noktalarını
+ 
+derinlemesine
+ 
+analiz
+ 
+etmektedir.
+ 
+Araştırma,
+ 
+metodolojik
+ 
+bir
+ 
+zorunluluk
+ 
+olarak,
+ 
+yapıları,
+ 
+beklentileri
+ 
+ve
+ 
+bürokratik
+ 
+süreçleri
+ 
+tamamen
+ 
+farklı
+ 
+olan
+ 
+1-2
+ 
+haftalık
+ 
+kısa
+ 
+dönemli
+ 
+Gençlik
+ 
+Projeleri
+ 
+ile
+ 
+Avrupa
+ 
+Dayanışma
+ 
+Programı
+ 
+(ESC)
+ 
+gönüllülük
+ 
+faaliyetlerini
+ 
+kapsam
+ 
+dışında
+ 
+bırakarak,
+ 
+salt
+ 
+6
+ 
+aylık
+ 
+ve
+ 
+1
+ 
+yıllık
+ 
+üniversite/staj
+ 
+hareketliliğine
+ 
+odaklanmıştır.
+1
+ 
+Hedef
+ 
+kitlenin
+ 
+sorunlarını,
+ 
+şikayetlerini
+ 
+ve
+ 
+çaresiz
+ 
+kaldıkları
+ 
+anları
+ 
+filtrelemesiz
+ 
+bir
+ 
+şekilde
+ 
+paylaştığı
+ 
+dijital
+ 
+toplulukların
+ 
+haritalandırılması,
+ 
+kurulacak
+ 
+girişimin
+ 
+değer
+ 
+önerisini
+ 
+şekillendirecek
+ 
+en
+ 
+hayati
+ 
+veriyi
+ 
+sağlamaktadır.
+ 
+Hedef  Kitle  Profili  ve  Psikometrik  Dinamikler  
+Müşteri  keşfi  sürecinin  en  kritik  aşaması,  hedef  kitlenin  psikolojik  ve  durumsal  haritasını,  bir  diğer  
+deyişle
+ 
+"müşteri
+ 
+yolculuğunu"
+ 
+(customer
+ 
+journey)
+ 
+çıkarmaktır.
+ 
+İspanya'daki
+ 
+Universidad
+ 
+de
+ 
+Jaén'e
+ 
+gitmeye
+ 
+hazırlanan
+ 
+bir
+ 
+Ankara
+ 
+Üniversitesi
+ 
+Erasmus
+ 
+öğrencisinin
+ 
+profili,
+ 
+birbiriyle
+ 
+kesişen
+ 
+çeşitli
+ 
+kriz
+ 
+ve
+ 
+baskı
+ 
+unsurlarıyla
+ 
+şekillenmektedir.
+ 
+Bu
+ 
+dinamiklerin
+ 
+anlaşılması,
+ 
+pazar
+ 
+yeri
+ 
+girişiminizin
+ 
+hangi
+ 
+psikolojik
+ 
+tetikleyicilere
+ 
+hitap
+ 
+etmesi
+ 
+gerektiğini
+ 
+ortaya
+ 
+koyacaktır.
+ 
+Birinci  temel  dinamik,  zaman  ve  belirsizlik  baskısıdır.  Öğrenci,  Ankara  Üniversitesi'nin  prosedürel  
+gerekliliklerini,
+ 
+örneğin
+ 
+Öğrenim
+ 
+Anlaşması
+ 
+(Learning
+ 
+Agreement),
+ 
+OLS
+ 
+(Online
+ 
+Language
+ 
+Support)  dil  desteği  modülleri  ve  AT11  sağlık  sigortası  belgesi  süreçlerini  tamamlarken  
+1
+,  
+eşzamanlı
+ 
+olarak
+ 
+İspanya
+ 
+konsolosluğu
+ 
+veya
+ 
+aracı
+ 
+kurumu
+ 
+(BLS
+ 
+International)
+ 
+ile
+ 
+yıpratıcı
+ 
+bir
+ 
+randevu
+ 
+ve
+ 
+onay
+ 
+savaşı
+ 
+vermektedir.
+4
+ Bu  iki  bağımsız  bürokratik  aygıtın  senkronize  olmaması,  
+öğrenciyi
+ 
+sürekli
+ 
+bir
+ 
+arafta
+ 
+bırakmaktadır.
+ 
+İkinci
+ 
+dinamik
+ 
+finansal
+ 
+kırılganlıktır.
+ 
+Öğrencilere
+ 
+tahsis
+ 
+edilen
+ 
+hibeler,
+ 
+genellikle
+ 
+aylık
+ 
+ortalama
+ 
+850
+ 
+Euro
+ 
+bandında
+ 
+veya
+ 
+ulusal
+ 
+ajansın
+ 
+belirlediği
+ 
+ülkelere
+ 
+göre
+ 
+değişkenlik
+ 
+gösteren
+ 
+miktarlardadır.
+5
+ Bu  kısıtlı  bütçe,  İspanya'daki  mevcut  barınma  ve  
+enflasyon
+ 
+krizini
+ 
+karşılamakta,
+ 
+vize
+ 
+ücretleri,
+ 
+aracı
+ 
+kurum
+ 
+komisyonları,
+ 
+uçak
+ 
+biletleri
+ 
+ve
+ 
+yüksek
+ 
+ev
+ 
+depozitoları
+ 
+arasında
+ 
+bölündüğünde
+ 
+yetersiz
+ 
+kalabilmektedir.
+5
+ Öğrenciler,  ekonomik  olarak  
+hayatta
+ 
+kalabilmek
+ 
+için
+ 
+sürekli
+ 
+bir
+ 
+optimizasyon
+ 
+çabası
+ 
+içindedir.
+ 
+Üçüncü  ve  girişiminize  en  çok  alan  açacak  dinamik  ise  devasa  güven  açığıdır.  Konaklama  bulma  
+süreci,
+ 
+hedef
+ 
+ülkeye
+ 
+ayak
+ 
+basmadan
+ 
+aylar
+ 
+önce
+ 
+dijital
+ 
+platformlar
+ 
+üzerinden
+ 
+körlemesine
+ 
+yürütülmektedir.
+ 
+Bu
+ 
+durum,
+ 
+bilgi
+ 
+asimetrisinden
+ 
+faydalanan
+ 
+organize
+ 
+dolandırıcılık
+ 
+ağlarının
+ 
+öğrencileri
+ 
+birincil
+ 
+hedef
+ 
+haline
+ 
+getirmesine
+ 
+yol
+ 
+açmaktadır.
+7
+ Son  olarak,  kurumsal  destek  
+illüzyonu
+ 
+devreye
+ 
+girmektedir.
+ 
+Üniversitelerin
+ 
+Uluslararası
+ 
+İlişkiler
+ 
+ofisleri
+ 
+ve
+ 
+ESN
+ 
+(Erasmus
+ 
+Student
+ 
+Network)
+ 
+gibi
+ 
+gönüllü
+ 
+ağlar
+ 
+8
+ önemli  karşılama  destekleri  (Welcome  Days)  sunsa  da,  bu  
+destekler
+ 
+spesifik
+ 
+kriz
+ 
+anlarında
+ 
+(örneğin
+ 
+kayıp
+ 
+pasaport,
+ 
+acil
+ 
+hukuki
+ 
+evrak
+ 
+çevirisi,
+ 
+ev
+ 
+sahibinin
+ 
+depozitoya
+ 
+el
+ 
+koyması)
+ 
+yetersiz
+ 
+kalmaktadır.
+ 
+ESN
+ 
+ekiplerinin
+ 
+de
+ 
+nihayetinde
+ 
+sınavları
+ 
+ve
+ 
+kendi
+ 
+özel
+ 
+hayatları
+ 
+olan
+ 
+gönüllü
+ 
+öğrencilerden
+ 
+oluştuğu
+ 
+gerçeği,
+ 
+pazarda
+ 
+7/24
+ 
+ulaşılabilecek
+ 
+profesyonel
+ 
+ve
+ 
+garantili
+ 
+bir
+ 
+hizmet
+ 
+açığını
+ 
+net
+ 
+bir
+ 
+şekilde
+ 
+ortaya
+ 
+çıkarmaktadır.
+5  
+Dijital  Topluluklar  ve  Müşteri  Temas  Noktaları  Haritası  
+Hedef  kitlenin  sorunlarını  paylaştığı,  akran  dayanışması  aradığı  ve  çaresizlik  anlarında  acil  yardım  
+çağrısında
+ 
+bulunduğu
+ 
+dijital
+ 
+topluluklar,
+ 
+platformların
+ 
+yapısal
+ 
+özelliklerine
+ 
+ve
+ 
+kullanıcı
+ 
+niyetlerine
+ 
+(user
+ 
+intent)
+ 
+göre
+ 
+farklılaşmaktadır.
+ 
+Kurulacak
+ 
+girişimin
+ 
+müşteri
+ 
+keşfi
+ 
+aşamasında
+ 
+bu
+ 
+platformlara
+ 
+sızması,
+ 
+salt
+ 
+bir
+ 
+pazar
+ 
+araştırması
+ 
+değil,
+ 
+aynı
+ 
+zamanda
+ 
+organik
+ 
+bir
+ 
+büyüme
+ 
+ve
+ 
+müşteri
+ 
+edinimi
+ 
+(acquisition)
+ 
+stratejisidir.
+ 
+Aşağıdaki
+ 
+tablo
+ 
+ve
+ 
+analizler,
+ 
+İspanya
+ 
+ve
+ 
+Üniversite
+ 
+odaklı
+ 
+aktif
+ 
+tartışma
+ 
+alanlarını
+ 
+kategorize
+ 
+etmektedir.
+ 
+İspanya  Odaklı  Makro  Topluluklar  (Vize,  Konsolosluk,  Genel  Barınma)  
+Türkiye'den  İspanya'ya  giden  bir  öğrencinin  ilk  karşılaştığı  bariyerler  yerel  (Ankara-Jaén)  değil,  
+makro
+ 
+düzeydedir
+ 
+(Schengen
+ 
+vizesi,
+ 
+aracı
+ 
+kurum
+ 
+krizleri,
+ 
+genel
+ 
+İspanya
+ 
+barınma
+ 
+piyasası).
+ 
+Bu
+ 
+sorunlar
+ 
+genellikle
+ 
+geniş
+ 
+katılımlı
+ 
+forumlarda,
+ 
+şikayet
+ 
+ağlarında
+ 
+ve
+ 
+anonim
+ 
+bilgi
+ 
+paylaşım
+ 
+platformlarında
+ 
+tartışılmaktadır.
+ 
+ Platform  Hedef  Topluluk  Adı  /  Arama  Anahtar  Kelimeleri  
+Odak  Noktası  ve  Hakim  Tartışma  Temaları  
+Keşif,  Gözlem  ve  Platforma  Sızma  Stratejisi  
+Şikayetvar  BLS  International  Vize  başvuru  Bu  platform  
+İspanya  Öğrenci  Vizesi,  İspanya  Konsolosluğu  Randevu  Sorunu  
+sonuçlarının  gecikmesi  (15  ila  55  gün  arası  bekleme  süreleri),  sistemde  bulunamayan  uzun  dönem  öğrenci  randevuları,  kaybolan  pasaportlar,  iletişim  eksikliği  ve  sistem  hataları.
+4  
+doğrudan  karşılıklı  bir  iletişim  veya  mesajlaşma  grubu  olmasa  da,  müşterilerin  "en  yüksek  acı  seviyesine"  (maximum  pain  point)  ulaştığı  kriz  anlarının  halka  açık  arşividir.  Buradaki  şikayet  metinleri,  girişiminizin  değer  önerisinde  yer  alacak  "Vize  Süreç  Yönetimi  ve  Acil  Durum  Takibi"  bacağının  pazarlama  iletişimini  (copywriting)  oluşturmak  için  birebirdir.  
+Reddit  r/GoingToSpain,  r/SchengenVisa,  r/studyAbroad,  r/valencia,  r/spain,  r/Erasmus  
+Uzun  dönem  öğrenci  vizesi  evrak  listeleri  (+180  gün  kuralı),  TIE/NIE  (Yabancı  Kimlik  Numarası)  randevu  bulunmazlığı,  konaklama  acenteleri  (Spacest,  Erasmus  Life)  hakkındaki  dolandırıcılık  uyarıları,  yaşam  maliyeti  analizleri.
+7  
+Öğrencilerin  global  bir  kitleye  danıştığı,  derinlemesine  bilgi  aradığı  alanlardır.  Arama  çubuğunda  "Erasmus  Spain  visa",  "Erasmus  student  housing  Spain"  terimleri  ile  spesifik  krizler  taranmalıdır.  Özellikle  başka  bir  AB  ülkesinde  oturumu  olup  (örneğin  Fransa  veya  Finlandiya)  İspanya'ya  geçiş  yapan  "non-EU"  öğrencilerin  
+yaşadığı  devasa  bilgi  kirliliği  ve  vize  karmaşası  bu  platformda  çok  sık  sorulmaktadır.
+17  
+Facebook  İspanya  Erasmus  Türk  Öğrencileri,  Erasmus  Spain  Accommodation  
+Kalacak  yer  arayışları,  oda  arkadaşı  (flatmate)  ilanları,  konsolosluk  önü  anlık  durum  güncellemeleri,  alt-kiralama  (subletting)  ilanları  ve  depozito  krizleri.  
+Gelenekselleşmiş  ve  yılların  veri  birikimine  sahip  gruplardır.  Organize  dolandırıcıların  da  oldukça  aktif  olduğu  bu  gruplarda,  öğrencilerin  "Acil  ev  arıyorum,  sözleşme  gelmeden  depozito  yatırdım  dolandırıldım  mı?"  şeklindeki  panik  dolu  gönderileri,  güvenilir  bir  dijital  pazar  yeri  ihtiyacının  en  net  ve  somut  kanıtlarıdır.  Gruplara  "Jaén  tecrübeli  öğrenci"  kimliğiyle  girilip  müşteri  içgörüsü  toplanabilir.  
+Ekşi  Sözlük  ispanya  vizesi,  bls  international,  erasmus,  universidad  de  jaen  
+Vize  süreçlerindeki  absürtlükler,  BLS  International  ofislerindeki  muamele  şikayetleri,  İspanya'daki  Türk  öğrenci  algısı,  bürokratik  çıkmazlara  dair  uzun  anlatılar  ve  
+Ekşi  Sözlük  bir  yardımlaşma  grubundan  ziyade,  bir  deneyim  aktarımı  ve  deşarj  platformudur.  Burada  öğrenciler  bürokratik  hantallığı  ve  Jaén  gibi  spesifik  şehirlerin  (taşra  vs.  büyükşehir)  gerçek  
+eleştiriler.  yüzünü  sansürsüzce  paylaşırlar.  Girişiminizin  "Ne  vadediyoruz,  ne  vadedemeyiz?"  sınırlarını  çizmek  için  buradaki  hayal  kırıklığı  öyküleri  incelenmelidir.  
+Üniversite  Odaklı  Mikro  Topluluklar  (Ankara  Üniversitesi  &  Universidad  
+de
+ 
+Jaén)
+ 
+Makro  bariyerleri  aşan  öğrenci,  mikro  düzeyde  hareketliliğin  fiilen  gerçekleştiği  kurumların  iç  
+dinamikleriyle
+ 
+yüzleşir.
+ 
+Spesifik
+ 
+evrak
+ 
+(Learning
+ 
+Agreement),
+ 
+üniversite
+ 
+kayıt
+ 
+portalları
+ 
+ve
+ 
+yerel
+ 
+şehir
+ 
+dinamiklerinin
+ 
+konuşulduğu
+ 
+kapalı
+ 
+ve
+ 
+yarı
+ 
+kapalı
+ 
+ağlar
+ 
+bu
+ 
+kategoridedir.
+ 
+ Platform  Topluluk  Adı  /  Bağlantı  ve  Keşif  Yapısı  
+Gözlemlenecek  Spesifik  Müşteri  Acı  Noktaları  
+Keşif,  Gözlem  ve  Platforma  Sızma  Stratejisi  
+WhatsApp  /  Telegram  /  Discord  
+ESN  Jaén  (Ibiza  Trip,  Cazorla  Hiking,  Welcome  Days  groups)  
+8  
+Şehre  ilk  varış  koordinasyonu,  lokal  ev  sahipleriyle  iletişim  problemleri,  ESN  etkinliklerindeki  organizasyon  aksaklıkları,  şehre  adaptasyon,  süpermarket  maliyetleri,  ders  çakışmaları.  
+ESN  Jaén'in  resmi  WhatsApp  ve  Telegram  grupları  ile  Discord  sunucuları  genellikle  kapalı  ağlardır.  Bu  grupların  davet  bağlantıları,  dönem  başında  kayıt  yaptıran  öğrencilere  e-posta  ile,  Welcome  Center  ofisinde  (C4  Binası)  23
+ veya  ESN  Jaén  Instagram  (@esn_jaen)  profilinin  hikayeleri  üzerinden  paylaşılır.
+8
+ Ağa  sızmak  için  bu  dijital  
+karşılama  etkinliklerinin  dijital  ayak  izleri  takip  edilmeli,  gerekirse  ESN  Jaén  ile  organik  bağlar  kurulmalıdır.  
+Facebook  “ERASMUS  Y  NO  ERASMUS”-ALQUILER  HABITACIONES-PISOS.JAÉN-ESPAÑA-  MUNDO,  Erasmus  JAEN,  JAEN  FLATMATES  erasmus  &  locals  
+21  
+Jaén  şehri  özelinde  ev  ve  oda  arayışı,  ev  sahibi  (landlord/propietario)  anlaşmazlıkları,  idealista  dışı  alternatif  oda  bulma  çabaları,  Endülüs  kültürüyle  entegrasyon.  
+Bu  gruplar  yerel  halkın,  ev  sahiplerinin  ve  eski/yeni  uluslararası  öğrencilerin  karıştığı  açık  veya  onaylı  Facebook  topluluklarıdır.  İspanyolca  ve  İngilizce  ilanlar  birbirine  karışmış  durumdadır.  Öğrencilerin  en  çok  zorlandığı  nokta  İspanyol  ev  sahipleriyle  yaşadıkları  dil  bariyeridir.  Çeviri  programlarının  yetersiz  kaldığı  yasal  sözleşme  terminolojisi  buradaki  en  büyük  sorundur.  
+Üniversite  Ağları  ESN  Ankara  Üni  
+1
+,  Ankara  Üniversitesi  Erasmus  Koordinatörlüğü  Duyuru  Altları  
+1  
+AT11  sağlık  sigortası  belgesinin  çıkarılma  süreçleri,  Gül  Kol  veya  Sema  Nur  Uluşen  gibi  koordinatörlere  ulaşamama  
+9
+,  hibe  sözleşmesi  tarihleri,  üniversitenin  portal  
+ESN  Ankara'nın  sosyal  medya  hesapları  ve  Ankara  Üniversitesi  Erasmus  ofisi  resmi  duyurularının  altındaki  öğrenci  yorumları  incelenebilir.  
+entegrasyonu  zorlukları.
+1  
+Kurumsal  süreçlerin  karmaşıklığı  ve  geri  bildirim  mekanizmalarının  yavaşlığı,  Ankara'dan  yola  çıkmadan  önce  başlayan  uçtan  uca  rehberlik  ihtiyacını  doğurmaktadır.  
+Erasmusu.com  Erasmus  forumu  Ankara  
+25
+,  Erasmus  forumu  İspanya/Jaén  
+5
+,  Erasmus  Experiences  in  UJA  26  
+Uzun  vadeli  deneyim  paylaşımları,  Jaén'de  kısıtlı  bir  hibe  ile  geçinme  stratejileri  
+5
+,  gönüllü  mentorlük  beklentilerinin  karşılanmaması  ve  hayal  kırıklıkları.  
+Eski  nesil  bir  forum  ve  pazar  yeri  altyapısı  olsa  da,  "Erasmus  in  Jaén  experiences"  başlıkları  altında  öğrencilerin  aylar  sonra  yazdığı  retrospektif  analizler  ve  şikayetler,  yapısal  sorunları  derlemek  için  eşsizdir.  Öğrencilerin  "ESN  gönüllülerinden  çok  şey  beklemeyin"  
+5
+ şeklindeki  itirafları,  pazardaki  profesyonelleşme  ihtiyacını  kanıtlar.  
+Müşteri  Acı  Noktalarının  (Pain  Points)  Derinlemesine  
+Analizi
+ 
+ve
+ 
+Ekosistem
+ 
+Sürtünmeleri
+ 
+Kurulacak  girişimin  ticari  başarısını  ve  değer  önerisini  şekillendirecek  olan  temel  unsur,  hedef  
+kitlenin
+ 
+uçtan
+ 
+uca
+ 
+yaşadığı
+ 
+"sürtünme"
+ 
+(friction)
+ 
+alanlarının
+ 
+doğru,
+ 
+abartısız
+ 
+ve
+ 
+veri
+ 
+odaklı
+ 
+bir
+ 
+şekilde
+ 
+tespit
+ 
+edilmesidir.
+ 
+Elde
+ 
+edilen
+ 
+pazar
+ 
+verileri,
+ 
+araştırma
+ 
+parçaları
+ 
+ve
+ 
+platform
+ 
+analizleri
+ 
+sonucunda,
+ 
+Türkiye'den
+ 
+İspanya'ya
+ 
+(özellikle
+ 
+Jaén
+ 
+gibi
+ 
+kendine
+ 
+has
+ 
+dinamikleri
+ 
+olan
+ 
+Endülüs
+ 
+şehirlerine)
+ 
+giden
+ 
+öğrencilerin
+ 
+karşılaştığı
+ 
+acı
+ 
+noktaları
+ 
+dört
+ 
+ana
+ 
+yapısal
+ 
+eksende
+ 
+toplanmaktadır.
+ 
+1.  Vize  ve  Konsolosluk  Süreci:  Sistematik  Belirsizlik  ve  "Kara  Kutu"  
+Etkisi  
+İspanya'nın  Türkiye'deki  vize  başvuru  süreçlerinin  operasyonel  yükünü  devrettiği  aracı  kurum  
+olan
+ 
+BLS
+ 
+International,
+ 
+öğrenciler
+ 
+için
+ 
+hareketliliğin
+ 
+önündeki
+ 
+en
+ 
+büyük
+ 
+travma
+ 
+ve
+ 
+risk
+ 
+kaynağı
+ 
+olarak
+ 
+öne
+ 
+çıkmaktadır.
+ 
+Süreç,
+ 
+basit
+ 
+bir
+ 
+belge
+ 
+tesliminin
+ 
+ötesine
+ 
+geçerek
+ 
+psikolojik
+ 
+bir
+ 
+yıpratma
+ 
+savaşına
+ 
+dönüşmektedir.
+ 
+Öğrencilerin  karşılaştığı  ilk  duvar,  randevu  bulamama  krizidir.  Adaylar,  hibe  sonuçları  
+açıklandıktan
+ 
+sonra
+ 
+hareketlilik
+ 
+tarihlerine
+ 
+aylar
+ 
+kala
+ 
+randevu
+ 
+sistemine
+ 
+girmelerine
+ 
+rağmen,
+ 
+özellikle
+ 
+uzun
+ 
+süreli
+ 
+(180
+ 
+gün
+ 
+üzeri
+ 
+eğitimleri
+ 
+kapsayan
+ 
+ulusal
+ 
+vize
+ 
+kategorisi)
+ 
+öğrenci
+ 
+vizeleri
+ 
+için
+ 
+uygun
+ 
+bir
+ 
+randevu
+ 
+slotu
+ 
+bulamamaktadırlar.
+4
+ Sistemde  kimi  zaman  "uzun  süreli  öğretim  vizeleri  
+için
+ 
+randevu
+ 
+yoksa
+ 
+ofise
+ 
+gelin,
+ 
+yardımcı
+ 
+oluruz"
+ 
+şeklinde
+ 
+ibareler
+ 
+yer
+ 
+alsa
+ 
+da,
+ 
+fiiliyatta
+ 
+ofislere
+ 
+giden
+ 
+öğrencilerin
+ 
+kapıdan
+ 
+geri
+ 
+çevrildiği,
+ 
+müşteri
+ 
+hizmetlerinin
+ 
+bu
+ 
+uygulamayı
+ 
+reddettiği
+ 
+durumlar
+ 
+yoğun
+ 
+olarak
+ 
+raporlanmaktadır.
+4
+ Bu  koordinasyonsuzluk,  öğrencinin  uçak  biletlerinin  
+yanması,
+ 
+kalacak
+ 
+yer
+ 
+için
+ 
+ödediği
+ 
+kaporanın
+ 
+buharlaşması
+ 
+veya
+ 
+geç
+ 
+gidiş
+ 
+nedeniyle
+ 
+üniversite
+ 
+hibe
+ 
+haklarının
+ 
+iptal
+ 
+olması
+ 
+riskiyle
+ 
+sonuçlanmaktadır.
+ 
+Randevu  engeli  aşıldığında  dahi,  işlem  sürelerinin  uzunluğu  ve  şeffaflık  eksikliği  süreci  bir  "kara  
+kutu"
+ 
+haline
+ 
+getirmektedir.
+ 
+İspanya
+ 
+öğrenci
+ 
+vizelerinin
+ 
+sonuçlanma
+ 
+süresi
+ 
+teorik
+ 
+limitleri
+ 
+aşarak
+ 
+15
+ 
+günden
+ 
+başlayıp
+ 
+45-55
+ 
+güne
+ 
+kadar
+ 
+uzayabilmektedir.
+6
+ Bu  devasa  bekleme  süresinde,  
+pasaportların
+ 
+aracı
+ 
+kurumda
+ 
+mı
+ 
+yoksa
+ 
+konsoloslukta
+ 
+mı
+ 
+olduğu,
+ 
+işlemlerin
+ 
+hangi
+ 
+aşamada
+ 
+bulunduğu
+ 
+gibi
+ 
+konularda
+ 
+dijital
+ 
+izleme
+ 
+sistemlerinin
+ 
+çökmesi
+ 
+veya
+ 
+çalışmaması,
+ 
+pasaport
+ 
+kayıp
+ 
+belirsizliği
+ 
+yaratmaktadır.
+12
+ Gecikmelere  ek  olarak,  formların  İngilizce  veya  İspanyolca  
+doldurulması
+ 
+zorunluluğu
+ 
+nedeniyle
+ 
+yapılan
+ 
+ufak
+ 
+harf
+ 
+veya
+ 
+tarih
+ 
+hataları,
+ 
+aracı
+ 
+kurum
+ 
+ofislerinde
+ 
+öğrenciden
+ 
+fahiş
+ 
+form
+ 
+düzeltme
+ 
+ücretleri
+ 
+ve
+ 
+zorunlu
+ 
+SMS
+ 
+bilgilendirme
+ 
+bedelleri
+ 
+talep
+ 
+edilmesine
+ 
+yol
+ 
+açarak
+ 
+gizli
+ 
+maliyetler
+ 
+yaratmaktadır.
+6
+ Daha  da  vahimi,  uzun  süreli  (6  ay  -  1  yıl)  
+eğitim
+ 
+vizelerine
+ 
+ve
+ 
+Erasmus
+ 
+programına
+ 
+başvuran
+ 
+öğrencilere,
+ 
+sistemik
+ 
+bir
+ 
+hata
+ 
+sonucu
+ 
+yalnızca
+ 
+25
+ 
+günlük
+ 
+tek
+ 
+girişli
+ 
+turistik
+ 
+veya
+ 
+kısa
+ 
+dönem
+ 
+vize
+ 
+verilmesi
+ 
+gibi
+ 
+ölümcül
+ 
+hatalar
+ 
+Şikayetvar
+ 
+platformuna
+ 
+yansımıştır.
+6  
+Bunun  yanı  sıra,  küreselleşen  öğrenci  hareketliliğinde  ortaya  çıkan  kesişimsel  vize  sorunları  tam  
+bir
+ 
+bilgi
+ 
+kaosudur.
+ 
+Ankara
+ 
+Üniversitesi'nde
+ 
+okuyan
+ 
+ancak
+ 
+halihazırda
+ 
+Finlandiya,
+ 
+Fransa
+ 
+veya
+ 
+İtalya
+ 
+gibi
+ 
+bir
+ 
+başka
+ 
+AB/Schengen
+ 
+ülkesinde
+ 
+uzun
+ 
+dönem
+ 
+ikamet
+ 
+iznine
+ 
+sahip
+ 
+olan
+ 
+(non-EU
+ 
+citizen
+ 
+olarak)
+ 
+üçüncü
+ 
+ülke
+ 
+vatandaşlarının,
+ 
+İspanya'ya
+ 
+Erasmus
+ 
+için
+ 
+giderken
+ 
+ayrıca
+ 
+İspanya'dan
+ 
+vize
+ 
+almalarına
+ 
+gerek
+ 
+olup
+ 
+olmadığı,
+ 
+yoksa
+ 
+sadece
+ 
+varışta
+ 
+doğrudan
+ 
+NIE
+ 
+(Número
+ 
+de
+ 
+Identidad
+ 
+de
+ 
+Extranjero
+ 
+-
+ 
+Yabancı
+ 
+Kimlik
+ 
+Numarası)
+ 
+kaydı
+ 
+mı
+ 
+yaptırmaları
+ 
+gerektiği
+ 
+konusunda
+ 
+devasa
+ 
+bir
+ 
+hukuki
+ 
+bilgi
+ 
+kirliliği
+ 
+vardır.
+17
+ Büyükelçiliklerin  verdiği  cevaplar  ile  ev  sahibi  üniversite  ofislerinin  
+talep
+ 
+ettiği
+ 
+belgeler
+ 
+arasındaki
+ 
+asimetri,
+ 
+öğrenciyi
+ 
+iki
+ 
+kurum
+ 
+arasında
+ 
+çaresiz
+ 
+bırakmaktadır.
+17
+ Bu  
+belirsizlik,
+ 
+dijital
+ 
+platformlarda
+ 
+her
+ 
+gün
+ 
+onlarca
+ 
+kez
+ 
+sorulan
+ 
+kronik
+ 
+bir
+ 
+sorundur.
+ 
+2.  Barınma  Krizi,  Asimetrik  Risk  ve  Emlak  Piyasasındaki  Güven  Açığı  
+Vize  sonrasında  barınma,  Erasmus  öğrencilerinin  kısıtlı  bütçesindeki  tartışmasız  en  büyük  
+finansal
+ 
+kalemdir
+ 
+ve
+ 
+İspanya'daki
+ 
+genel
+ 
+emlak
+ 
+piyasasının
+ 
+deflasyonist
+ 
+olmayan
+ 
+dinamikleri,
+ 
+uluslararası  öğrencileri  son  derece  dezavantajlı  bir  konuma  itmektedir.  
+İspanya'ya  fiziksel  olarak  gitmeden  aylar  önce  Türkiye'den  ev  tutmak  zorunda  olan  öğrenciler,  
+bilgi
+ 
+asimetrisini
+ 
+silaha
+ 
+dönüştüren
+ 
+sanal
+ 
+dolandırıcılık
+ 
+ağlarının
+ 
+en
+ 
+savunmasız
+ 
+hedefi
+ 
+konumundadır.
+ 
+Facebook
+ 
+gruplarındaki
+ 
+sahte
+ 
+ev
+ 
+sahipleri,
+ 
+çalıntı
+ 
+fotoğraflarla
+ 
+oluşturdukları
+ 
+sahte
+ 
+Idealista
+ 
+ilanları
+ 
+veya
+ 
+dışarıdan
+ 
+profesyonel
+ 
+görünen
+ 
+ancak
+ 
+güvenilirliği
+ 
+tartışmalı
+ 
+olan
+ 
+şüpheli
+ 
+konaklama
+ 
+ajansları
+ 
+(Reddit'te
+ 
+sıklıkla
+ 
+uyarılan
+ 
+"Erasmus
+ 
+life
+ 
+Valencia",
+ 
+"Spacest"
+ 
+gibi
+ 
+platformlar
+ 
+hakkında
+ 
+ciddi
+ 
+tartışmalar
+ 
+mevcuttur)
+ 
+sistemi
+ 
+domine
+ 
+edebilmektedir.
+7
+ "Anahtarı  
+teslim
+ 
+etmeden
+ 
+önce
+ 
+400
+ 
+Euro
+ 
+depozitoyu
+ 
+Western
+ 
+Union,
+ 
+nakit
+ 
+havale
+ 
+veya
+ 
+izi
+ 
+sürülemeyen
+ 
+dijital
+ 
+ödeme
+ 
+sistemleri
+ 
+ile
+ 
+gönderin"
+ 
+şeklindeki
+ 
+talepler
+ 
+7
+,  gidecek  yeri  olmayan  ve  panikleyen  
+öğrencilerin
+ 
+sıklıkla
+ 
+düştüğü,
+ 
+telafisi
+ 
+olmayan
+ 
+bir
+ 
+tuzaktır.
+ 
+Dolandırıcılık  bariyeri  aşılsa  dahi,  karşımıza  bütçe  uyumsuzluğu  ve  piyasadaki  yazılı  olmayan  
+"Erasmus
+ 
+Vergisi"
+ 
+sorunu
+ 
+çıkmaktadır.
+ 
+İspanya'nın
+ 
+Endülüs
+ 
+bölgesindeki
+ 
+Jaén
+ 
+gibi
+ 
+görece
+ 
+izole
+ 
+ve
+ 
+uygun
+ 
+fiyatlı
+ 
+olması
+ 
+beklenen
+ 
+şehirlerinde
+ 
+dahi,
+ 
+uluslararası
+ 
+öğrencilere
+ 
+sunulan
+ 
+oda
+ 
+kiralama
+ 
+bedelleri
+ 
+aylık
+ 
+200
+ 
+Euro
+ 
+ile
+ 
+500
+ 
+Euro
+ 
+arasında
+ 
+geniş
+ 
+bir
+ 
+makasta
+ 
+değişmektedir.
+27
+ Ankara  
+Üniversitesi'nden
+ 
+gidip
+ 
+aylık
+ 
+ortalama
+ 
+850
+ 
+Euro
+ 
+Erasmus
+ 
+hibesi
+ 
+alan
+ 
+bir
+ 
+öğrenci
+ 
+için
+ 
+5
+,  sadece  
+kira
+ 
+bedelinin
+ 
+400-500
+ 
+Euro'ya
+ 
+ulaşması
+ 
+durumunda,
+ 
+market,
+ 
+ulaşım,
+ 
+faturalar
+ 
+ve
+ 
+temel
+ 
+sosyal
+ 
+yaşam
+ 
+maliyetleri
+ 
+için
+ 
+bütçe
+ 
+tamamen
+ 
+çökmektedir.
+ 
+İspanyol
+ 
+ev
+ 
+sahipleri,
+ 
+kısa
+ 
+dönem
+ 
+kiralama
+ 
+yapmanın
+ 
+risklerini
+ 
+ve
+ 
+evdeki
+ 
+olası
+ 
+yıpranmayı
+ 
+bahane
+ 
+ederek,
+ 
+aynı
+ 
+odayı
+ 
+yerel
+ 
+bir
+ 
+İspanyol
+ 
+öğrenciye
+ 
+kiralayacakları
+ 
+fiyatın
+ 
+çok
+ 
+daha
+ 
+üzerindeki
+ 
+rakamları
+ 
+"uluslararası
+ 
+öğrenci
+ 
+tarifesi"
+ 
+olarak
+ 
+sunabilmektedirler.
+ 
+Idealista
+ 
+gibi
+ 
+yerel
+ 
+siteler
+ 
+piyasanın
+ 
+nabzını
+ 
+tutmak
+ 
+için
+ 
+iyi
+ 
+olsa
+ 
+da
+ 
+21
+,  
+İspanyolca
+ 
+konuşamayan
+ 
+ve
+ 
+yabancı
+ 
+bir
+ 
+ülke
+ 
+telefon
+ 
+numarasıyla
+ 
+(örneğin
+ 
++90)
+ 
+WhatsApp
+ 
+üzerinden
+ 
+ulaşmaya
+ 
+çalışan
+ 
+öğrencilere
+ 
+dönüş
+ 
+oranları
+ 
+istatistiksel
+ 
+olarak
+ 
+çok
+ 
+düşüktür.
+ 
+Sözleşme  aşamasına  gelindiğinde  ise  depozito  (fianza)  iadesi  sorunu  kronik  bir  şekilde  baş  
+göstermektedir.
+ 
+Kira
+ 
+sözleşmelerinin
+ 
+ağır
+ 
+bir
+ 
+İspanyolca
+ 
+hukuki
+ 
+dille
+ 
+yazılması,
+ 
+öğrencilerin
+ 
+evdeki
+ 
+demirbaşların
+ 
+mevcut
+ 
+hasar
+ 
+durumlarını
+ 
+(inventory
+ 
+check)
+ 
+giriş
+ 
+esnasında
+ 
+kayıt
+ 
+altına
+ 
+almayı
+ 
+akıl
+ 
+edememeleri
+ 
+ve
+ 
+dönem
+ 
+sonunda
+ 
+ülkeyi
+ 
+terk
+ 
+etmek
+ 
+zorunda
+ 
+olmalarının
+ 
+verdiği
+ 
+zaman
+ 
+baskısı,
+ 
+ev
+ 
+sahiplerinin
+ 
+"duvar
+ 
+çizilmiş,
+ 
+eşya
+ 
+kırılmış"
+ 
+bahaneleriyle
+ 
+yüzlerce
+ 
+Euro'luk
+ 
+depozitolara
+ 
+haksız
+ 
+yere
+ 
+el
+ 
+koymasıyla
+ 
+sonuçlanmaktadır.
+ 
+Hukuki
+ 
+mücadele
+ 
+verecek
+ 
+zamanı
+ 
+ve
+ 
+dili
+ 
+olmayan
+ 
+öğrenci,
+ 
+bu
+ 
+parayı
+ 
+sistemin
+ 
+bir
+ 
+kaybı
+ 
+olarak
+ 
+sineye
+ 
+çekmek
+ 
+zorunda
+ 
+kalır.
+ 
+3.  Akademik  Entropi,  Kurumsal  Uyumsuzluk  ve  Evrak  Bürokrasisi  
+Ankara  Üniversitesi'nden  yola  çıkan  bir  öğrencinin,  hedef  kurum  olan  Universidad  de  Jaén'in  
+(UJA)
+ 
+sistemlerine
+ 
+ve
+ 
+akademik
+ 
+altyapısına
+ 
+entegrasyonu,
+ 
+uzaktan
+ 
+göründüğü
+ 
+gibi
+ 
+pürüzsüz
+ 
+bir
+ 
+süreç
+ 
+değil,
+ 
+oldukça
+ 
+sancılı
+ 
+bir
+ 
+bürokratik
+ 
+denklik
+ 
+savaşıdır.
+ 
+En  yaygın  ve  stresli  sorunların  başında  Öğrenim  Anlaşması  (Learning  Agreement)  uyuşmazlığı  
+gelir.
+ 
+Türkiye'deki
+ 
+Erasmus
+ 
+koordinatörlüklerinde
+ 
+(örneğin
+ 
+Gül
+ 
+Kol
+ 
+veya
+ 
+Sema
+ 
+Nur
+ 
+Uluşen
+ 
+gibi
+ 
+yetkililerle
+ 
+9
+)  aylar  öncesinden  hazırlanan,  bölüm  başkanlıklarınca  onaylanan  kağıt  üzerindeki  
+belgeler,
+ 
+İspanya'ya
+ 
+varıldığında
+ 
+sıklıkla
+ 
+geçerliliğini
+ 
+yitirmektedir.
+ 
+Universidad
+ 
+de
+ 
+Jaén'e
+ 
+gidildiğinde,
+ 
+seçilen
+ 
+İngilizce
+ 
+derslerin
+ 
+o
+ 
+dönem
+ 
+için
+ 
+açılmaması,
+ 
+ders
+ 
+saatlerinin
+ 
+fiziksel
+ 
+olarak
+ 
+çakışması,
+ 
+kontenjanların
+ 
+dolu
+ 
+olması
+ 
+veya
+ 
+ECTS
+ 
+kredilerindeki
+ 
+radikal
+ 
+farklılıklar
+ 
+nedeniyle,
+ 
+öğrencilerin  İspanya'daki  ilk  kritik  haftaları  tamamen  bir  "Add/Drop"  (Ders  Ekle/Bırak)  paniğiyle  ve  
+iki
+ 
+üniversite
+ 
+arasında
+ 
+ıslak
+ 
+imza
+ 
+peşinde
+ 
+koşmakla
+ 
+geçmektedir.
+28
+ Universidad  de  Jaén'in  resmi  
+gelen
+ 
+öğrenci
+ 
+(Incoming
+ 
+Students)
+ 
+prosedürleri
+ 
+sayfasında
+ 
+doğrudan
+ 
+"Otomasyon
+ 
+sistemi
+ 
+kayıt
+ 
+sorunları
+ 
+/
+ 
+Self-registration
+ 
+incidents",
+ 
+"ders
+ 
+grubu
+ 
+değiştirme
+ 
+talepleri
+ 
+formu"
+ 
+gibi
+ 
+şablonların
+ 
+hazır
+ 
+olarak
+ 
+bulunması
+ 
+29
+,  UJA  sisteminin  ne  denli  karmaşık  olduğunun  ve  kayıt  hatalarının  istisna  
+değil,
+ 
+kural
+ 
+olduğunun
+ 
+kurumsal
+ 
+bir
+ 
+itirafıdır.
+ 
+Buna  ek  olarak,  dijital  altyapı  uyumsuzlukları  devreye  girer.  Öğrencilerin  kendi  üniversitelerindeki  
+e-posta
+ 
+ve
+ 
+iletişim
+ 
+sistemlerinden
+ 
+kopup
+ 
+İspanyol
+ 
+akademik
+ 
+ağına
+ 
+geçişi
+ 
+sırasında
+ 
+"UJA
+ 
+Mail
+ 
+(UJA
+ 
+GMail)
+ 
+ve
+ 
+İntranet"
+ 
+aktivasyonu
+ 
+ciddi
+ 
+teknik
+ 
+bariyerler
+ 
+yaratmaktadır.
+29
+ Gerekli  şifrelerin  
+gelmemesi,
+ 
+portalın
+ 
+İngilizce
+ 
+dil
+ 
+desteğinin
+ 
+yetersiz
+ 
+kalması
+ 
+gibi
+ 
+sebeplerle
+ 
+öğrenciler
+ 
+ders
+ 
+materyallerine
+ 
+erişimde
+ 
+geç
+ 
+kalmaktadır.
+ 
+Akademik
+ 
+takvimlerin
+ 
+dramatik
+ 
+uyumsuzluğu
+ 
+(örneğin
+ 
+Ankara
+ 
+Üniversitesi'nin
+ 
+final
+ 
+haftaları
+ 
+ile
+ 
+Jaén'in
+ 
+tatil
+ 
+veya
+ 
+sınav
+ 
+dönemlerinin
+ 
+örtüşmemesi)
+ 
+uçuş
+ 
+planlamalarından
+ 
+kalacak
+ 
+yerin
+ 
+ne
+ 
+zaman
+ 
+boşaltılacağına
+ 
+kadar
+ 
+her
+ 
+şeyi
+ 
+etkileyen
+ 
+bir
+ 
+stres
+ 
+kaynağıdır.
+ 
+Evrak  bürokrasisindeki  en  tehlikeli  gri  alanlardan  biri  ise  sağlık  sigortası  kapsam  kargaşasıdır.  
+Türkiye
+ 
+Cumhuriyeti
+ 
+Sosyal
+ 
+Güvenlik
+ 
+Kurumu
+ 
+(SGK)
+ 
+ile
+ 
+İspanya
+ 
+devleti
+ 
+arasındaki
+ 
+ikili
+ 
+anlaşmalar
+ 
+kapsamında
+ 
+Türkiye'den
+ 
+ücretsiz
+ 
+olarak
+ 
+alınan
+ 
+AT11
+ 
+belgesi,
+ 
+teoride
+ 
+İspanya
+ 
+devlet
+ 
+hastanelerinde
+ 
+geçerli
+ 
+olan
+ 
+bir
+ 
+sağlık
+ 
+belgesidir.
+ 
+Ancak,
+ 
+Universidad
+ 
+de
+ 
+Jaén'in
+ 
+uluslararası
+ 
+ofis
+ 
+yönetmeliklerine
+ 
+bakıldığında
+ 
+kurumun,
+ 
+gelen
+ 
+değişim
+ 
+öğrencileri
+ 
+için
+ 
+"hastalık
+ 
+veya
+ 
+kaza
+ 
+durumunda
+ 
+ülkesine
+ 
+geri
+ 
+dönüş
+ 
+(repatriation)
+ 
+masraflarını
+ 
+mutlaka
+ 
+kapsayan,
+ 
+geniş
+ 
+kapsamlı
+ 
+özel
+ 
+bir
+ 
+seyahat
+ 
+sağlık
+ 
+sigortası"
+ 
+şartı
+ 
+koştuğu
+ 
+açıkça
+ 
+belirtilmektedir.
+30
+ Bu  keskin  kurumsal  talep,  
+"AT11
+ 
+belgesi
+ 
+tek
+ 
+başına
+ 
+İspanya
+ 
+vizem
+ 
+ve
+ 
+Jaén
+ 
+kayıt
+ 
+süreçlerim
+ 
+için
+ 
+yeterli
+ 
+mi,
+ 
+yoksa
+ 
+ekstra
+ 
+bir
+ 
+sigorta
+ 
+satın
+ 
+almalı
+ 
+mıyım?"
+ 
+sorusunu
+ 
+devasa
+ 
+bir
+ 
+muammaya
+ 
+dönüştürmektedir.
+ 
+Sırf
+ 
+bu
+ 
+belirsizlik
+ 
+yüzünden
+ 
+öğrenciler,
+ 
+panik
+ 
+halinde
+ 
+gereksiz
+ 
+yere
+ 
+yüzlerce
+ 
+Euro
+ 
+değerinde,
+ 
+şartları
+ 
+aslında
+ 
+uymayan
+ 
+özel
+ 
+sigortalar
+ 
+satın
+ 
+alarak
+ 
+maddi
+ 
+zarara
+ 
+uğrayabilmektedir.
+ 
+4.  Sosyo-Kültürel  Şok,  Beklenti  Asimetrisi  ve  Destek  
+Mekanizmalarındaki
+ 
+Boşluklar
+ 
+Erasmus  deneyimi  sosyal  medyada  ve  dijital  platformlarda  genellikle  bir  "bitmeyen  parti,  
+kıtalararası
+ 
+gezi
+ 
+ve
+ 
+sürekli
+ 
+eğlence"
+ 
+miti
+ 
+etrafında
+ 
+pazarlanmaktadır;
+ 
+ancak
+ 
+sahadaki
+ 
+entegrasyon
+ 
+gerçekliği
+ 
+çok
+ 
+daha
+ 
+izolasyonist
+ 
+ve
+ 
+zaman
+ 
+zaman
+ 
+hayal
+ 
+kırıklığı
+ 
+yaratıcı
+ 
+olabilmektedir.
+ 
+Bu  noktada  ilk  incelenmesi  gereken  dinamik,  gönüllü  sistemlerin  (ESN)  kapasite  sınırlarıdır.  
+Universidad
+ 
+de
+ 
+Jaén
+ 
+ESN
+ 
+(Erasmus
+ 
+Student
+ 
+Network),
+ 
+C2
+ 
+binasındaki
+ 
+303
+ 
+numaralı
+ 
+ofisinde
+ 
+8
+ 
+konumlanan
+ 
+ve
+ 
+şehre
+ 
+gelen
+ 
+uluslararası
+ 
+topluluğun
+ 
+sosyalleşme
+ 
+merkezini
+ 
+oluşturan
+ 
+hayati
+ 
+bir
+ 
+ağdır.
+ 
+399
+ 
+Euro'luk
+ 
+efsanevi
+ 
+İbiza
+ 
+seyahatlerinden
+ 
+Cazorla
+ 
+doğa
+ 
+yürüyüşlerine,
+ 
+Karşılama
+ 
+Günleri'nden
+ 
+(Welcome
+ 
+Days)
+ 
+Güney
+ 
+Kore
+ 
+kültür
+ 
+partilerine
+ 
+kadar
+ 
+bir
+ 
+dönemde
+ 
+88'den
+ 
+fazla
+ 
+geniş
+ 
+çaplı
+ 
+etkinlik
+ 
+düzenlemektedirler.
+8
+ Üniversitenin  Welcome  Center  birimi  de  (C4  Binası)  
+23
+ 
+öğrencilere
+ 
+rehberlik
+ 
+etmek
+ 
+için
+ 
+tasarlanmıştır.
+ 
+Ancak,
+ 
+Erasmusu.com
+ 
+gibi
+ 
+platformlarda
+ 
+dile
+ 
+getirilen
+ 
+çarpıcı
+ 
+bir
+ 
+gerçeklik
+ 
+vardır:
+ 
+UJA
+ 
+veya
+ 
+ESN
+ 
+tarafından
+ 
+öğrencilere
+ 
+atanan
+ 
+"Mentor"
+ 
+veya
+ 
+"Buddy"  sistemi  her  zaman  vaat  edildiği  gibi  verimli  çalışmamaktadır.  Mentorlerin  de  nihayetinde  
+kendi
+ 
+vizeleri,
+ 
+zorlu
+ 
+sınav
+ 
+haftaları
+ 
+ve
+ 
+kişisel
+ 
+yaşamları
+ 
+olan
+ 
+20'li
+ 
+yaşlardaki
+ 
+gönüllü
+ 
+İspanyol
+ 
+öğrenciler
+ 
+olması,
+ 
+kriz
+ 
+anlarında
+ 
+kesintisiz
+ 
+ve
+ 
+profesyonel
+ 
+bir
+ 
+destek
+ 
+alamayan
+ 
+uluslararası
+ 
+öğrencilerin
+ 
+bürokrasi
+ 
+karşısında
+ 
+tamamen
+ 
+yalnız
+ 
+hissetmesine
+ 
+yol
+ 
+açmaktadır.
+5
+ Bir  öğrencinin  
+şu
+ 
+açık
+ 
+sözlü
+ 
+itirafı
+ 
+pazarın
+ 
+durumunu
+ 
+özetler
+ 
+niteliktedir:
+ 
+"ESN'deki
+ 
+insanlar
+ 
+gönüllüdür,
+ 
+onlardan
+ 
+sizin
+ 
+dertlerinizle
+ 
+7/24
+ 
+ilgilenmelerini
+ 
+veya
+ 
+mucizeler
+ 
+yaratmalarını
+ 
+bekleyemezsiniz"
+.
+5
+ Bu  yapısal  
+doygunluk
+ 
+algısı,
+ 
+müşteri
+ 
+tabanında,
+ 
+sorun
+ 
+çıktığında
+ 
+muhatap
+ 
+bulabilecekleri
+ 
+"profesyonel
+ 
+ve
+ 
+hesap
+ 
+sorulabilir
+ 
+bir
+ 
+hizmet
+ 
+/
+ 
+pazar
+ 
+yeri"
+ 
+ihtiyacını
+ 
+doğrudan
+ 
+doğrulamaktadır.
+ 
+Bir  diğer  kritik  husus,  Endülüs'ün  iç  kesimlerinde  yer  alan  Jaén'in  şehir  dinamikleridir.  Jaén,  
+dünyanın
+ 
+zeytinyağı
+ 
+başkenti
+ 
+olarak
+ 
+bilinen,
+ 
+dağlık,
+ 
+sıcak,
+ 
+kültürel
+ 
+dokusu
+ 
+son
+ 
+derece
+ 
+güçlü
+ 
+ancak
+ 
+görece
+ 
+küçük
+ 
+bir
+ 
+orta/taşra
+ 
+ölçekli
+ 
+İspanyol
+ 
+şehridir.
+3
+ Madrid,  Barselona  veya  Valencia  gibi  
+devasa
+ 
+metropollere
+ 
+kıyasla
+ 
+Jaén'de
+ 
+toplu
+ 
+taşıma
+ 
+olanakları,
+ 
+esnafın
+ 
+veya
+ 
+sokaktaki
+ 
+halkın
+ 
+İngilizce
+ 
+konuşma
+ 
+oranı
+ 
+ve
+ 
+devlet
+ 
+dairelerindeki
+ 
+(Örneğin
+ 
+Extranjería
+ 
+-
+ 
+Yabancılar
+ 
+Şubesi
+ 
+veya
+ 
+karakollar)
+ 
+memurların
+ 
+uluslararası
+ 
+öğrencilere
+ 
+yönelik
+ 
+esneklikleri
+ 
+çok
+ 
+daha
+ 
+yerel
+ 
+seviyededir.
+3
+ 
+Bu
+ 
+durum,
+ 
+ileri
+ 
+seviyede
+ 
+İspanyolca
+ 
+bilmeyen
+ 
+Türk
+ 
+öğrenciler
+ 
+için
+ 
+büyük
+ 
+bir
+ 
+duvar
+ 
+örer.
+ 
+TIE/NIE
+ 
+(Yabancı
+ 
+Kimlik
+ 
+Kartı
+ 
+ve
+ 
+Numarası)
+ 
+randevusu
+ 
+almak
+ 
+için
+ 
+polis
+ 
+karakoluna
+ 
+gidildiğinde,
+ 
+yerel
+ 
+bir
+ 
+banka
+ 
+şubesinde
+ 
+komisyonsuz
+ 
+hesap
+ 
+açılışı
+ 
+yapılmak
+ 
+istendiğinde
+ 
+veya
+ 
+ucuz
+ 
+bir
+ 
+İspanyol
+ 
+GSM
+ 
+operatöründen
+ 
+(SIM
+ 
+kart)
+ 
+hat
+ 
+alınmaya
+ 
+çalışıldığında
+ 
+ortaya
+ 
+çıkan
+ 
+iletişim
+ 
+kazaları
+ 
+devasa
+ 
+bir
+ 
+sürtünme
+ 
+yaratır.
+ 
+Öğrencilerin
+ 
+gitmeden
+ 
+önce
+ 
+hayal
+ 
+ettikleri
+ 
+o
+ 
+kozmopolit
+ 
+"Erasmus
+ 
+Yaşamı"
+ 
+beklentisi
+ 
+ile
+ 
+Jaén'in
+ 
+yavaş
+ 
+akan
+ 
+"Taşra"
+ 
+gerçekliği
+ 
+bazen
+ 
+sert
+ 
+bir
+ 
+şekilde
+ 
+çatışabilmektedir.
+ 
+Bu
+ 
+durum
+ 
+sosyal
+ 
+medya
+ 
+forumlarında
+ 
+"Jaén'de
+ 
+hiçbir
+ 
+şey
+ 
+yok,
+ 
+gitmeyin"
+ 
+şeklindeki
+ 
+yüzeysel
+ 
+önyargılı
+ 
+yorumlar
+ 
+ile
+ 
+"Endülüs
+ 
+kültürünü,
+ 
+harika
+ 
+doğasını
+ 
+ve
+ 
+mükemmel
+ 
+ucuz
+ 
+tapas
+ 
+kültürünü
+ 
+yaşamak
+ 
+için
+ 
+harika
+ 
+bir
+ 
+yer"
+ 
+şeklindeki
+ 
+olumlu
+ 
+yorumlar
+ 
+arasındaki
+ 
+büyük
+ 
+tezatlığı
+ 
+doğurur.
+15  
+İkinci  ve  Üçüncü  Derece  Çıkarımlar  (Second  &  
+Third-Order
+ 
+Insights)
+ 
+Müşteri  keşfi  aşamasında  verilerin  sadece  yüzeydeki  analizini  yapmak  acı  noktalarını  
+gösterirken,
+ 
+derinlemesine
+ 
+(second
+ 
+and
+ 
+third-order)
+ 
+analitik
+ 
+düşünce,
+ 
+bu
+ 
+acı
+ 
+noktalarının
+ 
+birbirini
+ 
+nasıl
+ 
+tetiklediğini
+ 
+ve
+ 
+kuracağınız
+ 
+mentorluk/pazar
+ 
+yeri
+ 
+girişimi
+ 
+için
+ 
+hangi
+ 
+benzersiz
+ 
+ürün
+ 
+stratejilerini
+ 
+doğurduğunu
+ 
+ortaya
+ 
+koyacaktır.
+ 
+Yüzeydeki
+ 
+sorunların
+ 
+altında
+ 
+yatan
+ 
+temel
+ 
+pazar
+ 
+fırsatları
+ 
+şunlardır:
+ 
+1.  Vize  Krizinin  Kelebek  Etkisi  (Domino  Effect  of  Visa  Delays)  
+●  Birinci  Derece  Etki:  BLS  International'ın  sistemindeki  tıkanıklık  yüzünden  randevu  
+bulamayan
+ 
+öğrencinin
+ 
+vizesi
+ 
+çıkması
+ 
+gereken
+ 
+tarihten
+ 
+3
+ 
+hafta
+ 
+gecikir.
+ 
+Bu
+ 
+sadece
+ 
+bir
+ 
+zaman
+ 
+kaybı
+ 
+gibi
+ 
+görünür.
+ ●  İkinci  Derece  Etki:  Vizesinin  çıkıp  çıkmayacağı,  hatta  ne  zaman  çıkacağı  belirsiz  olan  
+öğrenci,
+ 
+Jaén'de
+ 
+aylardır
+ 
+arayıp
+ 
+binbir
+ 
+zorlukla
+ 
+bulduğu
+ 
+ve
+ 
+depozito
+ 
+ödemesi
+ 
+için
+ 
+sözleşme
+ 
+aşamasına
+ 
+getirdiği
+ 
+nispeten
+ 
+ucuza
+ 
+olan
+ 
+odayı
+ 
+kiralama
+ 
+işlemini
+ 
+tamamlayamaz.
+ 
+Ev
+ 
+sahibi
+ 
+risk
+ 
+alıp
+ 
+beklemek
+ 
+istemez
+ 
+ve
+ 
+odayı
+ 
+nakit
+ 
+parası
+ 
+hazır
+ 
+olan
+ 
+başka
+ 
+bir
+ 
+Avrupalı
+ 
+öğrenciye
+ 
+verir.  Aynı  zamanda  öğrencinin  aylar  öncesinden  ucuza  aldığı  promosyonlu  
+Madrid/Malaga
+ 
+uçak
+ 
+bileti
+ 
+yanar
+ 
+ve
+ 
+yüksek
+ 
+cezalar
+ 
+ödeyerek
+ 
+biletini
+ 
+değiştirmek
+ 
+zorunda
+ 
+kalır.
+ ●  Üçüncü  Derece  Etki:  Artık  bütçesi  iyice  daralan  ve  İspanya'ya  planlanandan  çok  daha  geç  
+varan
+ 
+öğrenci,
+ 
+üniversitenin
+ 
+kurumsal
+ 
+Karşılama
+ 
+Günleri'ni
+ 
+(Welcome
+ 
+Days)
+ 
+ve
+ 
+ESN
+ 
+Jaén'in
+ 
+ilk
+ 
+WhatsApp
+ 
+tanışma
+ 
+gruplarındaki
+ 
+kaynaşma
+ 
+süreçlerini
+ 
+kaçırır.
+8
+ Dönem  başındaki  sosyal  
+"arkadaşlık
+ 
+klanları"
+ 
+çoktan
+ 
+oluştuğu
+ 
+için
+ 
+öğrenci
+ 
+ilk
+ 
+haftalarında
+ 
+derin
+ 
+bir
+ 
+sosyal
+ 
+izolasyon
+ 
+yaşar.
+ 
+Akademik
+ 
+oryantasyonu
+ 
+kaçırdığı
+ 
+için
+ 
+ders
+ 
+seçimlerinde
+ 
+(Learning
+ 
+Agreement)
+ 
+hatalar
+ 
+yapar
+ 
+ve
+ 
+derslerden
+ 
+kalma
+ 
+veya
+ 
+hibesini
+ 
+geri
+ 
+ödeme
+ 
+riskiyle
+ 
+karşılaşır.
+28  
+●  Girişim  İçin  Anlamı:  Girişiminizin  sunduğu  hizmetlerin  parçaları  hiçbir  zaman  birbirinden  
+izole
+ 
+bir
+ 
+şekilde
+ 
+(sadece
+ 
+vize
+ 
+veya
+ 
+sadece
+ 
+ev
+ 
+bulma
+ 
+şeklinde)
+ 
+satılmamalıdır.
+ 
+Eğer
+ 
+"Öğrencinin
+ 
+vize
+ 
+randevusunu
+ 
+otomatize
+ 
+bir
+ 
+bot
+ 
+ile
+ 
+hızlandıran
+ 
+ve
+ 
+aynı
+ 
+zamanda
+ 
+Jaén'deki
+ 
+ev
+ 
+sahibiyle
+ 
+İspanyolca
+ 
+iletişim
+ 
+kurup
+ 
+aracı
+ 
+olarak
+ 
+'Bu
+ 
+öğrencinin
+ 
+vizesi
+ 
+gecikti
+ 
+ama
+ 
+durumu
+ 
+garantili,
+ 
+odayı
+ 
+1
+ 
+hafta
+ 
+daha
+ 
+tutun'
+ 
+şeklinde
+ 
+bir
+ 
+köprü
+ 
+kuran"
+ 
+kombine
+ 
+bir
+ 
+değer
+ 
+önerisi
+ 
+sunarsanız,
+ 
+pazar
+ 
+yeriniz
+ 
+müşterinin
+ 
+hayatındaki
+ 
+bu
+ 
+yıkıcı
+ 
+domino
+ 
+etkisini
+ 
+kırmış
+ 
+olur.
+ 
+Bu,
+ 
+fiyat
+ 
+hassasiyetini
+ 
+ortadan
+ 
+kaldıran
+ 
+premium
+ 
+bir
+ 
+hizmettir.
+ 
+2.  Bilgi  Bolluğu  İçindeki  Bilgisizlik  (Information  Overload  vs.  Actionable  
+Knowledge)
+ 
+●  Mevcut  Durum:  Günümüzde  Z  kuşağı  öğrencilerinin  sorunu  bilgiye  "ulaşamamak"  
+değildir.
+ 
+Tam
+ 
+aksine;
+ 
+Reddit
+ 
+forumları
+ 
+16
+,  Üniversite  web  sitelerinin  yüzlerce  sayfalık  pdf'leri  
+(UJA
+ 
+Incoming
+ 
+portalı
+ 
+2
+),  ESN  dökümanları  
+30
+,  WhatsApp  mesajları  ve  Facebook  grupları  
+21
+ 
+tıklamalarla,
+ 
+linklerle
+ 
+ve
+ 
+tavsiyelerle
+ 
+dolup
+ 
+taşmaktadır.
+ ●  İkinci  Derece  Etki:  Bilginin  bu  kadar  dağınık,  genellikle  çelişkili  (örneğin  yukarıda  bahsi  
+geçen
+ 
+AT11
+ 
+geçerliliği
+ 
+tartışması)
+ 
+ve
+ 
+sürekli
+ 
+güncellenen
+ 
+doğası,
+ 
+öğrencide
+ 
+harekete
+ 
+geçme
+ 
+konusunda
+ 
+bir
+ 
+"analiz
+ 
+felci"
+ 
+(analysis
+ 
+paralysis)
+ 
+yaratmaktadır.
+ 
+Öğrenci
+ 
+Reddit'te
+ 
+Fransa'dan
+ 
+İspanya'ya
+ 
+geçen
+ 
+birinin
+ 
+harika
+ 
+deneyimini
+ 
+okuyup
+ 
+19
+,  aynı  süreci  Türkiye'den  
+AB
+ 
+dışı
+ 
+bir
+ 
+vatandaş
+ 
+(Non-EU
+ 
+citizen)
+ 
+olarak
+ 
+yapmaya
+ 
+çalışıp
+ 
+diplomatik
+ 
+hata
+ 
+yapmaktadır.
+17  
+●  Girişim  İçin  Anlamı:  Sizin  ürününüzün  temel  satışı  "yeni  bilgi  üretmek"  değil,  mevcut  
+devasa
+ 
+veri
+ 
+okyanusunu
+ 
+filtreleyerek,
+ 
+kişiselleştirerek
+ 
+(kürasyon)
+ 
+ve
+ 
+basitleştirerek
+ 
+adım
+ 
+adım
+ 
+bir
+ 
+iş
+ 
+akışına
+ 
+(workflow)
+ 
+çevirmektir.
+ 
+Girişiminiz,
+ 
+"Ahmet,
+ 
+senin
+ 
+durumun
+ 
+tam
+ 
+olarak
+ 
+bu.
+ 
+Ankara
+ 
+Üniversitesindesin,
+ 
+şu
+ 
+an
+ 
+şuradasın.
+ 
+İnternetteki
+ 
+diğer
+ 
+her
+ 
+şeyi
+ 
+unut.
+ 
+Senin
+ 
+bu
+ 
+hafta
+ 
+sonuna
+ 
+kadar
+ 
+izlemen
+ 
+gereken
+ 
+ve
+ 
+bizim
+ 
+onayladığımız
+ 
+tek
+ 
+eylem
+ 
+planı
+ 
+(action
+ 
+list)
+ 
+bu"
+ 
+diyen,
+ 
+kafa
+ 
+karışıklığını
+ 
+ortadan
+ 
+kaldıran
+ 
+bir
+ 
+dijital
+ 
+navigasyon
+ 
+platformu
+ 
+olarak
+ 
+konumlanmalıdır.
+ 
+Müşteri
+ 
+bilgiyi
+ 
+değil,
+ 
+"kesinliği
+ 
+ve
+ 
+sadeliği"
+ 
+satın
+ 
+alacaktır.
+ 
+3.  Güvenin  Metalaşması  ve  Aracıların  Rolü  (Commodification  of  Trust)  
+●  Mevcut  Durum:  Uluslararası  öğrenciler  (müşteri)  ve  İspanyol  ev  sahipleri  (tedarikçi)  
+arasında
+ 
+devasa
+ 
+bir
+ 
+güven
+ 
+asimetrisi
+ 
+bulunmaktadır.
+ 
+Ev
+ 
+sahibi
+ 
+haklı
+ 
+olarak;
+ 
+vizesi
+ 
+bile
+ 
+henüz
+ 
+elinde
+ 
+olmayan,
+ 
+ülkeye
+ 
+tam
+ 
+olarak
+ 
+ne
+ 
+zaman
+ 
+geleceği
+ 
+belli
+ 
+olmayan
+ 
+ve
+ 
+yerel
+ 
+yasaları
+ 
+veya
+ 
+İspanyolcayı  bilmeyen  bir  Türk  öğrenciye  evini  doğrudan  vermek  istemez.  Öğrenci  de  
+haklı
+ 
+olarak;
+ 
+hayatında
+ 
+hiç
+ 
+görmediği,
+ 
+sadece
+ 
+Facebook'ta
+ 
+bulanık
+ 
+fotoğraflarını
+ 
+gördüğü
+ 
+bir
+ 
+eve
+ 
+400
+ 
+Euro
+ 
+depozitoyu
+ 
+yollamak
+ 
+istemez.
+7  
+●  İkinci  Derece  Etki:  Bu  dijital  boşluğu,  "Erasmus  Life",  "Spacest"  veya  "Uniplaces"  gibi  çok  
+uluslu
+ 
+ajanslar
+ 
+7
+ oldukça  yüksek  ve  geri  ödemesiz  hizmet  komisyonlarıyla  doldurmaya  
+çalışmaktadır.
+ 
+Öğrenciler
+ 
+çaresizlikten
+ 
+bu
+ 
+komisyonları
+ 
+ödeseler
+ 
+bile,
+ 
+bu
+ 
+ajanslar
+ 
+yerel
+ 
+problemleri
+ 
+çözmekte
+ 
+yetersiz
+ 
+kalmaktadır.
+ ●  Girişim  İçin  Anlamı:  Dijital  pazar  yeriniz,  tam  olarak  bu  "Güvenlik  Duvarı"nı  (Escrow  
+benzeri
+ 
+bir
+ 
+depozito
+ 
+tutma
+ 
+servisi
+ 
+veya
+ 
+sıkı
+ 
+bir
+ 
+doğrulama
+ 
+mekanizması)
+ 
+kuran
+ 
+yerel
+ 
+taraf
+ 
+olmalıdır.
+ 
+Şikayetlerin
+ 
+odağındaki
+ 
+dolandırıcılıkları
+ 
+engelleyecek
+ 
+olan
+ 
+"Tarafımızca
+ 
+Ziyaret
+ 
+Edilmiş
+ 
+ve
+ 
+Sertifikalandırılmış
+ 
+Ev
+ 
+Sahibi"
+ 
+(Verified
+ 
+Local
+ 
+Landlord)
+ 
+ve
+ 
+evi
+ 
+temiz
+ 
+kullanacağı
+ 
+garanti
+ 
+edilen
+ 
+"Doğrulanmış
+ 
+Öğrenci"
+ 
+(Verified
+ 
+Student)
+ 
+rozetleri,
+ 
+platformunuzun
+ 
+en
+ 
+çok
+ 
+değer
+ 
+yaratacağı
+ 
+alan
+ 
+olmalıdır.
+ 
+Girişim  Tasarımı,  Değer  Önerisi  ve  "Customer  
+Discovery"
+ 
+Stratejisi
+ 
+Bu  derinlemesine  pazar  ve  veri  analizi  ışığında,  kurulacak  olan  uçtan  uca  dijital  pazar  
+yeri/mentorluk
+ 
+girişimi
+ 
+için
+ 
+müşteri
+ 
+keşfi
+ 
+aşamasında
+ 
+aşağıdaki
+ 
+stratejik
+ 
+eksenlerin
+ 
+uygulanması
+ 
+önerilmektedir:
+ 
+1.  Topluluk  Temelli  Büyüme  (Community-Led  Growth)  ve  Platforma  Sızma  Taktikleri:  
+Müşteri
+ 
+keşfi
+ 
+ve
+ 
+edinimi
+ 
+(acquisition)
+ 
+için
+ 
+hedef
+ 
+kitleye
+ 
+doğrudan
+ 
+reklam
+ 
+yapmak
+ 
+(push
+ 
+marketing)
+ 
+yerine,
+ 
+onların
+ 
+mevcut
+ 
+çaresizliklerine
+ 
+anlık
+ 
+ve
+ 
+ücretsiz
+ 
+çözümler
+ 
+üreten
+ 
+bir
+ 
+sızma
+ 
+(pull/inbound)
+ 
+stratejisi
+ 
+izlenmelidir.
+ 
+Örneğin,
+ 
+Reddit
+ 
+r/GoingToSpain
+ 
+veya
+ 
+Facebook
+ 
+Erasmus
+ 
+JAEN
+ 
+21
+ gruplarında  vize  randevusu  bulamadığı  için  isyan  eden  bir  öğrenciye,  girişiminizin  
+geliştirdiği
+ 
+basit
+ 
+bir
+ 
+"BLS
+ 
+İspanya
+ 
+Vize
+ 
+Randevu
+ 
+Takip
+ 
+Botu"
+ 
+veya
+ 
+"Randevu
+ 
+Bildirim
+ 
+Mail
+ 
+Listesi"
+ 
+gibi
+ 
+ücretsiz
+ 
+bir
+ 
+yan
+ 
+ürün
+ 
+(lead
+ 
+magnet)
+ 
+sunularak
+ 
+müşteri
+ 
+platforma
+ 
+çekilebilir.
+ 
+Öğrencinin
+ 
+kanayan
+ 
+yarası
+ 
+olan
+ 
+vize
+ 
+çözüldükten
+ 
+sonra
+ 
+(freemium
+ 
+model),
+ 
+bu
+ 
+müşteri
+ 
+güven
+ 
+duyduğu
+ 
+platformunuza
+ 
+konaklama,
+ 
+evrak
+ 
+danışmanlığı
+ 
+veya
+ 
+yasal
+ 
+çeviri
+ 
+(premium)
+ 
+hizmetleri
+ 
+için
+ 
+seve
+ 
+seve
+ 
+yönelecektir.
+ 
+2.  Uçtan  Uca  Değer  Önerisinin  (End-to-End  Value  Proposition)  Yapılandırılması:  
+Pazar  yeri,  dağınık  bir  danışmanlık  hizmetinden  ziyade,  net  tanımlanmış  4  temel  ürün  
+modülünden
+ 
+oluşmalıdır:
+ 
+●  Modül  1:  Vize  ve  Konsolosluk  Navigatörü:  Eksiksiz  evrak  kontrol  listeleri,  randevu  bulma  
+izleme
+ 
+araçları,
+ 
+İngilizce-İspanyolca
+ 
+doğru
+ 
+form
+ 
+doldurma
+ 
+asistanı
+ 
+(böylece
+ 
+BLS
+ 
+ofislerindeki
+ 
+form
+ 
+düzeltme
+ 
+ücretleri
+ 
+ve
+ 
+iptal
+ 
+riskleri
+ 
+ortadan
+ 
+kalkar).
+ ●  Modül  2:  Güvenli  Barınma  Köprüsü:  Idealista  
+21
+ veya  lokal  ajanslardaki  ilanların  
+doğrulanması,
+ 
+İspanyolca
+ 
+yasal
+ 
+kira
+ 
+sözleşmelerinin
+ 
+İngilizce/Türkçe
+ 
+hukuki
+ 
+özeti,
+ 
+ev
+ 
+sahipleri
+ 
+ile
+ 
+öğrenciler
+ 
+arasında
+ 
+girişimi
+ 
+temsil
+ 
+eden
+ 
+asenkron
+ 
+video
+ 
+ev
+ 
+turları
+ 
+(Öğrenci
+ 
+Türkiye'deyken,
+ 
+girişimin
+ 
+Jaén'deki
+ 
+lokal
+ 
+partneri
+ 
+evi
+ 
+videoya
+ 
+çekip
+ 
+öğrenciye
+ 
+atar,
+ 
+böylece
+ 
+400  Euro  dolandırıcılığı  sıfıra  iner).  ●  Modül  3:  Akademik  Entegrasyon  ve  Bürokrasi:  Ankara  Üniversitesi  KA131/KA171  
+prosedürleri
+ 
+(Learning
+ 
+Agreement
+ 
+imza
+ 
+silsilesi,
+ 
+OLS
+ 
+dil
+ 
+sınavları)
+ 
+1
+ ile  Universidad  de  Jaén  
+UJA
+ 
+intranet/otomasyon
+ 
+kayıt
+ 
+sistemleri
+ 
+29
+ arasındaki  kurumsal  boşlukları  bağlayan  
+bürokratik
+ 
+rehberlik.
+ 
+(AT11
+ 
+sağlık
+ 
+belgesi
+ 
+ve
+ 
+UJA
+ 
+kapsamlı
+ 
+sigorta
+ 
+şartnameleri
+ 
+çelişkisinin
+ 
+çözümü
+ 
+ve
+ 
+garantili
+ 
+yönlendirme).
+ ●  Modül  4:  Lokal  "Hayatta  Kalma  Kiti"  (Jaén  Spesifik):  ESN  Jaén'in  (Instagram:  @esn_jaen)  
+sosyal
+ 
+etkinliklerine
+ 
+ve
+ 
+gezilerine
+ 
+(İbiza,
+ 
+Cazorla
+ 
+vb.)
+ 
+fiziken
+ 
+nasıl
+ 
+ve
+ 
+nereden
+ 
+dahil
+ 
+olunacağı
+ 
+8
+,  şehirdeki  ana  otobüs  rotaları,  en  uygun  fiyatlı  lokal  süpermarketlerin  listesi,  
+karakoldan
+ 
+NIE
+ 
+başvuru
+ 
+adımları
+ 
+ve
+ 
+yerel
+ 
+mobil
+ 
+hat
+ 
+(SIM)
+ 
+çözümleri.
+ 
+3.  "Gönüllü  Mentor"  vs  "Profesyonel  Mentor"  Ayrımının  Etik  Pazarlanması:  Veri  sonuçlarına  
+göre
+ 
+üniversite
+ 
+kulüplerinin
+ 
+ve
+ 
+ESN'in
+ 
+atadığı
+ 
+"Buddy/Mentor"
+ 
+sistemi,
+ 
+yapısal
+ 
+olarak
+ 
+yetersiz
+ 
+kalabilmektedir.
+5
+ Girişiminizin  pazarlama  stratejisi,  mevcut  gönüllü  ağları  bir  rakip  olarak  görüp  
+onlara
+ 
+saldırmadan,
+ 
+tamamen
+ 
+onların
+ 
+profesyonel
+ 
+bir
+ 
+tamamlayıcısı
+ 
+(complementary
+ 
+service)
+ 
+olduğunu
+ 
+vurgulamalıdır.
+ 
+Sloganlaşmış
+ 
+marka
+ 
+mesajları
+ 
+şu
+ 
+bağlamı
+ 
+kullanmalıdır:
+ 
+"Üniversitenizin
+ 
+atadığı
+ 
+gönüllü
+ 
+mentorunuz,
+ 
+size
+ 
+Jaén'deki
+ 
+en
+ 
+iyi
+ 
+ve
+ 
+ucuz
+ 
+tapas
+ 
+barını
+ 
+veya
+ 
+en
+ 
+eğlenceli
+ 
+partiyi
+ 
+gösterebilir;
+ 
+bu
+ 
+onların
+ 
+harika
+ 
+olduğu
+ 
+alan.
+ 
+Ancak
+ 
+BLS
+ 
+vize
+ 
+evraklarınız
+ 
+eksik
+ 
+bulunup
+ 
+reddedildiğinde,
+ 
+İspanyol
+ 
+ev
+ 
+sahibiniz
+ 
+depozitonuza
+ 
+haksız
+ 
+yere
+ 
+el
+ 
+koyduğunda
+ 
+veya
+ 
+polisle
+ 
+TIE
+ 
+randevusu
+ 
+almanız
+ 
+gerektiğinde,
+ 
+arkanızda
+ 
+yasal
+ 
+bir
+ 
+pazar
+ 
+yerinin
+ 
+profesyonel,
+ 
+hesap
+ 
+sorulabilir
+ 
+ve
+ 
+uçtan
+ 
+uca
+ 
+desteği
+ 
+olsun."
+ 
+Sonuç  
+Türkiye'den  İspanya'ya  yönelen  uzun  dönemli  Erasmus+  yükseköğretim  öğrenci  hareketliliği,  
+Ankara
+ 
+Üniversitesi
+ 
+1
+ gibi  gönderici  kurumların  iyi  niyetli  fakat  bürokratik  prosedürel  standartları  
+ile
+ 
+Universidad
+ 
+de
+ 
+Jaén
+ 
+2
+ gibi  alıcı  kurumların  kendine  has  yerel,  teknolojik  ve  bölgesel  
+gerçeklikleri
+ 
+arasında
+ 
+devasa
+ 
+bir
+ 
+idari
+ 
+ve
+ 
+kültürel
+ 
+uçurum
+ 
+barındırmaktadır.
+ 
+Öğrenciler,
+ 
+bu
+ 
+devasa
+ 
+uçurumu
+ 
+Facebook,
+ 
+Reddit,
+ 
+Telegram
+ 
+ve
+ 
+Şikayetvar
+ 
+4
+ gibi  dijital  platformlarda  parça  
+parça
+ 
+edindikleri
+ 
+gayriresmi
+ 
+bilgilerle,
+ 
+çoğu
+ 
+zaman
+ 
+deneme-yanılma
+ 
+yöntemiyle
+ 
+kendi
+ 
+başlarına
+ 
+kapatmaya
+ 
+çalışmaktadırlar.
+ 
+Sistemdeki  en  büyük  zafiyet;  makro  seviyede  konsoloslukların  (BLS  International)  
+4
+ şeffaflıktan  
+uzak
+ 
+operasyonları
+ 
+ve
+ 
+mikro
+ 
+seviyede
+ 
+konaklama
+ 
+piyasasındaki
+ 
+ev
+ 
+sahiplerinin
+ 
+(güvensizlik,
+ 
+fahiş
+ 
+fiyatlama
+ 
+ve
+ 
+dolandırıcılık
+ 
+vakaları)
+ 
+7
+ oluşturduğu  öngörülemez  mali  risklerdir.  Araştırmamızın  
+ortaya
+ 
+koyduğu
+ 
+üzere,
+ 
+müşterilerin
+ 
+çaresiz
+ 
+hissettikleri
+ 
+acı
+ 
+noktaları,
+ 
+sadece
+ 
+basit
+ 
+bir
+ 
+"bilgi
+ 
+eksikliği"nden
+ 
+değil,
+ 
+bilginin
+ 
+uygulanabilir
+ 
+hale
+ 
+getirilememesinden
+ 
+ve
+ 
+sahada
+ 
+"doğrulanmış,
+ 
+yasal
+ 
+bir
+ 
+aksiyon
+ 
+eksikliği"nden
+ 
+kaynaklanmaktadır.
+ 
+Bu  bağlamda,  müşteri  keşfi  aşamasında  olduğunuz  dijital  mentorluk  ve  pazar  yeri  girişimi,  
+internette
+ 
+halihazırda
+ 
+var
+ 
+olan
+ 
+dağınık
+ 
+bilgiyi
+ 
+toparlayan
+ 
+basit
+ 
+bir
+ 
+blog
+ 
+veya
+ 
+rehber
+ 
+olmanın
+ 
+çok
+ 
+ötesine
+ 
+geçmelidir.
+ 
+Vize
+ 
+süreçlerini
+ 
+asiste
+ 
+eden,
+ 
+konaklama
+ 
+güvenliğini
+ 
+sağlayan,
+ 
+üniversiteler
+ 
+arası
+ 
+akademik
+ 
+bürokrasiyi
+ 
+sadeleştiren
+ 
+ve
+ 
+entegrasyon
+ 
+süreçlerindeki
+ 
+sosyo-kültürel
+ 
+belirsizliği
+ 
+ortadan  kaldıran;  kısacası  tüm  yasal  ve  operasyonel  riskleri  kendi  üzerine  alarak  müşteriyi  
+koruyan
+ 
+(de-risking
+ 
+platform)
+ 
+asimetrik
+ 
+bir
+ 
+"güven
+ 
+protokolü"
+ 
+olarak
+ 
+konumlandırıldığında,
+ 
+İspanya
+ 
+Erasmus
+ 
+ekosistemindeki
+ 
+tekel
+ 
+boşluğunu
+ 
+kalıcı
+ 
+olarak
+ 
+dolduracak
+ 
+ticari
+ 
+potansiyele
+ 
+sahiptir.
+ 
+Alıntılanan  çalışmalar  
+1.  AB  Eğitim  Programları  Koordinatörlüğü  –  Erasmus,  erişim  tarihi  Nisan  6,  2026,  http://erasmus.ankara.edu.tr/ 2.  International  Students  -  Universidad  de  Jaén,  erişim  tarihi  Nisan  6,  2026,  https://www.ujaen.es/internacional/en/international-students 3.  Universidad  de  Jaen  -  University  of  Lethbridge,  erişim  tarihi  Nisan  6,  2026,  https://www.ulethbridge.ca/international/universidad-de-jaen 4.  Uzun  Süreli  İspanya  Öğrenci  Vizesi  İçin  Randevu  Sorunu  Ve  Mağduriyet  -  
+Şikayetvar,
+ 
+erişim
+ 
+tarihi
+ 
+Nisan
+ 
+6,
+ 
+2026,
+ https://www.sikayetvar.com/bls-international/uzun-sureli-ispanya-ogrenci-vizesi-icin-randevu-sorunu-ve-magduriyet 5.  Erasmus  in  Jaen,  Spain  (summer  semester)  -  Erasmusu.com,  erişim  tarihi  Nisan  6,  
+2026,
+ https://erasmusu.com/en/erasmus-ujaen-universidad-de-jaen/erasmus-experiences/erasmus-in-jaen-spain-summer-semester-1132558 6.  BLS  International  İspanya  ve  Vize  Şikayetleri  -  Şikayetvar,  erişim  tarihi  Nisan  6,  2026,  https://www.sikayetvar.com/bls-international/ispanya/vize 7.  Erasmus  student  looking  for  a  room,  Help  needed!  :  r/valencia  -  Reddit,  erişim  
+tarihi
+ 
+Nisan
+ 
+6,
+ 
+2026,
+ https://www.reddit.com/r/valencia/comments/1hhpit8/erasmus_student_looking_for_a_room_help_needed/ 8.  ESN  Jaén  –  Be  Erasmus  and  choose  Jaén,  erişim  tarihi  Nisan  6,  2026,  https://www.esnjaen.org/ 9.  Ekibimiz  –  AB  Eğitim  Programları  Koordinatörlüğü  -  Erasmus  Ankara,  erişim  tarihi  Nisan  6,  2026,  https://www.erasmus.ankara.edu.tr/hakkimizda-2/ofis-personeli/ 10.  BLS  International  İspanya  Öğrenci  Vizesi  Şikayetleri  -  Şikayetvar,  erişim  tarihi  Nisan  6,  2026,  https://www.sikayetvar.com/bls-international/ispanya-ogrenci-vizesi 11.  BLS  International  İspanya  Şikayetleri  -  Şikayetvar,  erişim  tarihi  Nisan  6,  2026,  https://www.sikayetvar.com/bls-international/ispanya 12.  BLS  International  Vize  Şikayetleri  -  Şikayetvar,  erişim  tarihi  Nisan  6,  2026,  https://www.sikayetvar.com/bls-international/vize 13.  Student  Visa  for  Spain  -  Erasmus  for  two  trimesters  (+180  Days)  :  r/GoingToSpain  
+-
+ 
+Reddit,
+ 
+erişim
+ 
+tarihi
+ 
+Nisan
+ 
+6,
+ 
+2026,
+ https://www.reddit.com/r/GoingToSpain/comments/1mtluhk/student_visa_for_spain_erasmus_for_two_trimesters/ 14.  Spain  Student  Visa  for  Erasmus  :  r/SchengenVisa  -  Reddit,  erişim  tarihi  Nisan  6,  
+2026,
+ https://www.reddit.com/r/SchengenVisa/comments/1mqrreu/spain_student_visa_for_erasmus/ 
+15.  Erasmus  choice  :  r/spain  -  Reddit,  erişim  tarihi  Nisan  6,  2026,  https://www.reddit.com/r/spain/comments/m15vtw/erasmus_choice/ 16.  Accommodation  MEGATHREAD  -  Looking  for  your  Erasmus  room/studio?  -  
+Reddit,
+ 
+erişim
+ 
+tarihi
+ 
+Nisan
+ 
+6,
+ 
+2026,
+ https://www.reddit.com/r/Erasmus/comments/1les0x1/accommodation_megathread_looking_for_your_erasmus/ 17.  Erasmus  in  Spain  for  non-EU  citizen  -  Reddit,  erişim  tarihi  Nisan  6,  2026,  https://www.reddit.com/r/Erasmus/comments/18y6bwb/erasmus_in_spain_for_noneu_citizen/ 18.  A  Guide  to  Choosing  Accommodation  If  Doing  a  Study  Abroad  Program  in  Spain  -  
+Reddit,
+ 
+erişim
+ 
+tarihi
+ 
+Nisan
+ 
+6,
+ 
+2026,
+ https://www.reddit.com/r/studyAbroad/comments/1lc4jye/a_guide_to_choosing_accommodation_if_doing_a/ 19.  Spanish  visa  for  Erasmus  exchange  -  Non  EU  student  from  France  -  Reddit,  erişim  
+tarihi
+ 
+Nisan
+ 
+6,
+ 
+2026,
+ https://www.reddit.com/r/Erasmus/comments/1mjua98/spanish_visa_for_erasmus_exchange_non_eu_student/ 20.  Spain  Student  Visa  Info  :  r/Erasmus  -  Reddit,  erişim  tarihi  Nisan  6,  2026,  https://www.reddit.com/r/Erasmus/comments/1kq9zt9/spain_student_visa_info/ 21.  My  Spain  Exchange  Journey  |  Universidad  de  Jaén  2023  Fall  |  by  Irene  Joseline  -  
+Medium,
+ 
+erişim
+ 
+tarihi
+ 
+Nisan
+ 
+6,
+ 
+2026,
+ https://medium.com/@irenejoseline01/my-spain-exchange-journey-universidad-de-ja%C3%A9n-2023-fall-d506108c05ab 22.  Flatshare  in  Jaén  -  Roommates  -  Erasmus  Play,  erişim  tarihi  Nisan  6,  2026,  https://erasmusplay.com/en/jaen/flatshare-in-jaen.html 23.  Welcome  Center  |  International  -  Universidad  de  Jaén,  erişim  tarihi  Nisan  6,  2026,  https://www.ujaen.es/internacional/en/welcome-center 24.  Erasmus+  -  Universitatea  „1  Decembrie  1918”  din  Alba  Iulia,  erişim  tarihi  Nisan  6,  
+2026,
+ https://erasmus.uab.ro/index.php?pagina=studiu_plasament/studiu.php&id=26&l=ro 25.  Erasmus  Ankara  2020  /  2021  (English),  erişim  tarihi  Nisan  6,  2026,  https://erasmusu.com/tr/erasmus-ankara/erasmus-forum/erasmus-ankara-2020-2021-english-131317?p=0 26.  4  years  in  UJA  (University  of  Jaén)  |  Erasmus  experience  UJAEN  -  Erasmusu.com,  
+erişim
+ 
+tarihi
+ 
+Nisan
+ 
+6,
+ 
+2026,
+ https://erasmusu.com/en/erasmus-ujaen-universidad-de-jaen/erasmus-experiences/4-years-in-uja-university-of-jaen-509540 27.  Greece,  Portugal,  or  Spain?  :  r/Erasmus  -  Reddit,  erişim  tarihi  Nisan  6,  2026,  https://www.reddit.com/r/Erasmus/comments/1nre4z9/greece_portugal_or_spain/ 28.  sharExperience  -  Ömer  Emre  AKA  -  ESN  AYBU,  erişim  tarihi  Nisan  6,  2026,  https://aybu.esnturkey.org/news/sharexperience-%C3%B6mer-emre-aka 29.  Incoming  students  |  Servicio  de  Relaciones  Internacionales  y  Cooperación,  erişim  
+tarihi
+ 
+Nisan
+ 
+6,
+ 
+2026,
+ https://www.ujaen.es/servicios/serinco/en/procedures-and-services/incoming-stu
+dents 30.  university  of  jaén  data  sheet  for  international  exchange  programmes,  erişim  tarihi  
+Nisan
+ 
+6,
+ 
+2026,
+ https://www.unitn.it/sites/default/files/2025-02/DL_Ja%C3%A9n_Factsheet_2025-26.pdf 
+
+
+
+--- Erasmus+ Öğrenci Bilgi Veri Seti Oluşturma.pdf İÇERİĞİ ---
+ Operasyonel Bilgi Veri Seti: Türkiye'den 
+ İspanya'ya Yükseköğretim Hareketliliği 
+ (Erasmus+) Kapsamında Hukuki, 
+ Bürokratik ve Akademik İş Akışları 
+ MODÜL 1: Vize ve Bürokratik Süreçler (Türkiye'den 
+ İspanya'ya) 
+ İspanya Uzun Dönem Öğrenci Vizesi (SLU - 180 Gün Üzeri) Başvuru 
+ Protokolü ve Resmi Evrak Standartları 
+ Türkiye Cumhuriyeti sınırları içerisinden İspanya Krallığı'na yönelik olarak gerçekleştirilecek ve 
+ 180 günü aşan yükseköğretim, araştırma veya Erasmus+ hareketlilik programlarını kapsayan 
+ seyahatler için "Uzun Dönem Ulusal Öğrenci Vizesi" (Visado Nacional de Estudios - SLU) 
+ başvurularının yapılması yasal bir zorunluluktur.  1  İspanya Dışişleri Bakanlığı ve ilgili Konsolosluk 
+ birimleri, Türkiye'deki vize başvuru kabul ve veri işleme süreçlerini resmi olarak yetkilendirilmiş 
+ aracı kurum olan BLS International üzerinden yürütmektedir.  1  Randevu süreçleri tamamen BLS 
+ International'ın çevrimiçi sistemleri üzerinden yönetilmekte olup, ulusal vize başvurularında 
+ şahsen mülakat ve evrak teslimi esastır.  3  İspanya  göçmenlik mevzuatı (Reglamento de 
+ Extranjería) uyarınca, 90 ila 180 gün arası eğitim programları "SSU" (kısa dönem öğrenci) 
+ kategorisinde değerlendirilirken, bir akademik yılı kapsayan Erasmus+ hareketlilikleri "SLU" (uzun 
+ dönem öğrenci) kategorisinde işleme alınmaktadır.  1 
+ Uzun dönem öğrenci vizesi başvurularının, hareketliliğin başlayacağı resmi tarihten en az iki ay, 
+ en fazla ise altı ay önce BLS International ofislerine sunulması gerekmektedir.  5  Evrakların eksik, 
+ hatalı veya yeminli tercüme standartlarına uygun olmaması durumunda başvurular aracı kurum 
+ tarafından reddedilmekte ve başvuru sahibinin yeni bir randevu alarak süreci baştan başlatması 
+ talep edilmektedir.  5  Konsolosluk birimlerinin işlem  süreleri yoğunluğa bağlı olarak değişmekle 
+ birlikte, tam ve eksiksiz bir dosyanın teslim edilmesinin ardından vize onay sürecinin ortalama 
+ dört ila altı hafta sürebileceği resmi olarak bildirilmektedir.  5 
+ Aşağıdaki tabloda, BLS International Türkiye ofisleri (Ankara Büyükelçiliği ve İstanbul 
+ Başkonsolosluğu yetki alanları dahilinde) tarafından +180 gün uzun dönem öğrenci vizesi (SLU) 
+ için talep edilen resmi evrakların operasyonel tasnifi ve ibraz standartları detaylandırılmıştır.  1 
+ Evrak Kategorisi  Resmi Belge İsmi ve  İbraz Formatı ve Yasal 
+ Teknik Özellikleri  Geçerlilik Şartları 
+ Temel Kimlik ve Başvuru  Ulusal Vize Başvuru Formu 
+ (Formulario de Visado 
+ Nacional) 
+ İspanyolca veya İngilizce 
+ dillerinden birinde eksiksiz 
+ olarak bilgisayar ortamında 
+ veya büyük harflerle 
+ tükenmez kalemle 
+ doldurulmuş, tarih atılmış ve 
+ başvuru sahibi tarafından 
+ ıslak imza ile onaylanmış 
+ orijinal form.  1 
+ Temel Kimlik ve Başvuru  Biyometrik Fotoğraf  Son üç ay içerisinde 
+ çekilmiş, 3x4 cm 
+ ebatlarında, tamamen 
+ beyaz arka fonlu, başvuru 
+ sahibinin yüz ve alın hatlarını 
+ kapatmayacak şekilde 
+ (gözlüksüz) çekilmiş bir 
+ adet orijinal fotoğraf.  1 
+ Temel Kimlik ve Başvuru  Geçerli Pasaport veya 
+ Seyahat Belgesi 
+ Öngörülen seyahatin bitiş 
+ tarihinden itibaren en az bir 
+ yıl süreyle geçerliliğini 
+ koruyan, son on yıl 
+ içerisinde düzenlenmiş ve 
+ işlem görebilmesi için en az 
+ iki boş sayfası bulunan 
+ orijinal pasaport. 
+ Pasaportun biyometrik veri 
+ içeren ana sayfasının ve 
+ daha önce işlem görmüş 
+ tüm vize/kaşe sayfalarının 
+ fotokopileri dosyaya 
+ eklenmelidir.  1 
+ Akademik Gerekçe  UJA Kabul/Davet Mektubu 
+ (Carta de Aceptación) 
+ İspanya'daki alıcı kurum olan 
+ Universidad de Jaén (UJA) 
+ tarafından resmi antetli 
+ kağıda basılmış, öğrencinin 
+ tam adını, pasaport 
+ numarasını, eğitimin kesin 
+ başlangıç ve bitiş tarihlerini 
+ içeren İspanyolca kabul 
+ belgesi.  6 
+ Akademik Gerekçe  Hibe Mektubu ve Öğrenim 
+ Anlaşması (Erasmus+ 
+ Belgeleri) 
+ Türkiye'deki gönderici 
+ üniversite tarafından 
+ hazırlanan, ıslak imzalı veya 
+ e-imzalı "Vize Destek Yazısı" 
+ (Visa Support Letter) veya 
+ "Hibe Mektubu" (Grant 
+ Letter). Ek olarak, her iki 
+ kurum (Ankara Üniversitesi 
+ ve UJA) tarafından 
+ imzalanmış resmi Öğrenim 
+ Anlaşması (Learning 
+ Agreement).  6  Hibe 
+ alınmıyor dahi olsa (sıfır 
+ hibeli hareketlilik), 
+ üniversitenin programa 
+ katılımı onaylayan resmi bir 
+ destek yazısı sunması 
+ zorunludur. 
+ Akademik Gerekçe  Güncel Öğrenci Belgesi ve 
+ Niyet Mektubu 
+ Türkiye'deki yükseköğretim 
+ kurumundan alınan güncel, 
+ aktif e-imzalı veya ıslak 
+ imzalı öğrenci belgesi. Ek 
+ olarak, doğrudan İspanya 
+ Başkonsolosluğuna hitaben 
+ İspanyolca, Türkçe veya 
+ İngilizce dilinde yazılmış, 
+ seyahatin akademik amacını 
+ ve hedeflerini açıklayan 
+ şahsi niyet mektubu (Letter 
+ of Intent).  1 
+ Lojistik ve Barınma  Konaklama Kanıtı 
+ (Documento de 
+ Alojamiento) 
+ İspanya'ya giriş tarihinden 
+ itibaren en az ilk on beş (15) 
+ günü kapsayan, teyitli 
+ otel/yurt rezervasyonu veya 
+ resmi kira sözleşmesi. 
+ Konaklama bir şahıs ile 
+ yapılan sözleşmeye 
+ (contrato de 
+ arrendamiento) 
+ dayanıyorsa, ev sahibinin 
+ İspanyol kimlik veya oturum 
+ kartı (DNI/NIE) fotokopisi 
+ dosyaya eklenmelidir.  6 
+ Lojistik ve Barınma  Ulaşım Rezervasyonu  Başvuru tarihinden en az 15 
+ gün sonrasına tarihlenmiş 
+ uçuş rezervasyonu. 180 
+ günü aşan SLU vize 
+ başvurularında, eğitim 
+ süresinin uzunluğu göz 
+ önüne alınarak yalnızca 
+ gidiş biletinin (one-way 
+ ticket) rezervasyon dökümü 
+ kabul edilmektedir.  1 
+ Hukuki ve Sağlık (+180 
+ Gün) 
+ Adli Sicil Kaydı (Certificado 
+ de Antecedentes Penales) 
+ +180 günlük kalışlar için 
+ zorunlu olan, Türkiye 
+ Cumhuriyeti yetkili 
+ makamlarından alınmış, 
+ üzerinde Lahey 
+ Konvansiyonu uyarınca 
+ Apostil şerhi bulunan ve 
+ İspanyolca yeminli 
+ tercümesi yapılmış güncel 
+ adli sicil kaydı belgesi.  2 
+ Hukuki ve Sağlık (+180 
+ Gün) 
+ Çift Dilli Sağlık Raporu 
+ (Bilingual Medical 
+ Certificate) 
+ İspanya Sağlık Bakanlığı 
+ yönergelerine ve 2005 
+ Uluslararası Sağlık 
+ Tüzüğü'ne (International 
+ Health Regulations 2005) 
+ uygun olarak, başvuru 
+ sahibinin kamu sağlığını 
+ tehdit edebilecek bulaşıcı 
+ bir hastalık taşımadığını 
+ beyan eden, doktor onaylı 
+ ve kaşeli tıbbi sağlık raporu.  2 
+ Finansal Yeterlilik, IPREM Standartları ve SGK Sponsorluk Belgeleri 
+ İspanya ulusal göçmenlik yasaları, ülkeye eğitim amacıyla gelecek olan üçüncü ülke 
+ vatandaşlarının, kamu fonlarına yük olmadan kendi yaşam masraflarını ve ülkeye geri dönüş 
+ biletlerini karşılayabilecek mali kapasiteye sahip olmalarını şart koşmaktadır.  5  Bu finansal 
+ kapasitenin ölçümünde, İspanya'nın resmi asgari geçim ve gelir endeksi olan IPREM (Indicador 
+ Público de Renta de Efectos Múltiples) baz alınmaktadır.  5  İspanya makamlarınca yayınlanan 
+ güncel verilere göre, 2025 ve 2026 akademik yılları için belirlenen standart IPREM tutarı aylık 
+ 600 Euro, tam bir akademik yılı kapsayan 10 aylık programlar için 6.000 Euro, 12 aylık kalışlar için 
+ ise 7.200 Euro'dur.  10 
+ Öğrenci vizesi başvurularında sunulması gereken finansal kanıtların minimum sınırı %100 IPREM 
+ oranına denk gelmelidir.  5  Ancak, BLS International  İstanbul Başkonsolosluğu yetki alanındaki 
+ operasyonel yönergeler dikkate alındığında, hibe veya burs alınıyor olsa dahi, başvuru sahibinin 
+ veya sponsorunun banka hesabında aylık 1.500 Euro'ya tekabül eden bir bakiyenin (10 aylık 
+ program için 15.000 Euro) gösterilmesi zorunlu tutulabilmektedir.  6  Bu finansal gereklilik, 
+ Erasmus+ hibesinin varlığından bağımsız olarak, öğrencinin İspanya'da yaşayabileceği 
+ olağanüstü durumlara karşı bir teminat olarak değerlendirilmektedir. Hibe miktarı, gösterilmesi 
+ gereken toplam tutardan düşülebilir nitelikte olsa da, İstanbul Konsolosluğunun bakiye ibrazı 
+ konusundaki katı tutumu nedeniyle bakiyenin yüksek tutulması vizelerin reddedilmesini önleyen 
+ stratejik bir adımdır.  6 
+ Erasmus+ öğrencilerinin kendi adlarına yeterli, düzenli ve yasal bir gelirlerinin bulunmaması 
+ durumunda, masrafların bir sponsor tarafından üstlenilmesi gerekmektedir. İspanya vize 
+ prosedürlerinde sponsorluk kurumuna dair çok net sınırlandırmalar mevcuttur. Bir öğrenciye 
+ yalnızca anne, baba veya yasal vasi statüsündeki kişiler sponsor olabilmektedir.  6  Kardeş, amca, 
+ teyze veya şirket gibi üçüncü şahıs ve kurumların sponsorlukları kesinlikle reddedilmektedir.  6 
+ Sponsorun ibraz etmesi gereken belgeler, kişinin çalışma statüsüne (aktif çalışan, işveren veya 
+ emekli) göre farklılık göstermekte olup, SGK ve bankacılık sistemlerinden elde edilen 
+ doğrulanabilir verilere dayanmak zorundadır. 
+ Sponsorluk Dosyasında Bulunması Gereken Ortak Finansal Belgeler:  Tüm sponsorların, 
+ başvuru sahibinin İspanya'daki barınma, eğitim, sağlık ve geri dönüş masraflarını şartsız olarak 
+ üstlendiğini beyan eden, İspanyolca dilinde yazılmış ve ıslak imza ile onaylanmış bir Sponsorluk 
+ Dilekçesi (Sponsorship Letter / Carta de Patrocinio) hazırlaması zorunludur.  6  Bu mektuba ek 
+ olarak, sponsor ile öğrenci arasındaki ailevi bağı kanıtlayan Tam Tekmil Vukuatlı Nüfus Kayıt 
+ Örneği (Nüfus Müdürlüğü veya e-Devlet üzerinden alınmış, barkodlu belge) dosyaya 
+ eklenmelidir.  14  Finansal kapasitenin somut kanıtı  olarak, sponsora ait, düzenli gelir akışını ve talep 
+ edilen asgari bakiyeyi (aylık 1.500 Euro karşılığı) içeren, başvuru tarihinden en fazla bir hafta 
+ önce alınmış son üç aylık banka hesap dökümü sunulmalıdır.  6  Bu dökümün hukuki geçerliliği için, 
+ her sayfasının ilgili banka şubesi yetkilisi tarafından kaşelenip ıslak imza ile imzalanmış olması ve 
+ işlemi gerçekleştiren banka yetkilisine ait imza sirkülerinin (circular de firmas) dökümün arkasına 
+ eklenmesi elzemdir.  4 
+ Aktif SGK Çalışanları (4A) ve İşverenler (4B) İçin İstenen Özel SGK ve Kurum Belgeleri: 
+ Eğer sponsor Türkiye'de bir işverene bağlı olarak veya kendi işletmesinde aktif olarak çalışıyorsa, 
+ finansal kaynağın yasal ve vergilendirilmiş bir istihdamdan geldiğini kanıtlamak zorundadır. Bu 
+ bağlamda, e-Devlet veya SGK il müdürlüklerinden temin edilecek SGK İşe Giriş Bildirgesi ve 
+ karekodlu/barkodlu SGK 4A (veya 4B) Hizmet Dökümü (Tescil ve Hizmet Dökümü) dosyaya 
+ eklenmelidir.  4  Çalışanlar için ek olarak, çalışılan  kurumu gösteren, antetli kağıda yazılmış ve 
+ kişinin pozisyonu ile maaşını belirten işveren mektubu ve son üç aya ait, ıslak imzalı ve kaşeli 
+ maaş bordroları (salary slips) sunulmalıdır.  4  İşverenler  veya şirket ortakları sponsor oluyorsa, 
+ şirketin güncel mali durumunu ve yasal varlığını kanıtlayan belgeler (Ticaret Odası faaliyet 
+ belgesi, güncel vergi levhası, Ticaret Sicil Gazetesi kopyası ve şirket imza sirküleri) ile şirketin son 
+ üç aylık, bakiyesi olan ve hareketli banka hesap dökümleri ibraz edilmelidir.  4 
+ Emekli Sponsorlar (4C veya Emekli Sandığı/SSK Emeklileri) İçin İstenen Özel Belgeler: 
+ Sponsorun emekli olması durumunda, SGK kurumundan veya e-Devlet sistemi üzerinden 
+ alınmış, emeklilik statüsünü gösteren resmi Emeklilik Tescil Belgesi dosyaya konulmalıdır.  14 
+ Emekli sponsorların gelir akışını doğrulamak için, emekli maaşının düzenli olarak yattığı banka 
+ hesabının son üç aylık, şube onaylı, kaşeli ve ıslak imzalı dökümü gereklidir.  4  Ayrıca, sponsorun 
+ emekli kimlik kartının (pensioner card) fotokopisi de evraklar arasında bulunmalıdır.  4  Varsa ek 
+ finansal kaynaklar, kira gelirleri (kira sözleşmeleri ve tapu fotokopileri) veya araç ruhsatları 
+ (vehicle license) gibi destekleyici evraklar dosyanın gücünü artırmak amacıyla 
+ eklenebilmektedir.  4 
+ İspanya'ya Varış: Yasal Kayıt İşlemleri (Empadronamiento ve TIE 
+ Randevusu) 
+ BLS International üzerinden alınan uzun dönem ulusal vize, öğrenciye İspanya'ya giriş hakkı 
+ tanısa da, yasal ikamet sürecinin tamamlanması için öğrencinin İspanya topraklarına adım attığı 
+ andan itibaren belirli bürokratik aşamaları yasal süreler içerisinde tamamlaması zorunludur. 
+ İspanya göçmenlik yasaları, 6 aydan uzun süreli vizelerle ülkeye giren üçüncü ülke 
+ vatandaşlarının, varışlarından itibaren ilk 30 gün içinde yerel polis departmanlarına başvurarak 
+ Yabancı Kimlik Kartı (Tarjeta de Identidad de Extranjero - TIE) için parmak izi vermelerini (Toma 
+ de Huellas) emreder. Ancak TIE randevusuna gidilmeden önce tamamlanması gereken ilk ve en 
+ önemli adım, yerel belediyeye adres kaydının yapılmasıdır. 
+ 1. Adım: Ayuntamiento de Jaén "Empadronamiento" (İkametgah Kaydı) İş Akışı 
+ Empadronamiento, bireyin İspanya'daki bir belediyenin sınırları içerisinde yaşadığını resmi olarak 
+ belgeleyen ve belediye nüfus kütüğüne (Padrón Municipal de Habitantes) kayıt olmasını 
+ sağlayan temel idari işlemdir.  16  Bu kayıt, kamu sağlık  hizmetlerinden yararlanma, banka hesabı 
+ açma ve en önemlisi Extranjería (Yabancılar Şubesi) üzerinden TIE kimlik kartı alma süreçleri için 
+ yasal bir ön koşuldur. 
+ Universidad de Jaén (UJA) öğrencisi olarak Jaén kent merkezinde yaşamaya başlayan bir 
+ öğrenci, ikametgah kaydını Ayuntamiento de Jaén (Jaén Belediyesi) bünyesindeki İstatistik 
+ Bürosu'nda (Negociado de Estadística / Padrón Municipal) gerçekleştirmelidir. 
+ Randevu ve Başvuru Kanalları:  Jaén Belediyesi, yoğunluğu  yönetmek ve işlemleri hızlandırmak 
+ amacıyla karma bir randevu sistemi uygulamaktadır. Şahsen başvuru yapmak isteyen öğrenciler, 
+ sabah 09:00 ile 13:00 saatleri arasında işlem görmek üzere, belediyenin resmi randevu portalı 
+ olan https://citaprevia.aytojaen.es adresi üzerinden önceden randevu (Cita Previa) almak 
+ zorundadır.  17  Alternatif olarak, öğrencinin İspanya'da  geçerli bir elektronik sertifikası 
+ (Certificado Digital), Cl@ve pini veya e-DNI'si bulunuyorsa ve bilgisayarında İspanya kamu 
+ kurumlarının dijital imza altyapısı olan "Autofirma" yazılımı kuruluysa, tüm Empadronamiento 
+ işlemleri belediyenin elektronik merkezi (Sede Electrónica) olan https://sede.aytojaen.es 
+ üzerinden çevrimiçi olarak da tamamlanabilmektedir.  16  Yasal olarak işlemlerin sonuçlanması için 
+ öngörülen maksimum süre 3 ay olmakla birlikte, Jaén Belediyesi İstatistik Bürosu'nda standart 
+ başvurular ortalama 3 iş günü içerisinde sonuçlandırılmaktadır.  16 
+ Kayıt İçin İstenen Resmi Belgeler ve Protokoller: 
+ Empadronamiento başvurusu sırasında öğrencinin kimliğini ve barındığı konut üzerindeki yasal 
+ hakkını kanıtlayan bir dizi belge sunması gerekmektedir. Bu belgeler şunlardır: 
+ 1.  Kayıt Formları:  Başvuru sürecinin temelini oluşturan  "Modelo 10035 (Alta en el Padrón 
+ Municipal de Habitantes)" ve "Hoja de Inscripción Padronal" formları. Bu belgeler 
+ belediyenin web sitesinden temin edilerek eksiksiz doldurulmalı ve kaydı yapılacak tüm 
+ reşit bireyler tarafından imzalanmalıdır.  16 
+ 2.  Kimlik Belgesi:  Başvuru sahibinin kimliğini kanıtlayan,  geçerlilik süresi devam eden 
+ pasaportun aslı ve kimlik bilgilerini içeren sayfanın net bir fotokopisi.  16 
+ 3.  Barınma Kanıtı (Justificante de la vivienda):  Öğrencinin  kaydolmak istediği adreste 
+ yasal olarak ikamet ettiğini kanıtlayan mülkiyet veya kira belgesi. Bu belge, resmi bir kira 
+ sözleşmesi (contrato de arrendamiento), mülk sahibiyse tapu senedi (escritura) veya son 
+ aylara ait adres ve isim bilgilerini içeren bir hizmet faturası (su, elektrik, doğalgaz - faturas 
+ de suministro) olabilir.  16 
+ Öğrenciler İçin Özel Barınma Senaryoları ve Alternatif Protokoller: 
+ Uluslararası öğrencilerin İspanya'daki barınma durumları genellikle standart kira 
+ sözleşmelerinden farklılık gösterebilmektedir. Jaén Belediyesi, bu tür senaryolar için özel 
+ prosedürler belirlemiştir: 
+ ●  Sözleşme Sahibi Olmayan Kiracılar (Alt Kiralama/Paylaşımlı Evler):  Eğer öğrenci bir 
+ dairede oda kiralıyorsa ve evin ana kira sözleşmesi öğrencinin adına düzenlenmemişse, 
+ ana sözleşme sahibi olan kişi (titular de la vivienda - ev sahibi veya ana kiracı), öğrencinin 
+ "Hoja de Inscripción Padronal" formunun üzerine kendi el yazısıyla bir yetkilendirme 
+ (autorización) imzalamalıdır. Bu işleme ek olarak, yetki veren kişinin İspanyol kimlik kartı 
+ (DNI) veya Yabancı Kimlik Kartı (NIE) fotokopisinin başvuru dosyasına eklenmesi yasal bir 
+ zorunluluktur.  16 
+ ●  Standart Belgelerin Yokluğu (Certificado de Convivencia):  Öğrenci, herhangi bir yazılı 
+ kira sözleşmesine veya fatura kaydına sahip değilse, durumu kanıtlamak için alternatif bir 
+ polis prosedürü işletilir. Bu durumda öğrencinin Jaén Yerel Polisi'ne (Policía Local - Avenida 
+ de Granada adresinde bulunur) başvurarak bir "Birlikte Yaşama Sertifikası" (Certificado de 
+ Convivencia) talep etmesi gerekmektedir. Polis birimi, öğrencinin belirtilen adreste 
+ yaşayıp yaşamadığını tespit etmek için bir inceleme süreci başlatır. Bu raporun 
+ hazırlanması ve teslim edilmesi yasal olarak bir ay (1 ay) sürebilmektedir. Rapor 
+ tamamlandıktan sonra öğrenci, belgeyi polis merkezinden bizzat teslim alarak İstatistik 
+ Bürosu'na sunar ve kayıt işlemi gerçekleştirilir.  16 
+ Avrupa Birliği Vatandaşı Olmayanlar İçin Kritik Yükümlülük (Caducidad Kuralı):  Türkiye gibi 
+ Avrupa Birliği üyesi olmayan (Non-EU) ülke vatandaşları ve İspanya'da kalıcı (uzun dönem) 
+ oturum izni bulunmayan yabancılar, Padrón kayıtlarında özel bir şarta tabidir. Bu kişilerin 
+ belediye kütüğündeki kayıtlarını her iki yılda bir yenilemeleri yasal bir zorunluluktur. Bu periyodik 
+ yenileme işleminin yapılmaması durumunda, Padrón kaydı otomatik olarak "Caducidad" 
+ (düşme/zaman aşımı) statüsüne geçer. Jaén Belediyesi, bu sürenin dolması halinde ilgili kişiye 
+ herhangi bir ön bildirim veya uyarı göndermeksizin ikametgah kaydını doğrudan iptal etme 
+ hakkına sahiptir.  16  Bu nedenle uluslararası öğrencilerin  kayıt tarihlerini takip etmeleri büyük 
+ önem taşır. 
+ 2. Adım: TIE (Tarjeta de Identidad de Extranjero) Randevu ve Başvuru Süreci 
+ Empadronamiento belgesinin (Certificado de Empadronamiento) alınmasının ardından, öğrenci 
+ İspanya'daki yasal statüsünü fiziksel bir karta dökecek olan TIE (Tarjeta de Identidad de 
+ Extranjero - Yabancı Kimlik Kartı) başvurusunu tamamlamalıdır. TIE, öğrencinin İspanya'da 
+ bulunduğu süre boyunca kullanacağı, üzerinde NIE (Número de Identidad de Extranjero - 
+ Yabancı Kimlik Numarası) ve biyometrik verilerin (parmak izi ve fotoğraf) bulunduğu tek resmi 
+ İspanyol kimliğidir. 
+ Yetkili Polis Departmanı (Extranjería):  İspanya'da  yabancılarla ilgili kimliklendirme işlemleri, 
+ İspanya Ulusal Polisi (Cuerpo Nacional de Policía - CNP) bünyesindeki Yabancılar Şubesi (Oficina 
+ de Extranjería) tarafından yürütülmektedir. Universidad de Jaén'de eğitim gören ve il 
+ merkezinde ikamet eden bir öğrenci, parmak izi verme (toma de huellas) ve TIE başvurusu 
+ işlemlerini,  Plaza de las Batallas, 2, 23071, Jaén  adresinde bulunan  Oficina Extranjería y TIE 
+ Jaén  merkezinde gerçekleştirmelidir.  18 
+ Cita Previa (Ön Randevu) Alma Adımları: 
+ TIE işlemi için polis departmanına randevusuz gidilmesi kesinlikle kabul edilmemektedir. 
+ Randevular, İspanya Kamu Yönetimi Bakanlığı'nın (Ministerio de Política Territorial y Función 
+ Pública) merkezi elektronik sistemi üzerinden alınır. 
+ 1.  Öğrenci, internet tarayıcısı üzerinden 
+ https://sede.administracionespublicas.gob.es/pagina/index/directorio/icpplus veya 
+ alternatif direkt link olan https://ssweb.seap.minhap.es/icpplus/citar?org=OIACR adresine 
+ giriş yapar.  19 
+ 2.  Sistemdeki ilk menüden il (Provincia) olarak "Jaén" seçilir.  20 
+ 3.  İl seçildikten sonra açılan alt menülerden (Trámites Cuerpo Nacional de Policía) ilgili işlem 
+ kategorisi bulunmalıdır. Öğrenci kartı ilk başvurusu için  "Policía - Toma de Huellas 
+ (Expedición de Tarjeta) y Renovación de Tarjeta de Larga Duración"  seçeneği işaretlenir.  18 
+ 4.  Gerekli onaylar verildikten sonra, kimlik doğrulama ekranına geçilir ve sisteme pasaport 
+ numarası (DNI/NIE/Pasaporte) girilerek uygun gün ve saatler arasından randevu 
+ oluşturulur.  20  Sistem tarafından oluşturulan onaylı  randevu belgesinin (Justificante de cita) 
+ dijital kopyası kaydedilmeli ve kağıt çıktısı randevu gününde mutlaka ibraz edilmelidir. 
+ TIE Randevusu Gününde İstenen Resmi Evraklar ve Harç Ödemesi: 
+ Polis merkezindeki mülakat ve biyometrik veri alımı sırasında aşağıdaki belgelerin eksiksiz bir 
+ dosya halinde sunulması gerekmektedir: 
+ ●  Randevu Onay Belgesi:  Sede Electrónica üzerinden alınan,  tarih ve saat belirten randevu 
+ çıktısı.  20 
+ ●  Geçerli Pasaport ve Vize Fotokopileri:  Pasaportun  aslı mutlaka memura gösterilmelidir. 
+ Dosyada ise pasaportun biyometrik veri sayfası, İspanya Konsolosluğu tarafından basılmış 
+ uzun dönem ulusal öğrenci vizesinin (Visado Nacional) bulunduğu sayfa ve İspanya'ya 
+ (veya Schengen bölgesine) girişi kanıtlayan sınır kapısı giriş kaşesinin bulunduğu sayfanın 
+ net fotokopileri yer almalıdır.  20 
+ ●  EX-17 Başvuru Formu:  "Solicitud de Tarjeta de Identidad  de Extranjero" isimli EX-17 
+ formu, İspanya İçişleri Bakanlığı veya Polis web sitesinden indirilerek bilgisayar ortamında 
+ eksiksiz doldurulmalı, çıktısı alınmalı ve öğrenci tarafından ıslak imza ile onaylanarak iki 
+ nüsha halinde sunulmalıdır.  21 
+ ●  Empadronamiento Belgesi:  Jaén Belediyesinden randevu  gününden en fazla üç (3) ay 
+ önce alınmış güncel ve orijinal ikametgah sertifikası (Certificado de Empadronamiento).  16 
+ ●  Biyometrik Fotoğraf:  İspanyol kimlik kartı standartlarına  uygun (genellikle 32x26 mm 
+ ebatlarında), son dönemde çekilmiş, tamamen beyaz fonlu 1 adet vesikalık/biyometrik 
+ fotoğraf. 
+ ●  Harç Ödemesi (Tasa 790 Código 012 Formu ve Dekontu):  TIE kartının basımı için 
+ İspanya devletine ödenmesi gereken yasal bir idari harç bulunmaktadır. Bu harcın ödemesi 
+ için "Tasa modelo 790 Código 012" isimli özel form kullanılır. Form, Dirección General de la 
+ Policía'nın resmi elektronik portalı olan https://sede.policia.gob.es/Tasa790_012/ adresi 
+ üzerinden bilgisayarda doldurulmalı ve PDF olarak indirilip yazdırılmalıdır.  21  Bu formda 
+ dikkat edilmesi gereken en kritik husus baskı kalitesidir; belgenin alt kısmında yer alan 
+ barkodların çok net ve okunaklı basılmış olması gerekmektedir, aksi halde bankalar işlemi 
+ gerçekleştiremez ve polis birimi randevuyu reddedebilir.  24  Formun çıktısı alındıktan sonra, 
+ randevu gününden önce herhangi bir İspanyol banka şubesine fiziki olarak gidilerek veya 
+ bazı ATM ağları üzerinden nakit olarak harç bedeli yatırılmalıdır. Bankadan alınan onaylı 
+ dekont ve formun "Ejemplar para la Administración" (İdare için nüsha) kısmı, randevu 
+ sırasında memura teslim edilmelidir. 
+ MODÜL 2: Barınma ve İspanya Kira Hukuku (Ley de 
+ Arrendamientos Urbanos - LAU) 
+ Uluslararası bir Erasmus+ öğrencisinin, İspanya sınırları içerisinde (özellikle Endülüs bölgesi gibi 
+ yoğun öğrenci nüfusuna sahip özerk topluluklarda) bir apartman dairesi veya paylaşımlı bir evde 
+ oda kiralarken imzaladığı sözleşmeler ve doğan yasal yükümlülükler, temel olarak 29/1994 sayılı 
+ İspanya Şehirsel Kiralamalar Kanunu (Ley de Arrendamientos Urbanos - kısaca LAU) ve 
+ tamamlayıcı olarak İspanyol Medeni Kanunu (Código Civil) hükümlerine tabidir.  25 
+ İspanya Yasalarında Kira Sözleşmesi Türleri ve "Fianza" (Depozito) 
+ Hakları 
+ İspanyol gayrimenkul hukukunda (LAU), kiralama işlemleri mülkün kullanım amacına ve süresine 
+ göre iki ana kategoriye ayrılmaktadır ve her bir kategorinin kiracıya sağladığı hukuki korumalar 
+ farklıdır: 
+ 1.  Daimi İkametgah (Arrendamiento de Vivienda Habitual - LAU Başlık II):  Mülkün, 
+ kiracının kalıcı ve asıl yaşam alanı olarak kiralandığı durumlardır. Bu sözleşmeler, kiracıyı 
+ koruyan güçlü emredici yasalara tabidir (örneğin bireysel ev sahipleri için asgari 5 yıl, 
+ kurumsal ev sahipleri için 7 yıl zorunlu sözleşme uzatma hakkı).  25 
+ 2.  Daimi Olmayan / Sezonluk İkametgah (Uso Distinto del de Vivienda / Arrendamiento 
+ de Temporada - LAU Başlık III):  Mülkün geçici bir  amaçla, belirli bir süreliğine kullanıldığı 
+ sözleşmelerdir. Eğitim, geçici iş tahsisi veya yazlık tatil amaçlı kiralamalar bu kategoriye 
+ girer.  25 
+ Bir Erasmus+ öğrencisinin, üniversite eğitimi veya staj gibi belirli bir akademik takvime (örneğin 6 
+ ay veya 9 aylık bir akademik yıl) bağlı olarak imzaladığı sözleşmeler, yasal olarak  "Sezonluk 
+ Kiralama" (Arrendamiento de Temporada)  statüsünde  değerlendirilmektedir.  26  Bu durum, 
+ sözleşmede akademik amacın açıkça belirtilmesini gerektirir ve sözleşme, anlaşılan tarihte 
+ otomatik olarak sona erer; kiracının 5 yıllık uzatma hakkı bulunmaz.  26 
+ Yasal Depozito (Fianza) Sınırları ve Endülüs Bölgesindeki Güncel Saklama Kuralları: 
+ İspanya'da kiracının, sözleşmeden doğan yükümlülüklerini yerine getireceğini garanti altına 
+ almak amacıyla ev sahibine ödediği nakit teminata "Fianza" (Depozito) adı verilir. LAU mevzuatı, 
+ fianza miktarını kiralama türüne göre kesin yasal sınırlarla belirlemiştir: 
+ ●  Daimi konut kiralamalarında (Vivienda Habitual), ev sahibi yasal olarak en fazla  1 aylık  kira 
+ bedeli tutarında fianza talep edebilir.  27 
+ ●  Ancak öğrencilerin tabi olduğu Sezonluk Kiralamalarda (Arrendamiento de Temporada / 
+ Uso distinto), yasal depozito üst sınırı  2 aylık  kira  bedeline denk gelmektedir.  28  Dolayısıyla, 
+ ev sahibinin bir Erasmus öğrencisinden iki aylık depozito istemesi yasal bir haktır. 
+ Depozitonun saklanması ve korunması süreci, özerk bölgelerin kendi yerel konut yasalarıyla 
+ yönetilmektedir. Endülüs Özerk Bölgesi'nde (Junta de Andalucía),  "Ley 5/2025 de Vivienda de 
+ Andalucía"  (Endülüs Konut Yasası) isimli yeni düzenleme  ile birlikte çok kritik bir yasal değişiklik 
+ yapılmıştır. Eski mevzuatta, Endülüs sınırları içindeki ev sahipleri, tahsil ettikleri depozitoları 
+ "Modelo 806" formunu kullanarak doğrudan Endülüs Konut ve Rehabilitasyon Ajansı'na (AVRA - 
+ Agencia de Vivienda y Rehabilitación de Andalucía) yatırmak ve depozitoyu idarenin kasasında 
+ (Régimen General veya Concertado altında) güvenceye almak zorundaydı.  31  Ancak yürürlüğe 
+ giren yeni 5/2025 sayılı yasa ile birlikte, Junta de Andalucía idaresi fianza işlemleri için "emanetçi" 
+ (depositaria) rolünden yasal olarak çekilmiştir.  Yeni  yasaya göre, AVRA modeli ve Modelo 806 
+ prosedürü tamamen ortadan kaldırılmış olup, depozito sözleşme süresi boyunca 
+ doğrudan ev sahibinin (persona propietaria o arrendadora) kişisel gözetimi ve doğrudan 
+ velayeti (custodia directa) altında tutulmaktadır  .  31 
+ Depozitonun Kesilmesi, Yasal İade Süreleri ve Tüketici Hakları 
+ Kira sözleşmesi resmi olarak sona erdiğinde ve öğrenci mülkü tahliye edip anahtarları teslim 
+ ettiğinde, ev sahibinin fianza tutarını kiracıya nakit veya banka havalesi yoluyla iade etmesi için 
+ LAU 83.2 maddesi gereğince öngörülen yasal azami süre  1 aydır (30 gün)  .  32  Bu bir aylık sürenin 
+ aşılması ve depozitonun haklı bir sebep olmaksızın iade edilmemesi durumunda, içeride kalan 
+ tutara otomatik olarak yasal faiz (interés legal/interés de demora) işlemeye başlar.  35 
+ Öğrenciler arasında sıkça karşılaşılan, "depozitoyu kurtarmak amacıyla sözleşmenin son ay 
+ kirasını ödememe ve depozitoya sayma" pratiği, İspanya hukukunda yasal olarak tanınan bir hak 
+ değildir. Ev sahibi, bu durum karşısında kiracının sözleşmeyi ihlal ettiğini öne sürerek yargı yoluna 
+ başvurma hakkına sahiptir.  34 
+ Ev Sahibinin Depozitoyu Yasal Olarak Kesinti Yapabileceği (Retención) Gerekçeler: 
+ Fianza'nın temel amacı ev sahibini güvence altına almaktır. Bu bağlamda, depozito tutarının 
+ tamamının veya bir kısmının iade edilmemesi (kesilmesi) sadece aşağıdaki somut ve 
+ ispatlanabilir koşulların varlığında yasaldır  29  : 
+ 1.  Ödenmemiş Finansal Borçlar (Impago de Rentas y Suministros):  Kiracının, sözleşmede 
+ açıkça belirtilen aylık kira taksitlerini eksik ödemesi veya elektrik, su, internet, doğalgaz 
+ gibi tüketim faturalarını (suministros) kapatmadan ayrılması. 
+ 2.  Fiziksel Hasarlar ve Vandalizm (Desperfectos):  Gayrimenkulün  fiziksel yapısında, 
+ duvarlarda, zeminlerde veya demirbaş eşyalarda (beyaz eşyalar, mobilyalar) zamanın 
+ geçmesiyle oluşan "normal kullanım aşınması" (desgaste normal) kapsamı dışına çıkan, 
+ özensiz kullanımdan veya kasıtlı eylemlerden doğan ciddi hasarların tespit edilmesi. 
+ 3.  Envanter Eksiklikleri (Falta de Inventario):  Sözleşme  başlangıcında taraflarca 
+ imzalanmış ve mülkteki eşyaların listelendiği resmi envanter belgesinde (inventario) yer 
+ alan eşyaların kayıp, kırık veya izinsiz değiştirilmiş olması. 
+ 4.  Temizlik ve Teslim Koşullarının İhlali:  Mülkün veya  kiralık odanın, sözleşme başında 
+ teslim edilen temizlik standartlarına uygun olmayan, aşırı kirli veya atıklarla dolu bir şekilde 
+ terk edilmesi. 
+ Haksız Kesintilere Karşı İtiraz, Şikayet ve Arabuluculuk Süreçleri: 
+ Eğer ev sahibi, yukarıdaki yasal gerekçelere dayanmadan, asılsız bahanelerle (örneğin normal 
+ duvar boyası aşınmasını bahane ederek) depozitoyu alıkoyarsa, öğrencinin Endülüs yerel 
+ makamları nezdinde başvurabileceği kademeli hukuki ve idari yollar mevcuttur: 
+ 1.  Reclamación Amistosa (Uzlaşmacı İtiraz / Belgelendirilmiş İhtar):  Yargı yoluna veya 
+ idari şikayete gitmeden önce atılması gereken ilk adım, ev sahibine resmi ve 
+ belgelendirilmiş bir iade talebi göndermektir (örneğin İspanya posta servisi Correos 
+ üzerinden içerik onayı sağlayan "Burofax" sistemi kullanılarak). Bu adım, ilerideki hukuki 
+ süreçler için ev sahibinin iyi niyetli uyarılara yanıt vermediğini kanıtlar.  38 
+ 2.  Hoja de Quejas y Reclamaciones (Junta de Andalucía Şikayet Formu):  Eğer öğrenci, 
+ odayı şahsi bir mülk sahibinden değil de, profesyonel bir emlak şirketinden, öğrenci yurdu 
+ işletmesinden veya ticari bir gayrimenkul kurumundan (empresa) kiralamışsa, "Hoja de 
+ Quejas y Reclamaciones de la Junta de Andalucía" isimli resmi elektronik veya basılı 
+ şikayet formunu kullanma hakkına sahiptir (Decreto 82/2022 uyarınca). Bu form 
+ doldurularak, Endülüs bölgesinin resmi tüketici hakları idaresi olan  Consumo Responde 
+ birimlerine veya belediyelerin tüketici danışma ofislerine (OMIC) iletilir.  39 
+ 3.  Arbitraje de Consumo (Tüketici Tahkimi / Arabuluculuk):  Uyuşmazlık yaşanan ticari 
+ emlak işletmesi, İspanya'nın "Sistema Arbitral de Consumo" (Tüketici Tahkim Sistemi) ağına 
+ gönüllü olarak entegre olmuşsa, öğrenci bu kuruma başvurarak arabuluculuk (arbitraje) 
+ talep edebilir. Bu sistem tamamen ücretsiz, yargı süreçlerine göre çok daha hızlı işleyen ve 
+ sonucunda alınan kararın (laudo arbitral) taraflar için kesin bir mahkeme kararı hükmünde 
+ bağlayıcı olduğu ekstra-yargısal bir yoldur. Ancak, işletme bu sisteme üye değilse tahkim 
+ süreci işletilemez.  41 
+ 4.  Tribunales de Justicia (Asliye Mahkemeleri):  Tüketici  hakem heyeti mekanizmaları ticari 
+ şirketler için geçerlidir. Eğer kiralama işlemi iki sivil şahıs (particulares) arasında 
+ gerçekleşmişse ve ev sahibi depozitoyu iade etmiyorsa, tüketici idareleri (Consumo) araya 
+ giremez. Bu durumda tek hukuki çözüm, doğrudan İspanya Adalet Mahkemelerinde 
+ (Tribunales de Justicia) alacak verecek davası açmaktır.  41 
+ Dolandırıcılığı Önleme: Kira Sözleşmesi İspanyolca Hukuki Terimler 
+ Sözlüğü 
+ İspanya'da özellikle uluslararası öğrencilere yönelik olarak artış gösteren gayrimenkul siber 
+ dolandırıcılıkları (var olmayan mülklerin sahte fotoğraflarla ilana konması, yasadışı aracılık 
+ ücretleri talep edilmesi, sahte sözleşmelerle ön ödeme alınması) büyük bir risk 
+ oluşturmaktadır.  42  Öğrencilerin kendilerini bu tür  dolandırıcılıklara ve suistimallere karşı 
+ koruyabilmeleri, sahte evrakları tespit edebilmeleri ve imza atacakları sözleşmenin yasal 
+ maddelerini tam olarak kavrayabilmeleri için İspanyol Borçlar ve Eşya Hukuku kapsamındaki 
+ kritik terimleri bilmeleri şarttır.  25 
+ Aşağıdaki tablo, bir kira sözleşmesinde mutlaka kontrol edilmesi gereken, tarafların hak ve 
+ yükümlülüklerini tanımlayan temel yasal terimleri operasyonel işlevleriyle birlikte özetlemektedir: 
+ İspanyolca Hukuki Terim  Türkçe Hukuki Karşılığı  Sözleşmedeki İşlevi ve 
+ Operasyonel Açıklaması 
+ Arrendador  Ev Sahibi / Kiralayan  Gayrimenkulü yasal olarak 
+ kiraya verme yetkisine 
+ sahip, tapu sahibi veya 
+ vekaletname taşıyan gerçek 
+ veya tüzel kişiyi ifade eder. 
+ Sözleşmede kimlik (DNI/NIE) 
+ bilgileri eksiksiz yer 
+ almalıdır. 
+ Arrendatario / Inquilino  Kiracı  Kira bedeli karşılığında 
+ mülkü veya odayı belirli bir 
+ süre kullanım hakkı elde 
+ eden öğrenciyi tanımlar. 
+ Fianza  Depozito / Güvence 
+ Bedeli 
+ Olası zarar, hasar veya 
+ ödenmemiş borçlara karşı 
+ ev sahibine ödenen nakit 
+ güvence bedeli. Öğrenciler 
+ için yasal üst sınırı iki aylık 
+ kira tutarıdır. 
+ Contrato de 
+ Arrendamiento de 
+ Temporada 
+ Sezonluk Kira Sözleşmesi  LAU Başlık III'e tabi, kalıcı 
+ ikametgah amacı 
+ gütmeyen, eğitim gibi 
+ spesifik bir sebebe ve 
+ süreye (örn. 9 ay) dayanan 
+ esnek sözleşme türüdür. 
+ Süre bitiminde otomatik 
+ yenilenmez.  25 
+ Desalojo / Desahucio  Tahliye  Kiracının kira borçlarını 
+ ödememesi, sözleşme 
+ şartlarını ağır şekilde ihlal 
+ etmesi durumunda, mülkün 
+ yasal ve adli bir süreç 
+ sonucunda sahibine iade 
+ edilmesi işlemidir.  27 
+ Subarrendamiento / 
+ Cesión 
+ Alt Kiralama / Devir  Kiracının, kiraladığı mülkü 
+ veya odayı izinsiz olarak 
+ başka bir üçüncü şahsa 
+ kiralamasıdır. Çoğu standart 
+ sözleşmede "Prohibición 
+ total" (Tamamen yasak) 
+ ibaresiyle engellenir.  36 
+ Inventario  Eşya Envanteri  Mülkün veya odanın teslim 
+ anındaki fiziksel durumunu, 
+ içindeki demirbaşların 
+ (mobilya, beyaz eşya) 
+ listesini ve kondisyonlarını 
+ gösteren, sözleşmenin 
+ ayrılmaz bir parçası olan 
+ yasal ektir. Fianza iadesinde 
+ temel alınan belgedir.  37 
+ Renta y Forma de Pago  Kira Bedeli ve Ödeme 
+ Şekli 
+ Ödenecek aylık kiranın net 
+ miktarını ve ödemenin 
+ hangi kanalla (nakit, banka 
+ havalesi - transferencia 
+ bancaria) yapılacağını 
+ belirleyen yasal maddedir. 
+ Desgaste Normal  Normal Kullanım Aşınması  Mülkün zaman içerisinde, 
+ günlük olağan 
+ kullanımından kaynaklanan 
+ yıpranma halidir. Ev sahibi, 
+ "desgaste normal" 
+ kapsamına giren boya 
+ eskimeleri gibi durumlar için 
+ fianza üzerinden kesinti 
+ yapamaz. 
+ Dolo / Premeditación  Kasıt / Kötü Niyet  Kiracının veya misafirlerinin 
+ mülke kasıtlı, bilerek veya 
+ kötü niyetli (vandalizm) bir 
+ şekilde zarar vermesi 
+ eylemidir. Doğrudan tahliye 
+ ve tazminat davası (daños 
+ triples) gerekçesidir.  43 
+ Garantías Adicionales  Ek Güvenlikler / Kefalet  Fianza'ya (depozitoya) ek 
+ olarak, ev sahibinin kendini 
+ garantiye almak için talep 
+ edebileceği banka teminat 
+ mektubu (aval bancario) 
+ veya kefil şartlarıdır.  27 
+ Önemli Yasal İhtar:  İspanyol Borçlar Hukuku prensipleri  ve LAU mevzuatı uyarınca, standart kira 
+ sözleşmelerine eski şablonlardan kopyalanarak eklenen yasadışı maddeler (cláusulas nulas) 
+ yasal olarak geçersiz kabul edilir. Örneğin, "ev sahibinin önceden haber vermeksizin tahliye hakkı 
+ olduğu" veya konut kiralamalarında (vivienda habitual) "emlakçı komisyonunun (agency fees) 
+ kiracı tarafından ödeneceği" yönündeki maddeler yasalara aykırıdır ve mahkemeler nezdinde 
+ hükümsüzdür.  47  Bu nedenle sözleşmenin taraflara sunduğu  yükümlülüklerin yukarıdaki 
+ terminoloji eşliğinde titizlikle incelenmesi gerekmektedir. 
+ MODÜL 3: Akademik ve Kurumsal İş Akışı (Ankara 
+ Üniversitesi <-> UJA) 
+ Avrupa Komisyonu'nun 2021-2027 dönemi Erasmus+ program kuralları ve Avrupa Öğrenci Kartı 
+ Girişimi (European Student Card Initiative) vizyonu doğrultusunda, yükseköğretim kurumları 
+ (HEI) arasındaki kağıt tabanlı bürokratik işlemler tamamen dijitalleştirilmiştir. Bu dijitalleşme 
+ sürecinin omurgasını "Erasmus Without Paper" (EWP) veri iletişim ağı oluşturmaktadır.  49 
+ Türkiye'den Ankara Üniversitesi ile İspanya'dan Universidad de Jaén (UJA) arasındaki öğrenci 
+ hareketlilik süreçleri, akademik ders seçimleri ve denklik prosedürleri bu ağ üzerinden işletilen 
+ dijital iş akışları ile yönetilmektedir. 
+ 3.1. EWP Ağı Üzerinden OLA (Online Learning Agreement) Onay 
+ Silsilesi (Workflow) 
+ Erasmus Without Paper (EWP) altyapısı, kurumların mevcut yerel öğrenci bilgi sistemlerini (veya 
+ ücretsiz sağlanan EWP Dashboard arayüzünü) şifrelenmiş API'ler (Application Programming 
+ Interface) aracılığıyla birbirine bağlayarak verilerin gerçek zamanlı, şeffaf ve güvenli bir şekilde 
+ aktarılmasını sağlar.  50  OLA (Çevrimiçi Öğrenim Anlaşması),  öğrencinin yurt dışında alacağı 
+ derslerin programını ve bu derslerin kendi üniversitesinde tam akademik tanınmasını (automatic 
+ recognition) garanti altına alan, hareketlilik öncesi (Before the Mobility) düzenlenmesi zorunlu 
+ temel akademik sözleşmedir.  54 
+ OLA belgesinin EWP ağı üzerinden resmi onaylanma silsilesi (workflow) şu hiyerarşik adımları 
+ takip eder  50  : 
+ 1.  Sistem Entegrasyonu ve IIA (Inter-Institutional Agreement):  Sürecin ilk şartı, Ankara 
+ Üniversitesi ile UJA arasında EWP altyapısı üzerinden dijital olarak Kurumlararası 
+ Anlaşmanın (IIA) müzakere edilip onaylanmış olmasıdır. EWP API Versiyon 7 güncellemeleri 
+ ile kurumlar kontenjan, ISCED kodları ve anlaşma şartlarını dijital ağ üzerinde bağlayıcı 
+ olarak imzalarlar.  50 
+ 2.  Dijital Nominasyon (Nomination):  Gönderici kurum (Ankara  Üniversitesi), seçim sürecini 
+ başarıyla tamamlayan öğrencinin adaylığını (nomination) EWP ağı veya Dashboard 
+ üzerinden alıcı kuruma (UJA) bildirir. UJA bu bildirimi sistem üzerinden inceler ve onaylar.  50 
+ 3.  OLA Taslağının Hazırlanması (Creation):  Öğrenci, OLA  platformuna giriş yaparak veya 
+ üniversitesinin mobil/web arayüzünü kullanarak hareketlilik öncesi (Before the Mobility) 
+ akademik planını hazırlar. UJA'nın ders kataloğundan (Codice AD) seçtiği dersleri ve 
+ kredilerini "Table A" kısmına, Türkiye'de saydıracağı dersleri ise "Table B" kısmına işler.  52 
+ 4.  1. Faz Onay (Öğrenci İmzası):  Taslağı tamamlayan öğrenci,  belgeyi dijital ortamda 
+ şahsen imzalayarak onay sürecini (workflow) başlatır.  50 
+ 5.  2. Faz Onay (Gönderici Kurum - Ankara Üniversitesi):  Öğrencinin imzaladığı OLA, EWP 
+ API'leri üzerinden anında Ankara Üniversitesindeki bölüm koordinatörünün sistemine veya 
+ EWP Dashboard paneline düşer. Koordinatör, ders eşleşmelerini ve AKTS kredi denkliğini 
+ akademik olarak inceler. Eğer plan uygunsa, koordinatör belgeyi kendi dijital imzasıyla 
+ onaylar. Eğer uygun değilse, düzeltme yorumu ekleyerek belgeyi reddeder (reject) ve 
+ süreç birinci adıma geri döner.  51 
+ 6.  3. Faz Onay (Alıcı Kurum - Universidad de Jaén):  Gönderici  kurumun onayıyla birlikte 
+ OLA belgesi, EWP ağı üzerinden otomatik olarak UJA'nın uluslararası ilişkiler 
+ koordinatörüne iletilir. UJA yetkilisi, seçilen derslerin kotalarını, açılıp açılmadığını ve 
+ öğrencinin dil yeterliliklerini kontrol eder. Herhangi bir sorun yoksa, belge UJA yetkilisi 
+ tarafından dijital olarak imzalanır ve OLA resmi olarak yürürlüğe girmiş olur.  51 
+ 7.  Varış Teyidi (Certificate of Arrival):  Öğrenci fiziki  olarak İspanya'ya vardığında, UJA'daki 
+ uluslararası ofise (veya sisteme) başvuru yapar ve varış tarihi (date of arrival) teyit edilerek 
+ kayıt işlemi tamamlanır.  50 
+ 3.2. Ders Uyuşmazlığı ve "During the Mobility" Revizyon Kuralları 
+ Öğrenci UJA'ya ulaşıp derslere başladığında; önceden seçilen derslerin programda çakışması, 
+ beklenen kontenjanın dolması, dersin içeriğinin farklı çıkması veya dil bariyeri gibi 
+ öngörülemeyen akademik sorunlar ortaya çıkabilmektedir.  61  Bu gibi durumlarda, orijinal OLA 
+ belgesinin "Hareketlilik Sırasında" (During the Mobility) sekmesi üzerinden değiştirilmesi 
+ (Add/Drop süreci) gerekmektedir.  61 
+ Yasal Değişiklik Süresi ve İş Akışı:  Erasmus+ Yükseköğretim  Rehberi ve üniversite kalite 
+ standartları uyarınca, öğrencinin hareketlilik programı sırasındaki ders değişikliklerini (OLA - 
+ During the Mobility), her bir akademik yarıyılın başlamasından veya öğrencinin alıcı kuruma 
+ varışından itibaren en geç  5 hafta (35 gün)  içerisinde EWP sistemi üzerinden gerçekleştirmesi 
+ yasal bir zorunluluktur.  57 
+ Bu süre zarfında öğrenci, EWP OLA platformu üzerinden değiştirmek, çıkarmak veya yeni 
+ eklemek istediği dersleri sisteme girer. Yapılan bu değişiklikler, orijinal onay silsilesinde olduğu 
+ gibi, sırasıyla öğrenci, Ankara Üniversitesi koordinatörü ve UJA koordinatörü tarafından dijital 
+ olarak yeniden imzalanmalı ve mutabakata bağlanmalıdır.  50  Gönderici kurum (Ankara 
+ Üniversitesi) tarafından onaylanmayan hiçbir dersin kredisi, hareketlilik sonrasında akademik 
+ olarak tanınamaz (recognition) ve not dökümüne işlenemez.  61  Süreçteki herhangi bir gecikme, 
+ öğrencinin hareketlilik hibesinin kesilmesine veya akademik döneminin uzamasına sebebiyet 
+ verebilir. 
+ Süre Uzatımı (Extension) ve Transcript of Records (ToR):  Öğrencinin başlangıçta belirlenen 
+ hareketlilik süresini (örneğin sadece Güz dönemi) Bahar dönemini de kapsayacak şekilde 
+ uzatmak (extension) istemesi halinde, bu talebin formel olarak hareketlilik süresinin bitiş 
+ tarihinden en az  30 gün önce  EWP sistemine yüklenmiş  ve her iki üniversitenin onayı alınarak 
+ anlaşmaya ek (annex) yapılmış olması gerekmektedir.  62  Eğitim süreci sona erdiğinde (After the 
+ Mobility), UJA, öğrencinin sınav sonuçlarının (notlarının) resmi olarak ilan edilmesini müteakip en 
+ fazla 5 hafta içerisinde Transkript belgesini (Transcript of Records) EWP ağı üzerinden dijital 
+ formatta Ankara Üniversitesine iletmekle yükümlüdür.  50 
+ MODÜL 4: SGK AT11 Sağlık Protokolü ve Universidad 
+ de Jaén (UJA) Sigorta Yükümlülükleri 
+ Türkiye'den İspanya'ya giden Erasmus+ öğrencilerinin sağlık güvencelerinin sağlanması, hem 
+ İspanya devlet yasalarının vize onayı için aradığı bir şart hem de İspanya üniversitelerinin 
+ akademik kayıt süreçlerindeki katı kurallarından biridir. Türkiye ile bazı Avrupa ülkeleri arasında 
+ sosyal güvenlik anlaşmaları bulunsa da, bu anlaşmaların kapsamı ile üniversitelerin talep ettiği 
+ teminatlar arasında kritik hukuki farklar bulunmaktadır. 
+ 4.1. SGK AT11 Belgesinin İspanya Devlet Hastaneleri Geçerlilik 
+ Protokolü 
+ Türkiye Cumhuriyeti ile İspanya Krallığı arasındaki İkili Sosyal Güvenlik Anlaşmaları uyarınca, 4A 
+ (SSK), 4B (Bağ-Kur) ve 4C (Emekli Sandığı) kapsamında aktif sigortalı olan çalışanlar, işverenler, 
+ emekliler ve bu kişilerin bakmakla yükümlü olduğu (müstehak) aile fertleri, eğitim (Erasmus+), 
+ geçici görev veya turistik amaçlarla yurt dışında bulundukları sürede sağlık hizmetlerinden 
+ yararlanabilmek için Sosyal Güvenlik Kurumu (SGK) il müdürlüklerinden  AT11 Formu  (Yurt Dışı 
+ Sağlık Güvence Belgesi) temin edebilirler.  66  E-Devlet  üzerinden alınamayan ve bizzat başvuru 
+ gerektiren bu belge, Avrupa Sağlık Sigortası Kartı'na (EHIC - European Health Insurance Card) 
+ eşdeğer bir resmi güvence niteliği taşır. 
+ Kapsam ve Protokol:  AT11 belgesine sahip olan bir  Türk öğrenci İspanya'ya (Jaén) vardığında, 
+ bu belge sayesinde İspanya Ulusal Sağlık Sistemi'ne (Sistema Nacional de Salud) entegre olan 
+ devlet hastanelerinde ve kamu sağlık merkezlerinde (Centro de Salud)  acil, temel ve gerekli 
+ tıbbi hizmetlerden faydalanma hakkına sahiptir.  66  Sağlık protokolü gereği öğrenci, devlet 
+ hastanelerindeki acil muayene, poliklinik hizmetleri ve yatarak tedavilerde İspanyol 
+ vatandaşlarıyla aynı şartlara tabi olur ve (varsa) sadece İspanyol yasalarının öngördüğü asgari 
+ katılım paylarını (co-pago) öder. 
+ AT11 Belgesinin Yasal Sınırlamaları:  Ancak AT11 belgesinin  yasal kapsamı oldukça sınırlıdır. 
+ Belge, kesinlikle özel sağlık kuruluşlarını, özel hastaneleri, özel diş tedavilerini ve uzun vadeli 
+ planlı tedavi süreçlerini kapsamaz.  66  Daha da önemlisi;  uluslararası hareketlilikte çok kritik bir 
+ madde olan  Cenaze Nakli (Repatriation of remains)  ve Acil Tıbbi Nedenlerle Ülkeye Geri 
+ Dönüş/Tahliye (Repatriation for medical reasons) masrafları SGK'nın AT11 belgesi kapsamı 
+ dışındadır ve kurum tarafından karşılanmaz  .  67 
+ 4.2. Universidad de Jaén (UJA) "Repatriation" Şartı ve Özel Sigorta 
+ Zorunluluğu 
+ Universidad de Jaén (UJA) Uluslararası İlişkiler ve İşbirliği Servisi'nin (Servicio de Relaciones 
+ Internacionales y Cooperación) resmi kurallarına göre, Avrupa Birliği dışından (Türkiye gibi) 
+ gelen tüm (incoming) Erasmus+ öğrencilerinin, hareketliliğe başlamadan önce eğitim süresinin 
+ tamamını (10 veya 12 ay) kesintisiz olarak kapsayan, özel bir Tam Kapsamlı Seyahat Asistanlığı ve 
+ Sağlık Sigortası (Travel Assistance and Health Insurance) poliçesi ibraz etmeleri zorunludur.  68 
+ Üniversitenin mevzuatı son derece nettir: UJA, gelen değişim öğrencileri için sigorta sağlamaz 
+ ve tüm yasal sorumluluk öğrenciye aittir.  72  Sadece  SGK AT11 formuna sahip olmak, UJA'nın 
+ resmi akademik kayıt ve hareketlilik protokolü için hukuken yetersizdir.  Bunun temel 
+ sebebi, üniversitenin "Ölüm Sigortası ve Cenaze Nakli" maddesini kayıt için ön koşul olarak 
+ görmesi, AT11 belgesinin ise bu riski teminat altına almamasıdır. Öğrencinin UJA'nın UMOVE adlı 
+ kayıt platformuna ek özel sigorta poliçesi yüklemesi yasal bir zorunluluktur. 
+ UJA Kayıt Sistemi İçin Zorunlu Özel Sigorta Kapsam Maddeleri (Contingencies):  UJA'ya 
+ sunulacak özel sigorta poliçesinde veya poliçeyi düzenleyen sigorta firmasından (örn: 
+ OnCampus, Mapfre, Sanitas, vb.) alınacak resmi poliçe onay mektubunda (certificate/report), 
+ aşağıdaki  5 ana teminat maddesinin açıkça (expressly)  ve madde madde yazılmış olması 
+ zorunludur  .  70  Eğer poliçede bu beş madde açıkça belirtilmemişse,  evrak UMOVE sistemi 
+ yöneticileri tarafından geçersiz sayılarak (invalid) silinecektir.  70 
+ UJA Zorunlu Sigorta Maddesi (İngilizce 
+ Orijinal İsim) 
+ Operasyonel Kapsam ve İstenen Hukuki 
+ Teminat Şartları 
+ 1. Travel Insurance  (Seyahat Sigortası)  Seyahat esnasında öğrencinin bagajının 
+ (luggage) kaybolması, gecikmesi veya hasar 
+ görmesi durumunda doğacak zararların 
+ finansal olarak karşılanması. 
+ 2. Medical Assistance  (Tıbbi Müdahale)  İspanya'daki kaza ve ciddi hastalık durumlarında 
+ gerekli acil tıbbi müdahalenin ve hastane 
+ masraflarının karşılanması. Bu teminat, kaza 
+ veya hastalık sonucu oluşabilecek  geçici veya 
+ kalıcı sakatlık  (temporary or permanent 
+ disability) tazminatlarını da içermek zorundadır. 
+ 3. Death Insurance & Repatriation  (Ölüm 
+ Sigortası ve Nakil) 
+ En kritik maddedir.  Yaralanan, hastalanan veya 
+ vefat eden sigortalının (öğrencinin) tıbbi nakil 
+ araçlarıyla veya cenazesinin ülkesine geri 
+ dönüşünün (repatriation of remains / medical 
+ transport) sağlanmasına yönelik tüm nakil 
+ masraflarının karşılanması. 
+ 4. Family Support  (Aile Seyahati Desteği)  Öğrencinin İspanya'da ciddi bir sebeple 
+ hastaneye yatırılması (hospitalisation) veya 
+ vefatı durumunda, Türkiye'den bir aile ferdinin 
+ İspanya'ya seyahat ve acil konaklama 
+ masraflarının sigorta şirketi tarafından 
+ karşılanması. 
+ 5. Civil Liability  (Mali Sorumluluk / Üçüncü 
+ Şahıs) 
+ Öğrencinin, İspanya'da bulunduğu süre zarfında 
+ dikkatsizlik, taksir veya kaza sonucu üçüncü 
+ şahıslara veya üçüncü şahısların mülklerine 
+ verebileceği zararların (hukuki sorumlulukların) 
+ sigorta poliçesi tarafından teminat altına 
+ alınması. 
+ Önemli Kayıt Notu:  UJA, UMOVE sistemine yüklenecek  poliçelerin standartlaşması ve 
+ reddedilme riskinin azaltılması için öğrencilere, kayıt portalı üzerinden indirilebilecek bir "Rapor 
+ Şablonu" (Report Template) sunmaktadır. Poliçe satın alınan sigorta şirketine bu şablonun 
+ doldurtularak kaşeletilmesi ve ardından UMOVE sistemine PDF olarak yüklenmesi, yasal ve idari 
+ sürecin en hızlı şekilde, hatasız onaylanmasını sağlayan optimal iş akışıdır.  70  Öğrenci dilerse 
+ UJA'nın kendi referans olarak gösterdiği şirketlerden (Örn: OnCampus) standartları halihazırda 
+ karşılayan poliçeleri doğrudan alabilmektedir.  74 
+ Alıntılanan çalışmalar 
+ 1.  A visa required for education, master - BLS International, erişim tarihi Nisan 23, 
+ 2026, 
+ https://turkey.blsspainvisa.com/ankara/assets/pdf/english/checklist-education.pdf 
+ 2.  BLS Spain Student Visa Checklist - Study Abroad - Grand Valley State University, 
+ erişim tarihi Nisan 23, 2026, 
+ https://www.gvsu.edu/studyabroad/bls-spain-student-visa-checklist-2162.htm 
+ 3.  SPANISH STUDY VISA (+180 DAYS) GUIDE AS UK STUDENT : r/GoingToSpain - 
+ Reddit, erişim tarihi Nisan 23, 2026, 
+ https://www.reddit.com/r/GoingToSpain/comments/1ebqbba/spanish_study_visa_ 
+ 180_days_guide_as_uk_student/ 
+ 4.  STUDENTS VISA (UP TO 90 DAYS) Documents Required Completed application 
+ form for short‐term visa with a date and 2 signatures 1, erişim tarihi Nisan 23, 
+ 2026, 
+ https://turkey.blsspainvisa.com/istanbul/assets/pdf/english/student-checklist.pdf 
+ 5.  Study visa - Ministerio de Asuntos Exteriores, Unión Europea y Cooperación, 
+ erişim tarihi Nisan 23, 2026, 
+ https://www.exteriores.gob.es/Consulados/losangeles/en/ServiciosConsulares/Pa 
+ ginas/Consular/Visado-de-estudios.aspx 
+ 6.  SSU/SLU/SLF/ERASMUS Types of Education Visas: More than 90 days, less than 
+ 180 days, and more than 180 days General Warnings: - BLS International, erişim 
+ tarihi Nisan 23, 2026, 
+ https://turkey.blsspainvisa.com/istanbul/assets/pdf/english/national_SSU_SLU_Stu 
+ dent.pdf 
+ 7.  Study visa - Ministerio de Asuntos Exteriores, Unión Europea y Cooperación, 
+ erişim tarihi Nisan 23, 2026, 
+ https://www.exteriores.gob.es/Consulados/Manchester/en/ServiciosConsulares/P 
+ aginas/Consular/Visado-de-estudios.aspx 
+ 8.  GENERAL STUDENT VISA - BLS International, erişim tarihi Nisan 23, 2026, 
+ https://usa.blsspainvisa.com/washington/assets/pdf/checklist-general-student.pd 
+ f 
+ 9.  Spain Student Visa from Istanbul - BLS International, erişim tarihi Nisan 23, 2026, 
+ https://turkey.blsspainvisa.com/istanbul/english/student-visa.php 
+ 10.  erişim tarihi Nisan 23, 2026, 
+ https://www.study-abroad.org/blog/es-student-visa-guide/#:~:text=Spain%20req 
+ uires%20you%20to%20demonstrate,need%20at%20least%20%E2%82%AC6%2 
+ C000. 
+ 11.  IPREM Spain 2026 >> How to Work Out Visa Requirements, erişim tarihi Nisan 23, 
+ 2026,  https://movingtospain.com/iprem-spain/ 
+ 12.  Student Visa Guide Spain 2026: Step by Step Blog - Study Abroad, erişim tarihi 
+ Nisan 23, 2026,  https://www.study-abroad.org/blog/es-student-visa-guide/ 
+ 13.  Student visa in Spain 2026 - Immigration Resolution, erişim tarihi Nisan 23, 2026, 
+ https://immigrationresolution.com/student-visa-in-spain-2025/ 
+ 14.  İspanya Turistik Vize - Eagvs, erişim tarihi Nisan 23, 2026, 
+ https://www.eagvs.com/ispanya/turistik-vize-icin-gerekli-evraklar 
+ 15.  İspanya vizesi için gerekli evraklar (Schengen) - Quick Sigorta, erişim tarihi Nisan 
+ 23, 2026, 
+ https://quicksigorta.com/qguncel/ispanya-vizesi-icin-gerekli-evraklar-schengen-6 
+ 16f7000 
+ 16.  10035. Alta en el Padrón Municipal de Habitantes - Sede electrónica - 
+ Ayuntamiento de Jaén, erişim tarihi Nisan 23, 2026, 
+ https://sede.aytojaen.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_COD 
+ E=CATALOGO&DETALLE=6269026880819835105011 
+ 17.  CITA PREVIA - Negociado de Estadística / Padrón Municipal - Sede electrónica - 
+ Ayuntamiento de Jaén, erişim tarihi Nisan 23, 2026, 
+ https://www.aytojaen.es/portal/p_20_contenedor1.jsp?seccion=s_fdes_d1_v1.jsp& 
+ contenido=46975&tipo=6&nivel=1400&layout=p_20_contenedor1.jsp&codResi=1 
+ &language=es 
+ 18.  Trámites de Extranjería en Jaén - Cita Ping, erişim tarihi Nisan 23, 2026, 
+ https://citaping.es/appointments/procedures/immigration/provinces/jaen/ 
+ 19.  Cita previa de extranjería - SEDE - Administraciones Públicas, erişim tarihi Nisan 
+ 23, 2026, 
+ https://sede.administracionespublicas.gob.es/pagina/index/directorio/icpplus 
+ 20.  Oficinas de Información al Ciudadano y Registro - Proceso automático para la 
+ solicitud de cita previa, erişim tarihi Nisan 23, 2026, 
+ https://ssweb.seap.minhap.es/icpplus/citar?org=OIACR 
+ 21.  Tasa modelo 790 Código 012: Reconocimientos, Autorizaciones y Concursos, 
+ erişim tarihi Nisan 23, 2026,  https://sede.policia.gob.es/Tasa790_012/ 
+ 22.  Tasa modelo 790 Código 012. Reconocimientos, Autorizaciones y Concursos - 
+ Sede electrónica de la Policía Nacional, erişim tarihi Nisan 23, 2026, 
+ https://sede.policia.gob.es/Tasa790_012/ImpresoRellenar 
+ 23.  Certificado de empadronamiento: guía para extranjeros - GILMAR, erişim tarihi 
+ Nisan 23, 2026, 
+ https://www.gilmar.es/blog/certificado-empadronamiento-extranjeros/ 
+ 24.  Tasa 790 012: Qué Es, Cómo Rellenarla y Cuánto Cuesta en 2026 - TaxDown, 
+ erişim tarihi Nisan 23, 2026, 
+ https://taxdown.es/extranjeros/tasa-790-012-que-es-como-rellenar-precio 
+ 25.  Guía Completa del Contrato de Alquiler de Habitación en España - Urbeme, 
+ erişim tarihi Nisan 23, 2026, 
+ https://urbeme.com/blog/contrato-alquiler-habitacion-espana 
+ 26.  What you need to know to legally rent your apartment to international students - 
+ Lodgerin, erişim tarihi Nisan 23, 2026, 
+ https://www.lodgerin.com/public/posts/rent-apartment-international-students-sp 
+ ain-legal-guide 
+ 27.  Spanish Rental Contract: Every Clause Explained (2026) - WaypointSur Guides, 
+ erişim tarihi Nisan 23, 2026,  https://guides.waypointsur.com/rental-contract-spain/ 
+ 28.  Los estudiantes que firmen un contrato de alquiler temporal tienen que depositar 
+ una fianza de dos mensualidades - Noticias - Junta de Andalucía, erişim tarihi 
+ Nisan 23, 2026, 
+ https://www.juntadeandalucia.es/organismos/sanidadpresidenciayemergencias/s 
+ ervicios/actualidad/noticias/detalle/603595.html 
+ 29.  How avoid frauds when signing a rent contract in Spain | Erasmus tips - 
+ Erasmusu.com, erişim tarihi Nisan 23, 2026, 
+ https://erasmusu.com/en/erasmus-blog/erasmus-tips/how-avoid-frauds-when-si 
+ gning-a-rent-contract-in-spain-286966 
+ 30.  Si alquila a estudiantes, este artículo le interesa - Servicios Fincas, erişim tarihi 
+ Nisan 23, 2026, 
+ https://latasadora.com/index.php/es/blog/si-alquila-a-estudiantes-este-articulo-l 
+ e-interesa?tmpl=component&print=1&format=print 
+ 31.  Los estudiantes que firmen un contrato de alquiler temporal tienen que depositar 
+ una fianza de dos mensualidades | Consumo Responde, erişim tarihi Nisan 23, 
+ 2026, 
+ https://www.consumoresponde.es/actualidad/noticias/estudiantes-contrato-alquil 
+ er-temporal-deben-depositar-fianza-dos-mensualidades 
+ 32.  Recupera la fianza - Junta de Andalucía, erişim tarihi Nisan 23, 2026, 
+ https://www.juntadeandalucia.es/organismos/avra/areas/fianzas/recupera.html 
+ 33.  Por fin le devuelven la fianza depositada para el alquiler de su vivienda | 
+ Defensoría de la Infancia y Adolescencia de Andalucía, erişim tarihi Nisan 23, 
+ 2026, 
+ https://defensordelmenordeandalucia.es/por-fin-le-devuelven-la-fianza-deposita 
+ da-para-el-alquiler-de-su-vivienda 
+ 34.  ¿Qué es la fianza del alquiler? - Madrid - Sindicato de Inquilinas, erişim tarihi Nisan 
+ 23, 2026,  https://inquilinato.org/faqs/que-es-fianza-alquiler/ 
+ 35.  Le devuelven la fianza por arrendar una vivienda y le indemnizan por la demora | 
+ Defensoría de la Infancia y Adolescencia de Andalucía, erişim tarihi Nisan 23, 
+ 2026, 
+ https://www.defensordelmenordeandalucia.es/le-devuelven-la-fianza-por-arrend 
+ ar-una-vivienda-y-le-indemnizan-por-la-demora 
+ 36.  Todo lo que debe saber sobre los arrendamientos de habitaciones - Antolino 
+ Advocats, erişim tarihi Nisan 23, 2026, 
+ https://www.antolinoadvocats.com/noticias/abogados-barcelona/todo-lo-que-de 
+ be-saber-sobre-los-arrendamientos-de-habitaciones 
+ 37.  How to Avoid Rental Scams in Spain: A Guide for Expats and Students, erişim 
+ tarihi Nisan 23, 2026, 
+ https://www.healthplanspain.com/blog/expat-tips/2164-how-to-avoid-rental-sca 
+ ms-in-spain.html 
+ 38.  Mi Casero No Me Devuelve la Fianza: Guía 2025 para Reclamarla Efectivamente 
+ en España - Alex AI, erişim tarihi Nisan 23, 2026, 
+ https://alexlegal.ai/inquilinos/mi-casero-no-me-devuelve-la-fianza-reclamar-alqui 
+ ler 
+ 39.  Cómo presentar una hoja de quejas y reclamaciones de la Junta de Andalucía, 
+ erişim tarihi Nisan 23, 2026, 
+ https://www.consumoresponde.es/art%C3%ADculos/como_presentar_una_hoja_ 
+ de_quejas_y_reclamaciones_de_la_junta_de_andalucia 
+ 40.  Tramitación de Hoja de Quejas y Reclamaciones de las personas consumidoras y 
+ usuarias en Andalucía - Procedimientos y servicios, erişim tarihi Nisan 23, 2026, 
+ https://www.juntadeandalucia.es/servicios/sede/tramites/procedimientos/detalle/ 
+ 2634.html 
+ 41.  Reclamaciones en materia de alquiler de viviendas - Consumo Responde |, erişim 
+ tarihi Nisan 23, 2026, 
+ https://www.consumoresponde.es/art%C3%ADculos/reclamaciones_en_materia_ 
+ de_alquiler_de_viviendas 
+ 42.  Fraud in Spain: Anti-Fraud Law, Penalties & Prevention - Lawants, erişim tarihi 
+ Nisan 23, 2026,  https://www.lawants.com/en/fraud-in-spain/ 
+ 43.  English Spanish Legal Glossary - Pro Bono Project, erişim tarihi Nisan 23, 2026, 
+ https://www.lacsnprobono.org/images/pdfs-doc/Spanish-Legal-Glossary.pdf 
+ 44.  English-Spanish Legal Terminology Glossary - Utah Courts, erişim tarihi Nisan 23, 
+ 2026, 
+ https://www.utcourts.gov/en/court-records-publications/resources/court-interpre 
+ ters/glossary.html 
+ 45.  Glossary of Legal Terminology - Spanish for Lawyers, erişim tarihi Nisan 23, 2026, 
+ https://spanishforlawyers.tyla.org/glossary-of-terms/ 
+ 46.  Modelo de contrato de alquiler de habitación (2026) - Abogados Para Todos, 
+ erişim tarihi Nisan 23, 2026, 
+ https://www.abogadosparatodos.net/modelo-de-contrato-de-alquiler-de-habita 
+ cion-impago-de-alquiler-y-arrendamientos/ 
+ 47.  Five legal pitfalls in Spanish rental contracts – and why professionals must 
+ understand them, erişim tarihi Nisan 23, 2026, 
+ https://www.fei-business-school.com/inspiration/five-legal-pitfalls-in-spanish-ren 
+ tal-contracts-and-why-professionals-must-understand-them 
+ 48.  Causas de acción para propietarios e inquilinos: "Cuando las cosas van mal" | 
+ Biblioteca de Derecho Popular de Maryland - People's Law Library, erişim tarihi 
+ Nisan 23, 2026, 
+ https://www.peoples-law.org/es/landlord-and-tenant-causes-action-when-things 
+ -go-wrong 
+ 49.  Erasmus Without Papers Project (EWP) - AEC, erişim tarihi Nisan 23, 2026, 
+ https://aec-music.eu/userfiles/File/customfiles/ewp-and-ola-information_2017092 
+ 0112618.pdf 
+ 50.  How Erasmus Without Paper works - Erasmus+ - European Union, erişim tarihi 
+ Nisan 23, 2026, 
+ https://erasmus-plus.ec.europa.eu/european-student-card-initiative/ewp/how-it- 
+ works 
+ 51.  Comprehensive User Guide for Digital Erasmus+ Learning Agreements, erişim 
+ tarihi Nisan 23, 2026, 
+ https://erasmus-plus.ec.europa.eu/sites/default/files/2023-10/User-Guide-Erasmu 
+ s-Digital-LA_en.pdf 
+ 52.  Guidelines on how to use the Online Learning Agreement for Studies - Erasmus+, 
+ erişim tarihi Nisan 23, 2026, 
+ https://erasmus-plus.ec.europa.eu/sites/default/files/2021-09/learning-agreement 
+ -studies-guidelines-final-2021_0.pdf 
+ 53.  About the EWP Dashboard - Erasmus+ - European Union, erişim tarihi Nisan 23, 
+ 2026, 
+ https://erasmus-plus.ec.europa.eu/european-student-card-initiative/ewp/dashbo 
+ ard 
+ 54.  Guidelines on how to use the Erasmus+ Learning Agreement for Studies (KA131), 
+ erişim tarihi Nisan 23, 2026, 
+ https://erasmus-plus.ec.europa.eu/resources-and-tools/mobility-and-learning-ag 
+ reements/learning-agreements/studies-agreement-guidelines-ka131 
+ 55.  ewp - ola user guide - Università Bocconi, erişim tarihi Nisan 23, 2026, 
+ https://www.unibocconi.it/sites/default/files/User%20guide%20EWP-OLA_202407 
+ 08.pdf 
+ 56.  Students - Erasmus Without Paper - Confluence, erişim tarihi Nisan 23, 2026, 
+ https://esci-sd.atlassian.net/wiki/spaces/EWP/pages/10879380 
+ 57.  Manual: Online Learning Agreement (OLA) - TUM School of Management, erişim 
+ tarihi Nisan 23, 2026, 
+ https://www.mgt.tum.de/fileadmin/mgt.tum.de/downloads/international_exchang 
+ e_programs/Going_abroad/Manual_Online_Learning_Agreement_OLA_Outgoing 
+ _UPLOAD.pdf 
+ 58.  Transition to the updated EWP inter-institutional agreement API (version 7) | 
+ Erasmus+, erişim tarihi Nisan 23, 2026, 
+ https://erasmus-plus.ec.europa.eu/whats-new/news/transition-to-the-updated-e 
+ wp-inter-institutional-agreement-api-version-7 
+ 59.  Erasmus Goes Digital Webinar - Erasmus+, erişim tarihi Nisan 23, 2026, 
+ https://erasmus-plus.ec.europa.eu/sites/default/files/2023-10/EWP-webinar-slides 
+ -Dashboard-sept23.pdf 
+ 60.  Process of Accepting or Declining an OLA - EWP Dashboard - Confluence, erişim 
+ tarihi Nisan 23, 2026, 
+ https://esci-sd.atlassian.net/wiki/spaces/DASH/pages/22052874/Filter+accept+and 
+ +decline+OLAs+enhanced+EWP-Dashboard 
+ 61.  E R A S M U S +, erişim tarihi Nisan 23, 2026, 
+ https://erasmus.us.edu.pl/wp-content/uploads/2024/12/Guide-for-students-going 
+ -on-mobility-for-studies-under-Erasmus-2024-2025.pdf 
+ 62.  RULES FOR IMPLEMENTING STUDENT MOBILITY UNDER THE ERASMUS+ 
+ PROGRAMME Requirements, recruitment, implementation, settlement and 
+ recognition - Vincent Pol University, erişim tarihi Nisan 23, 2026, 
+ https://vpu.edu.pl/regulations-for-students-mobilities-within-erasmus-programm 
+ e/ 
+ 63.  During the mobility - polimi, erişim tarihi Nisan 23, 2026, 
+ https://www.polimi.it/en/campus-e-servizi/international-mobility/study-abroad/aft 
+ er-the-selection/mobility-for-study/during-the-mobility 
+ 64.  ERASMUS+ FOR STUDIES PROGRAMME A.Y. 2024/2025 USEFUL INFORMATION 
+ FOR OUTGOING ERASMUS+ STUDENTS PROCEDURE FOR ONGOING MOBILITY - 
+ The University of Turin, erişim tarihi Nisan 23, 2026, 
+ https://en.unito.it/sites/sten/files/useful_information_outgoing_2024_2025_ongoin 
+ g.pdf 
+ 65.  Guidelines on how to use the Erasmus+ Online Learning Agreement for Studies, 
+ erişim tarihi Nisan 23, 2026, 
+ https://erasmus-plus.ec.europa.eu/sites/default/files/2022-06/2022-guidelines-lea 
+ rning-studies_en.pdf 
+ 66.  Yurt Dışı Sağlık Güvencesinde Anahtar Belge: SGK AT11 Formu Hakkında Her Şey, 
+ erişim tarihi Nisan 23, 2026, 
+ https://tercumex.com.tr/yurt-disi-saglik-guvencesinde-anahtar-belge-sgk-at11-fo 
+ rmu-hakkinda-her-sey/ 
+ 67.  AT 11 - AT11 Belgesi - SGK'da Gerekli Belgeler - ELT Yurtdışı Eğitim, erişim tarihi 
+ Nisan 23, 2026,  https://www.elt.com.tr/almanyada-universite-egitimi/at-11-belgesi 
+ 68.  Welcome to the University of Jaén!, erişim tarihi Nisan 23, 2026, 
+ https://oldsite.unipi.gr/unipi/images/various/tmim_die_sxes/erasmus_guidelines.pd 
+ f 
+ 69.  Information on insurances for participants in the Erasmus Study Programme 
+ Programm, erişim tarihi Nisan 23, 2026, 
+ https://www.h-ka.de/fileadmin/Hochschule_Karlsruhe_HKA/Bilder_LE-KOOR/HKA 
+ _LE_KOOR/Dokumente/HKA_LE_KOOR_Insurance_Declaration_SMS.pdf 
+ 70.  Healthcare and Insurance during the International Mobility Stay - Universidad de 
+ Jaén, erişim tarihi Nisan 23, 2026, 
+ https://www.ujaen.es/internacional/en/uja-students/healthcare-and-insurance-du 
+ ring-international-mobility-stay 
+ 71.  Prepare your stay at UJA | International - Universidad de Jaén, erişim tarihi Nisan 
+ 23, 2026,  https://www.ujaen.es/internacional/en/prepare-your-stay-uja 
+ 72.  university of jaén data sheet for international exchange programmes, erişim tarihi 
+ Nisan 23, 2026, 
+ https://www.unitn.it/sites/default/files/2025-02/DL_Ja%C3%A9n_Factsheet_2025- 
+ 26.pdf 
+ 73.  university of jaén data sheet for international exchange programmes, erişim tarihi 
+ Nisan 23, 2026, 
+ https://oia.ncnu.edu.tw/var/file/17/1017/img/328/data_sheet_EJAEN01Sept2024.pdf 
+ 74.  Mobility Insurance for Incoming Students | International - Universidad de Jaén, 
+ erişim tarihi Nisan 23, 2026, 
+ https://www.ujaen.es/internacional/en/international-students/exchange-students/ 
+ mobility-insurance-incoming-students 
+
+
