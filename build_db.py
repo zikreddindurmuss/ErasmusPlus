@@ -1,5 +1,5 @@
 import os
-from langchain_community.document_loaders import PyPDFDirectoryLoader
+from langchain_community.document_loaders import PyPDFDirectoryLoader, DirectoryLoader, Docx2txtLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
@@ -13,16 +13,24 @@ def build_vector_database():
         return
 
     print("1. PDF dosyaları yükleniyor...")
-    loader = PyPDFDirectoryLoader(input_directory)
-    documents = loader.load()
-    
-    if not documents:
-        print(f"Hata: '{input_directory}' klasöründe PDF dosyası bulunamadı.")
-        return
-        
-    print(f"Toplam {len(documents)} sayfa belge okundu.")
+    pdf_loader = PyPDFDirectoryLoader(input_directory)
+    pdf_documents = pdf_loader.load()
+    print(f"   -> {len(pdf_documents)} sayfa PDF okundu.")
 
-    print("2. Metinler uygun parçalara bölünüyor...")
+    print("2. Word (.docx) dosyaları yükleniyor...")
+    word_loader = DirectoryLoader(input_directory, glob="**/*.docx", loader_cls=Docx2txtLoader)
+    word_documents = word_loader.load()
+    print(f"   -> {len(word_documents)} adet Word belgesi okundu.")
+
+    documents = pdf_documents + word_documents
+
+    if not documents:
+        print(f"Hata: '{input_directory}' klasöründe PDF veya Word dosyası bulunamadı.")
+        return
+
+    print(f"Toplam {len(documents)} belge birleştirildi.")
+
+    print("3. Metinler uygun parçalara bölünüyor...")
     text_splitter = RecursiveCharacterTextSplitter(
         chunk_size=1000,
         chunk_overlap=150
@@ -30,10 +38,10 @@ def build_vector_database():
     chunks = text_splitter.split_documents(documents)
     print(f"Toplam {len(chunks)} adet metin parçası (chunk) oluşturuldu.")
 
-    print("3. HuggingFace ile embedding işlemleri yapılıyor...")
+    print("4. HuggingFace ile embedding işlemleri yapılıyor...")
     embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
-    print("4. FAISS veritabanı oluşturuluyor ve kaydediliyor...")
+    print("5. FAISS veritabanı oluşturuluyor ve kaydediliyor...")
     vectorstore = FAISS.from_documents(chunks, embeddings)
     vectorstore.save_local(output_directory)
 

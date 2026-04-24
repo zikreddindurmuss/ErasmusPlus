@@ -10,9 +10,9 @@ TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     message = (
-        "Merhaba! Ben senin Erasmus dijital mentorunum. İspanya vizesi, "
-        "konaklama güvenliği ve bürokratik süreçlerde hata yapmaman için buradayım. "
-        "İlk olarak, sürecinin hangi aşamasındasın?"
+        "Selam dostum! Ben Erasmus mentorun. İspanya/Jaén süreciyle ilgili "
+        "vize, evrak veya sigorta gibi konularda ne derdin varsa sor, "
+        "resmi rehberden bakıp söyleyeyim."
     )
     await update.message.reply_text(message)
 
@@ -22,8 +22,9 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
     # Bot cevap verene kadar "Yazıyor..." animasyonu göster
     await context.bot.send_chat_action(chat_id=update.effective_chat.id, action=ChatAction.TYPING)
     
-    # Gemini API'sine mesajı yolla ve cevabı al
-    ai_reply = await get_ai_response(user_text)
+    # Groq API'sine mesajı yolla ve cevabı al
+    user_id = update.effective_user.id
+    ai_reply = await get_ai_response(user_text, user_id)
     
     # Kullanıcıya AI cevabını dön
     await update.message.reply_text(ai_reply)

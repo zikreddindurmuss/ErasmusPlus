@@ -1,0 +1,5 @@
+[2026-04-24 23:16:19.455402] - Soru: Vize başvurusu için banka hesabımda ne kadar para olması lazım?
+[2026-04-24 23:16:42.617673] - Soru: Merhaba, kabul mektubum geldi ama vize randevum için hala beklemedeyim. Bu süreçte yapılabilecek ek bir şey var mıdır yoksa sadece konsolosluktan haber gelmesini mi beklemeliyim?
+[2026-04-24 23:18:46.112404] - Soru: Şuan Umove Universidad de jaen sistemine girebiliyorum. Bundan sonra yapmam gerekenler neler
+[2026-04-24 23:19:40.404846] - Soru: Umove sistemine başarılı bir şekilde giriş yaptım. Öğrenim anlaşması (Learning Agreement), ders seçimi veya UJA portalı üzerinden yapmam gereken bir sonraki resmi işlem nedir?
+[2026-04-24 23:19:53.280657] - Soru: Universidad de Jaén Umove portalına / sistemine giriş yaptıktan sonra, gelen Erasmus öğrencilerinin tamamlaması gereken sonraki kayıt adımları, prosedürler ve yüklenmesi gereken evraklar tam olarak nelerdir
