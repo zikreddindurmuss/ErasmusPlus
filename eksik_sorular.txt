@@ -3,3 +3,8 @@
 [2026-04-24 23:18:46.112404] - Soru: Şuan Umove Universidad de jaen sistemine girebiliyorum. Bundan sonra yapmam gerekenler neler
 [2026-04-24 23:19:40.404846] - Soru: Umove sistemine başarılı bir şekilde giriş yaptım. Öğrenim anlaşması (Learning Agreement), ders seçimi veya UJA portalı üzerinden yapmam gereken bir sonraki resmi işlem nedir?
 [2026-04-24 23:19:53.280657] - Soru: Universidad de Jaén Umove portalına / sistemine giriş yaptıktan sonra, gelen Erasmus öğrencilerinin tamamlaması gereken sonraki kayıt adımları, prosedürler ve yüklenmesi gereken evraklar tam olarak nelerdir
+[2026-04-25 13:14:30.752666] - Soru: Peki bu parayı nakit olarak elden teslim edebiliyor muyuz?
+[2026-04-25 13:16:10.412566] - Soru: Peki dostum, az önce bahsettiğin o 15.000 Euro'luk toplam miktar sence de bir öğrenci için çok değil mi? Bu kural biraz saçma değil mi?
+[2026-04-25 13:20:52.708107] - Soru: Peki bu parayı nakit olarak elden teslim edebiliyor muyuz?
+[2026-04-25 14:05:12.444363] - Soru: Hibe miktarı ne kadar olacak benim için Jaen e gideceğim
+[2026-04-25 14:06:17.965398] - Soru: Bahar döneminde gideceğim, takvim ne peki umove girdim sadece şuan ne yapmam lazım
