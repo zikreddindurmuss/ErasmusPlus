@@ -1,0 +1,29 @@
+# 2026-2027 Erasmus Hibe Miktarları, Seyahat Destekleri ve Seçim Ölçütleri
+
+## 1. Aylık Öğrenim Hibe Miktarları (Ülke Gruplarına Göre)
+
+| Ülke Grupları | Hareketlilikte Misafir Olunan Ülkeler | Aylık Hibe Öğrenim (Avro) |
+| :--- | :--- | :--- |
+| **1. ve 2. Grup Program Ülkeleri** | Almanya, Avusturya, Belçika, Çek Cumhuriyeti, Danimarka, Estonya, Finlandiya, Fransa, Güney Kıbrıs Rum Yönetimi, Hollanda, İrlanda, İspanya, İsveç, İtalya, İzlanda, Letonya, Lihtenştayn, Lüksemburg, Malta, Norveç, Portekiz, Slovakya, Slovenya, Yunanistan | 600 |
+| **3. Grup Program Ülkeleri** | Bulgaristan, Hırvatistan, Kuzey Makedonya, Litvanya, Macaristan, Polonya, Romanya, Sırbistan, Türkiye | 450 |
+
+## 2. Seyahat Mesafesine Göre Hibe Tutarları
+
+| Seyahat Mesafesi (KM) | Standart Seyahat Hibe Tutarı (Avro) | Yeşil Seyahat Hibe Tutarı (Avro) |
+| :--- | :--- | :--- |
+| 10 ila 99 KM arasında | 28 | 56 |
+| 100 ila 499 KM arasında | 211 | 285 |
+| 500 ila 1999 KM arasında | 309 | 417 |
+| 2000 ila 2999 KM arasında | 395 | 535 |
+| 3000 ila 3999 KM arasında | 580 | 785 |
+| 4000 ila 7999 KM arasında | 1188 | 1188 |
+| 8000 KM veya daha fazla | 1735 | 1735 |
+
+## 3. Erasmus Başvurusu Seçim Ölçütleri ve Puanlamalar
+
+| SEÇİM ÖLÇÜTÜ | PUAN | AÇIKLAMA |
+| :--- | :--- | :--- |
+| Şehit ve Gazi çocuklarına | +15 | |
+| Engelli öğrencilere (engellilik belgelenmek kaydıyla) | +10 | Engellilik durumu için öğrencinin 20 Şubat 2019 tarih ve 30692 sayılı Resmi Gazete'de yayımlanan "Erişkinler İçin Engellilik Değerlendirmesi Hakkında Yönetmelik"te yer alan Engellilik Sağlık Kurulu raporunu ibraz etmesi gerekir. |
+| 2828 sayılı Sosyal Hizmetler Kanunu ve 5395 Çocuk Koruma Kanunu kapsamında haklarında korunma, bakım veya barınma kararı alınmış öğrencilere | +10 | Öğrencinin Aile ve Sosyal Politikalar Bakanlığı'ndan hakkında 2828 sayılı Kanun uyarınca koruma, bakım veya barınma kararı olduğuna dair yazıyı ibraz etmesi gerekir. |
+| Kendileri veya birinci derece yakınları AFAD'dan afetzede yardımı alanlar | +10 | Tek sefere mahsus olarak uygulanır. Seçildiği takdirde öğrencinin

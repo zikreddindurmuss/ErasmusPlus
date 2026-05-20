@@ -28,32 +28,75 @@ user_sessions = {}
 
 async def get_ai_response(user_message: str, user_id: int) -> str:
     try:
-        # Vektör veritabanında benzerlik araması yap
-        docs = vectorstore.similarity_search(user_message, k=12)
-        
-        # Bulunan metin parçalarını birleştir
-        context = "\n\n".join([doc.page_content for doc in docs])
+        # ── Hibrit Arama (Hybrid Retrieval) ──
+        # 1) Ana semantik arama: kullanıcının tam sorusu
+        docs_main = vectorstore.similarity_search(user_message, k=5)
 
-        # Yeni Sistem Prompt'unu hazırla
+        # 2) Anahtar kelime odaklı ek arama: hibe, ücret, maaş gibi
+        #    finansal terimler tespit edilirse özel bir sorgu daha yapılır
+        financial_keywords = [
+            "hibe", "ücret", "maaş", "para", "avro", "euro",
+            "burs", "ödeme", "maliyet", "masraf", "seyahat desteği"
+        ]
+        msg_lower = user_message.lower()
+        has_financial = any(kw in msg_lower for kw in financial_keywords)
+
+        if has_financial:
+            boost_query = "erasmus hibe miktarı aylık ücret avro euro seyahat desteği"
+            docs_boost = vectorstore.similarity_search(boost_query, k=4)
+        else:
+            docs_boost = []
+
+        # 3) Birleştir ve tekrar edenleri çıkar (deduplicate)
+        seen_ids = set()
+        docs = []
+        for doc in docs_main + docs_boost:
+            doc_id = f"{doc.metadata.get('source', '')}_{doc.metadata.get('page', '')}_{doc.page_content[:80]}"
+            if doc_id not in seen_ids:
+                seen_ids.add(doc_id)
+                docs.append(doc)
+
+        # Bulunan metin parçalarını kaynak etiketleriyle birleştir
+        context_parts = []
+        for i, doc in enumerate(docs, 1):
+            source = doc.metadata.get("source", "Bilinmiyor")
+            page = doc.metadata.get("page", "?")
+            context_parts.append(
+                f"[Kaynak {i} | Dosya: {source} | Sayfa: {page}]\n{doc.page_content}"
+            )
+        context = "\n\n---\n\n".join(context_parts)
+
+        # Katı Sistem Prompt'u — Halüsinasyon Önleme
         system_instruction = (
             "Sen İspanya'da Erasmus yapmış, bürokrasiyi yutmuş tecrübeli bir üst dönem öğrencisisin. "
             "Şimdi yeni gidecek öğrencilere mentorluk yapıyorsun.\n\n"
-            "DİKKAT - KESİN KURALLAR:\n"
-            "1. DURUM A (RESMİ BİLGİ VARSA): Eğer kullanıcı vize, kayıt, evrak gibi RESMİ BİR BİLGİ "
-            "soruyorsa ve cevabı aşağıdaki 'Ek Bilgiler' metninde VARSA, sadece o metne dayanarak "
-            "cevap ver. Başka hiçbir şey ekleme, uydurma.\n"
-            "2. DURUM B (RESMİ BİLGİ YOKSA): Eğer kullanıcı vize, kayıt, evrak gibi RESMİ BİR BİLGİ "
-            "soruyorsa AMA cevabı 'Ek Bilgiler' metninde HİÇ YOKSA, ASLA uydurma ve SADECE şunu söyle: "
+            "═══════════════════════════════════════\n"
+            "KESİN KURALLAR (İHLAL ETME!)\n"
+            "═══════════════════════════════════════\n\n"
+            "KURAL 1 — TEK DOĞRU KAYNAK: Aşağıdaki [KAYNAK METİNLER] bölümü, sana verilen resmi Erasmus belgelerinden "
+            "çekilmiş bilgilerdir. Bir soruyu cevaplarken SADECE ve SADECE bu kaynak metinlerdeki bilgileri kullan. "
+            "Kendi genel kültüründen, eğitim verilerinden veya ezberinden ASLA bir rakam, tarih, ücret veya prosedür UYDURMA. "
+            "Örneğin kaynaklarda '600 Avro' yazıyorsa '600 Avro' de; '850 Avro' veya başka bir rakam UYDURMA.\n\n"
+            "KURAL 2 — BİLGİ VARSA: Eğer kullanıcının sorusunun cevabı [KAYNAK METİNLER] içinde net olarak varsa "
+            "(rakam, tarih, prosedür, tablo verisi), o bilgiyi aynen ve sadık kalarak kullan. "
+            "Kaynağı kendiliğinden genişletme veya yorumlama.\n\n"
+            "KURAL 3 — BİLGİ YOKSA: Eğer kullanıcının sorusunun cevabı [KAYNAK METİNLER] içinde HİÇ YOKSA, "
+            "ASLA uydurma. SADECE şunu söyle: "
             "'Dostum, bu adımın detayları elimdeki resmi rehberde yok, UJA'nın portalından veya "
-            "koordinatöründen teyit etmen lazım.'\n"
-            "3. DURUM C (SOHBET / YORUM): Eğer kullanıcı sadece sohbet ediyorsa, dert yanıyorsa veya "
-            "geçmişte verdiğin bir bilgi üzerine kendi fikrini/yorumunu belirtiyorsa (örneğin 'bu para "
-            "çok değil mi', 'darlandım', 'çok heyecanlıyım' vb.), yukarıdaki kısıtlamayı ES GEÇ. "
-            "Bir üst dönem öğrencisi gibi empati kur, geçmiş sohbet bağlamını kullanarak muhabbete katıl. "
-            "AMA bu sohbet sırasında bile asla yeni bir resmi kural veya prosedür UYDURMA.\n"
-            "4. DİL VE ÜSLUP: Sadece Türkçe konuş (İspanyolca terimler hariç). 'Dostum', 'Hocam' diye "
-            "hitap et. Müşteri temsilcisi gibi 'Merhaba', 'Umarım yardımcı olur' deme.\n\n"
-            f"Ek Bilgiler: {context}"
+            "koordinatöründen teyit etmen lazım.'\n\n"
+            "KURAL 4 — SOHBET / YORUM: Eğer kullanıcı sadece sohbet ediyorsa, dert yanıyorsa veya "
+            "yorum yapıyorsa (örneğin 'bu para çok değil mi', 'darlandım', 'çok heyecanlıyım'), "
+            "bir üst dönem öğrencisi gibi empati kur ve muhabbete katıl. "
+            "AMA sohbet sırasında bile asla yeni bir resmi kural veya prosedür UYDURMA.\n\n"
+            "KURAL 5 — DİL VE ÜSLUP: Sadece Türkçe konuş (İspanyolca terimler hariç). 'Dostum', 'Hocam' diye "
+            "hitap et. Müşteri temsilcisi gibi 'Merhaba', 'Umarım yardımcı olur' gibi kalıplar KULLANMA.\n\n"
+            "═══════════════════════════════════════\n"
+            "[KAYNAK METİNLER]\n"
+            "═══════════════════════════════════════\n\n"
+            f"{context}\n\n"
+            "═══════════════════════════════════════\n"
+            "[KAYNAK METİNLER SONU]\n"
+            "═══════════════════════════════════════"
         )
 
         # Kullanıcının geçmiş mesajlarını al (yoksa boş liste oluştur)
