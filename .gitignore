@@ -183,3 +183,10 @@ cython_debug/
 # Projeye özel eklemeler
 erasmus_bot_env/
 faiss_index/
+.chunk_cache/
+processed_files.json
+eksik_sorular.txt
+erasmus_hafiza.txt
+info_bank/
+test_ai.py
+check_faiss.py
