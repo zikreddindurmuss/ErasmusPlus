@@ -22,7 +22,6 @@ vectorstore = FAISS.load_local(
     allow_dangerous_deserialization=True
 )
 
-
 # Kullanıcı bazlı kısa süreli hafıza (Sliding Window)
 user_sessions = {}
 

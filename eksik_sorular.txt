@@ -13,3 +13,23 @@
 [2026-05-21 00:19:22.877963] - Soru: İspanya Universidad de Jaén için aylık hibe miktarı ne kadardır?
 [2026-05-21 00:19:24.273699] - Soru: Japonya'daki üniversiteler hangileri?
 [2026-05-21 00:23:33.348254] - Soru: Japonya'daki üniversiteler hangileri?
+[2026-05-21 23:05:51.255846] - Soru: Erasmus öğrenim hareketliliği süresince staj yapabilir miyim, kuralı ne?
+[2026-05-21 23:05:52.369513] - Soru: Japonya'daki üniversiteler hangileri?
+[2026-05-21 23:06:40.267331] - Soru: Erasmus öğrenim hareketliliği süresince staj yapabilir miyim, kuralı ne?
+[2026-05-21 23:06:40.894291] - Soru: Japonya'daki üniversiteler hangileri?
+[2026-05-21 23:08:40.164900] - Soru: Erasmus öğrenim hareketliliği süresince staj yapabilir miyim, kuralı ne?
+[2026-05-21 23:08:40.745054] - Soru: Japonya'daki üniversiteler hangileri?
+[2026-05-21 23:09:28.139880] - Soru: Japonya'daki üniversiteler hangileri?
+[2026-05-21 23:21:32.010146] - Soru: Öğrenci: Konaklama zorunluluğunun nasıl kaldırılacağını bilemiyorum. Hangi kurumda başvurulmalı? Kasa kredi kartı ile ödeme yapabiliyor musunuz?
+[2026-05-21 23:21:34.192914] - Soru: Stajı yapabilir miyim?
+[2026-05-21 23:21:35.349152] - Soru: Stajı yapabilir miyim?
+[2026-05-21 23:21:36.270171] - Soru: Stajı tamamlamak için kaç ay gerekiyor?
+[2026-05-21 23:21:54.549455] - Soru: Stajı nasıl başvurabilirim?
+[2026-05-21 23:22:04.706239] - Soru: Stajı tamamlamak için kaç ay gerekiyor?
+[2026-05-21 23:22:20.033849] - Soru: Öğrenci: Konaklama zorunluluğunun nasıl kaldırılacağını bilmeyi mi istiyorsunuz?
+[2026-05-21 23:22:26.080340] - Soru: Konaklama zorunluluğunun kaldırılmasını için başvurulması gereken kurumsal süreçlerinizi biliyor musunuz?
+[2026-05-21 23:22:44.629912] - Soru: Öğrenci, hangi tür bir kurumsal süreçleri tamamlamak için yeterli bilgiye sahip olmayışına neden olduğunu anlıyor mu?
+[2026-05-21 23:23:51.371386] - Soru: Stajı yapabilir miyim?
+[2026-05-21 23:24:34.438659] - Soru: Stajı nasıl başvurabilirim?
+[2026-05-21 23:24:44.569901] - Soru: Stajı yapabilir miyim?
+[2026-05-21 23:49:02.491476] - Soru: Japonya'daki üniversiteler hangileri?

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "T1_HIBE_TABLO",
+    "soru": "İspanya'ya gidecek bir Erasmus öğrencisine aylık ne kadar hibe veriliyor?",
+    "beklenen_kelimeler": ["600"],
+    "yasakli_kelimeler": ["850", "700", "500", "400"],
+    "fallback_kabul": true,
+    "test_turu": "factual",
+    "aciklama": "Tablo okuma: İspanya 1. grup = 600 Avro. Yanlış rakam (850 vb.) kullanırsa FAIL."
+  },
+  {
+    "id": "T2_STAJ_KURALI",
+    "soru": "Erasmus öğrenim hareketliliği süresince staj yapabilir miyim, kuralı ne?",
+    "beklenen_kelimeler": ["staj"],
+    "yasakli_kelimeler": [],
+    "fallback_kabul": true,
+    "test_turu": "inference",
+    "aciklama": "Mantık çıkarımı: Staj kuralını belgeye dayanarak çıkarmalı VEYA güvenli fallback vermeli."
+  },
+  {
+    "id": "T3_JAPONYA_FALLBACK",
+    "soru": "Japonya'daki üniversiteler hangileri?",
+    "beklenen_kelimeler": ["rehberde yok"],
+    "yasakli_kelimeler": ["Tokyo", "Osaka", "Kyoto", "Waseda"],
+    "fallback_kabul": false,
+    "test_turu": "fallback",
+    "aciklama": "Kapsam dışı reddetme: Japonya hakkında bilgi uydurmamalı, kesinlikle fallback vermeli."
+  },
+  {
+    "id": "T4_YESIL_SEYAHAT",
+    "soru": "Erasmus'ta yeşil seyahat desteği ne kadar, 3000 km mesafe için?",
+    "beklenen_kelimeler": ["785"],
+    "yasakli_kelimeler": ["580"],
+    "fallback_kabul": true,
+    "test_turu": "factual",
+    "aciklama": "Tablo okuma: 3000-3999 KM arası yeşil seyahat = 785 Avro. Yanlış satır okursa veya fallback verirse kabul."
+  },
+  {
+    "id": "T5_ENGELLI_PUAN",
+    "soru": "Erasmus başvurusunda engelli öğrencilere ek puan veriliyor mu, kaç puan?",
+    "beklenen_kelimeler": ["10"],
+    "yasakli_kelimeler": [],
+    "fallback_kabul": true,
+    "test_turu": "factual",
+    "aciklama": "Seçim ölçütü: Engelli öğrencilere +10 puan verildiğini belgeden çekmeli."
+  }
+]
