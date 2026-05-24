@@ -190,3 +190,8 @@ erasmus_hafiza.txt
 info_bank/
 test_ai.py
 check_faiss.py
+
+# Test ve Rapor Dosyaları
+sentetik_test_mini_rapor.txt
+sentetik_test_ultra_rapor.txt
+synthetic_stress_test_ultra.py
