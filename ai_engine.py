@@ -27,11 +27,23 @@ vectorstore = FAISS.load_local(
 # Kullanıcı bazlı kısa süreli hafıza (Sliding Window) — kalıcı SQLite katmanı
 memory_store.init_db()
 
-async def get_ai_response(user_message: str, user_id: int) -> str:
+
+def _retrieve(query: str, k: int, university: str | None = None):
+    """
+    FAISS semantik arama — opsiyonel `university` metadata filtresiyle.
+    Çok-üniversiteli yapıya hazırlık: university verilirse yalnızca o
+    üniversitenin chunk'ları döner. university=None iken filtre uygulanmaz,
+    yani varsayılan davranış birebir korunur.
+    """
+    flt = {"university": university} if university else None
+    return vectorstore.similarity_search(query, k=k, filter=flt)
+
+
+async def get_ai_response(user_message: str, user_id: int, university: str | None = None) -> str:
     try:
         # ── Hibrit Arama (Hybrid Retrieval) ──
         # 1) Ana semantik arama: kullanıcının tam sorusu
-        docs_main = vectorstore.similarity_search(user_message, k=5)
+        docs_main = _retrieve(user_message, 5, university)
 
         # 2) Anahtar kelime odaklı ek arama: hibe, ücret, maaş gibi
         #    finansal terimler tespit edilirse özel bir sorgu daha yapılır
@@ -44,7 +56,7 @@ async def get_ai_response(user_message: str, user_id: int) -> str:
 
         if has_financial:
             boost_query = "erasmus hibe miktarı aylık ücret avro euro seyahat desteği"
-            docs_boost = vectorstore.similarity_search(boost_query, k=4)
+            docs_boost = _retrieve(boost_query, 4, university)
         else:
             docs_boost = []
 
