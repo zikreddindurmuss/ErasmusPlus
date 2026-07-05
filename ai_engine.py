@@ -5,6 +5,8 @@ from dotenv import load_dotenv
 from langchain_community.vectorstores import FAISS
 from langchain_openai import OpenAIEmbeddings
 
+import memory_store
+
 load_dotenv()
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
@@ -22,8 +24,8 @@ vectorstore = FAISS.load_local(
     allow_dangerous_deserialization=True
 )
 
-# Kullanıcı bazlı kısa süreli hafıza (Sliding Window)
-user_sessions = {}
+# Kullanıcı bazlı kısa süreli hafıza (Sliding Window) — kalıcı SQLite katmanı
+memory_store.init_db()
 
 async def get_ai_response(user_message: str, user_id: int) -> str:
     try:
@@ -98,13 +100,12 @@ async def get_ai_response(user_message: str, user_id: int) -> str:
             "═══════════════════════════════════════"
         )
 
-        # Kullanıcının geçmiş mesajlarını al (yoksa boş liste oluştur)
-        if user_id not in user_sessions:
-            user_sessions[user_id] = []
+        # Kullanıcının geçmiş mesajlarını kalıcı hafızadan al (son 6 mesaj)
+        history = memory_store.get_history(user_id)
 
         # Messages listesini oluştur: System + Geçmiş + Yeni soru
         messages = [{"role": "system", "content": system_instruction}]
-        messages.extend(user_sessions[user_id])
+        messages.extend(history)
         messages.append({"role": "user", "content": user_message})
 
         # Modele mesaj geçmişiyle birlikte gönder
@@ -115,13 +116,9 @@ async def get_ai_response(user_message: str, user_id: int) -> str:
         )
         ai_reply = response.choices[0].message.content
 
-        # Son soru-cevap çiftini hafızaya kaydet
-        user_sessions[user_id].append({"role": "user", "content": user_message})
-        user_sessions[user_id].append({"role": "assistant", "content": ai_reply})
-
-        # TOKEN KORUMASI: Sadece son 3 soru-cevap çiftini (6 mesaj) tut
-        if len(user_sessions[user_id]) > 6:
-            user_sessions[user_id] = user_sessions[user_id][-6:]
+        # Son soru-cevap çiftini kalıcı hafızaya kaydet.
+        # add_turn ayrıca sliding window'u (son 3 soru-cevap = 6 mesaj) uygular.
+        memory_store.add_turn(user_id, user_message, ai_reply)
 
         # Cevaplanamayan soruları logla
         if "elimdeki resmi rehberde yok" in ai_reply:
