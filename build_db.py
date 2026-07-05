@@ -77,6 +77,10 @@ CHUNK_SIZE = 1000
 CHUNK_OVERLAP = 150
 SUPPORTED_EXTENSIONS = {".pdf", ".docx", ".doc", ".txt"}
 
+# Çok-üniversiteli yapıya hazırlık (Phase 2): her chunk'a kaynak üniversite
+# etiketi yazılır. Şimdilik tüm belgeler UJA'ya ait.
+DEFAULT_UNIVERSITY = "UJA"
+
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 if not OPENAI_API_KEY:
     print("❌ OPENAI_API_KEY bulunamadı! .env dosyasını kontrol edin.")
@@ -441,6 +445,11 @@ def process_file(filepath: Path, digest: str, qwen, splitter) -> list[Document]:
 
     if not pages:
         return []
+
+    # Kaynak üniversite etiketi — tüm çıkarma yolları (PDF/DOCX/TXT/OCR)
+    # bu tek huni noktasından geçtiği için hepsine uygulanır.
+    for pg in pages:
+        pg["metadata"]["university"] = DEFAULT_UNIVERSITY
 
     # 2. Qwen Temizleme
     if qwen:

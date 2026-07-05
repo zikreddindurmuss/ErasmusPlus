@@ -5,6 +5,8 @@ from dotenv import load_dotenv
 from langchain_community.vectorstores import FAISS
 from langchain_openai import OpenAIEmbeddings
 
+import memory_store
+
 load_dotenv()
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
@@ -22,29 +24,75 @@ vectorstore = FAISS.load_local(
     allow_dangerous_deserialization=True
 )
 
-# Kullanıcı bazlı kısa süreli hafıza (Sliding Window)
-user_sessions = {}
+# Kullanıcı bazlı kısa süreli hafıza (Sliding Window) — kalıcı SQLite katmanı
+memory_store.init_db()
 
-async def get_ai_response(user_message: str, user_id: int) -> str:
+
+def _retrieve(query: str, k: int, university: str | None = None):
+    """
+    FAISS semantik arama — opsiyonel `university` metadata filtresiyle.
+    Çok-üniversiteli yapıya hazırlık: university verilirse yalnızca o
+    üniversitenin chunk'ları döner. university=None iken filtre uygulanmaz,
+    yani varsayılan davranış birebir korunur.
+    """
+    flt = {"university": university} if university else None
+    return vectorstore.similarity_search(query, k=k, filter=flt)
+
+
+# ── Konu-odaklı Boost Yapılandırması ──
+# Kullanıcının mesajında bir konunun anahtar kelimelerinden herhangi biri
+# geçerse, o konunun `boost_query`'si için ek bir semantik arama yapılır.
+# Veri-odaklı ve genişletilebilir: yeni konu eklemek için buraya bir giriş
+# eklemek yeterli (kod değişikliği gerekmez).
+BOOST_TOPICS = {
+    "finans": {
+        "keywords": [
+            "hibe", "ücret", "maaş", "para", "avro", "euro",
+            "burs", "ödeme", "maliyet", "masraf", "seyahat desteği",
+        ],
+        "boost_query": "erasmus hibe miktarı aylık ücret avro euro seyahat desteği",
+    },
+    "vize": {
+        "keywords": [
+            "vize", "oturum", "ikamet", "tie", "nie", "konsolosluk", "randevu",
+        ],
+        "boost_query": "vize oturum izni ikamet tie nie başvuru randevu konsolosluk",
+    },
+    "konaklama": {
+        # Not: kısa/genel kelimelerden (ör. "ev") kaçınılır — substring
+        # eşleşmesi "randevu", "evrak" gibi alakasız kelimeleri yakalar.
+        "keywords": [
+            "konaklama", "yurt", "kira", "daire", "residencia", "konut", "kiralık",
+        ],
+        "boost_query": "konaklama yurt ev kiralama residencia aylık kira",
+    },
+    "ola": {
+        "keywords": [
+            "ders", "ola", "learning agreement", "öğrenim anlaşması",
+            "kredi", "ects", "ders seçimi",
+        ],
+        "boost_query": "ders seçimi learning agreement öğrenim anlaşması ects kredi",
+    },
+}
+
+# Her eşleşen konu için çekilecek ek chunk sayısı (eski finansal boost ile aynı)
+BOOST_K = 4
+
+
+async def get_ai_response(user_message: str, user_id: int, university: str | None = None) -> str:
     try:
         # ── Hibrit Arama (Hybrid Retrieval) ──
         # 1) Ana semantik arama: kullanıcının tam sorusu
-        docs_main = vectorstore.similarity_search(user_message, k=5)
+        docs_main = _retrieve(user_message, 5, university)
 
-        # 2) Anahtar kelime odaklı ek arama: hibe, ücret, maaş gibi
-        #    finansal terimler tespit edilirse özel bir sorgu daha yapılır
-        financial_keywords = [
-            "hibe", "ücret", "maaş", "para", "avro", "euro",
-            "burs", "ödeme", "maliyet", "masraf", "seyahat desteği"
-        ]
+        # 2) Konu-odaklı ek arama (Boost): mesajda bir konunun anahtar
+        #    kelimelerinden biri geçiyorsa, o konunun sorgusu için ek chunk'lar
+        #    çekilir. Veri-odaklı — konular BOOST_TOPICS'te tanımlıdır.
         msg_lower = user_message.lower()
-        has_financial = any(kw in msg_lower for kw in financial_keywords)
-
-        if has_financial:
-            boost_query = "erasmus hibe miktarı aylık ücret avro euro seyahat desteği"
-            docs_boost = vectorstore.similarity_search(boost_query, k=4)
-        else:
-            docs_boost = []
+        docs_boost = []
+        for topic in BOOST_TOPICS.values():
+            if any(kw in msg_lower for kw in topic["keywords"]):
+                docs_boost.extend(_retrieve(topic["boost_query"], BOOST_K, university))
 
         # 3) Birleştir ve tekrar edenleri çıkar (deduplicate)
         seen_ids = set()
@@ -98,13 +146,12 @@ async def get_ai_response(user_message: str, user_id: int) -> str:
             "═══════════════════════════════════════"
         )
 
-        # Kullanıcının geçmiş mesajlarını al (yoksa boş liste oluştur)
-        if user_id not in user_sessions:
-            user_sessions[user_id] = []
+        # Kullanıcının geçmiş mesajlarını kalıcı hafızadan al (son 6 mesaj)
+        history = memory_store.get_history(user_id)
 
         # Messages listesini oluştur: System + Geçmiş + Yeni soru
         messages = [{"role": "system", "content": system_instruction}]
-        messages.extend(user_sessions[user_id])
+        messages.extend(history)
         messages.append({"role": "user", "content": user_message})
 
         # Modele mesaj geçmişiyle birlikte gönder
@@ -115,13 +162,9 @@ async def get_ai_response(user_message: str, user_id: int) -> str:
         )
         ai_reply = response.choices[0].message.content
 
-        # Son soru-cevap çiftini hafızaya kaydet
-        user_sessions[user_id].append({"role": "user", "content": user_message})
-        user_sessions[user_id].append({"role": "assistant", "content": ai_reply})
-
-        # TOKEN KORUMASI: Sadece son 3 soru-cevap çiftini (6 mesaj) tut
-        if len(user_sessions[user_id]) > 6:
-            user_sessions[user_id] = user_sessions[user_id][-6:]
+        # Son soru-cevap çiftini kalıcı hafızaya kaydet.
+        # add_turn ayrıca sliding window'u (son 3 soru-cevap = 6 mesaj) uygular.
+        memory_store.add_turn(user_id, user_message, ai_reply)
 
         # Cevaplanamayan soruları logla
         if "elimdeki resmi rehberde yok" in ai_reply:
