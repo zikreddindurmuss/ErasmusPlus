@@ -26,7 +26,7 @@ Vector Database: FAISS (Optimized for milisecond-level retrieval across massive 
 
 Data Processing: Hybrid LangChain loaders for PDF & Docx integration.
 
-Intelligence: HuggingFace Multilingual Embeddings for deep semantic understanding.
+Intelligence: OpenAI Embeddings (text-embedding-3-small) for deep semantic understanding.
 
 📦 Quick Start
 This repository contains the core engine. To create your own university mentor:
