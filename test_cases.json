@@ -43,5 +43,86 @@
     "fallback_kabul": true,
     "test_turu": "factual",
     "aciklama": "Seçim ölçütü: Engelli öğrencilere +10 puan verildiğini belgeden çekmeli."
+  },
+  {
+    "id": "T6_UJA_HIBE",
+    "soru": "İspanya Universidad de Jaén için aylık hibe miktarı ne kadardır?",
+    "beklenen_kelimeler": ["600"],
+    "yasakli_kelimeler": ["850"],
+    "fallback_kabul": false,
+    "test_turu": "factual",
+    "aciklama": "Tablo okuma: UJA İspanya'da olduğu için 1. grup = 600 Avro. Bilinen halüsinasyon rakamı (850) FAIL sebebi."
+  },
+  {
+    "id": "T7_UMOVE_EVRAK",
+    "soru": "Umove sistemine giriş yaptım, sonraki adımlar ve yüklemem gereken evraklar neler?",
+    "beklenen_kelimeler": ["learning agreement"],
+    "yasakli_kelimeler": [],
+    "fallback_kabul": true,
+    "test_turu": "factual",
+    "aciklama": "Umove evrak listesi: doğru cevaplar bile kapanışta 'teyit etmen lazım' içerebiliyor ve fallback sayılabiliyor; stabilite için kabul, fallback değilse içerik doğrulansın."
+  },
+  {
+    "id": "T8_VIZE_BAKIYE",
+    "soru": "Vize başvurusu için banka hesabımda ne kadar para olması gerekiyor?",
+    "beklenen_kelimeler": ["1.500"],
+    "yasakli_kelimeler": [],
+    "fallback_kabul": false,
+    "test_turu": "factual",
+    "aciklama": "Vize finansal yeterlilik: IPREM oranı / aylık 1.500 Euro bakiye şartı belgeden çekilmeli."
+  },
+  {
+    "id": "T9_ADLI_SICIL_APOSTIL",
+    "soru": "Adli sicil kaydı için apostil ve İspanyolca yeminli tercüme nasıl olmalı?",
+    "beklenen_kelimeler": ["apostil"],
+    "yasakli_kelimeler": [],
+    "fallback_kabul": false,
+    "test_turu": "factual",
+    "aciklama": "Adli sicil kaydı belgesi: Lahey Konvansiyonu uyarınca apostil şerhi ve İspanyolca yeminli tercüme şartı belgeden çekilmeli."
+  },
+  {
+    "id": "T10_KONAKLAMA_KALDIRMA",
+    "soru": "Konaklama zorunluluğunu kaldırmak için hangi kuruma başvurmalıyım?",
+    "beklenen_kelimeler": [],
+    "yasakli_kelimeler": [],
+    "fallback_kabul": true,
+    "test_turu": "fallback",
+    "aciklama": "Kapsam dışı/detay eksik soru: Güvenli 'bilmiyorum' fallback PASS, halüsinasyonla kurum uydurma FAIL."
+  },
+  {
+    "id": "T11_NIE_NUMARASI",
+    "soru": "İspanya'da NIE numaramı nasıl alırım?",
+    "beklenen_kelimeler": ["tie"],
+    "yasakli_kelimeler": [],
+    "fallback_kabul": true,
+    "test_turu": "factual",
+    "aciklama": "NIE/TIE başvuru süreci: doğru cevaplar bile kapanışta 'teyit etmen lazım' içerebiliyor ve fallback sayılabiliyor; stabilite için kabul, fallback değilse içerik doğrulansın."
+  },
+  {
+    "id": "T12_OGRENIM_STAJ",
+    "soru": "Öğrenim hareketliliği sırasında staj yapabilir miyim, kuralı ne?",
+    "beklenen_kelimeler": ["staj"],
+    "yasakli_kelimeler": [],
+    "fallback_kabul": true,
+    "test_turu": "inference",
+    "aciklama": "Mantık çıkarımı: Korpus 'sırasında staj' sorusuna doğrudan cevap içermiyor; bot bilinçli olarak çekiniyor (T2 ile aynı prensip)."
+  },
+  {
+    "id": "T13_EWP_BELGELER",
+    "soru": "Erasmus Without Papers (EWP) için hangi belgeler gerekli?",
+    "beklenen_kelimeler": [],
+    "yasakli_kelimeler": [],
+    "fallback_kabul": true,
+    "test_turu": "fallback",
+    "aciklama": "Kapsam dışı/detay eksik soru: Güvenli 'bilmiyorum' fallback PASS, halüsinasyonla belge listesi uydurma FAIL."
+  },
+  {
+    "id": "T14_CEALM_KAYIT",
+    "soru": "UJA'da İspanyolca kursu (CEALM) var mı, nasıl kayıt olurum?",
+    "beklenen_kelimeler": ["cealm"],
+    "yasakli_kelimeler": [],
+    "fallback_kabul": false,
+    "test_turu": "factual",
+    "aciklama": "UJA dil merkezi: CEALM kursu ve kayıt bilgisi (uluslararası ofis/CEALM başvurusu) belgeden çekilmeli."
   }
 ]
