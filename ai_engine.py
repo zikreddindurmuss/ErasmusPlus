@@ -73,6 +73,22 @@ BOOST_TOPICS = {
         ],
         "boost_query": "ders seçimi learning agreement öğrenim anlaşması ects kredi",
     },
+    "umove": {
+        # Not: "kayıt" gibi geniş kelimeler bilinçli olarak dışarıda bırakıldı —
+        # substring eşleşmesi "adli sicil kaydı", "ders kaydı" gibi alakasız
+        # sorulara sıçrar; "matricula" aksansız form, aksanlı yazımı ("matrícula")
+        # da ayrıca kapsansın diye iki ayrı kelime olarak var.
+        "keywords": [
+            "umove", "matrícula", "matricula", "empadronamiento",
+        ],
+        "boost_query": "UMOVE platformuna sigorta poliçesi yükleme UJA kayıt",
+    },
+    "staj": {
+        "keywords": [
+            "staj", "práctica", "practica", "traineeship", "internship",
+        ],
+        "boost_query": "Erasmus Faaliyeti ile İlgili Diğer Kurallar toplam süre sınırlaması 12 ay hibe öğrenim hareketliliği staj hareketliliği",
+    },
 }
 
 # Her eşleşen konu için çekilecek ek chunk sayısı (eski finansal boost ile aynı)
