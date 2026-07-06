@@ -427,6 +427,39 @@ def delete_cache(digest: str):
 
 
 # ═════════════════════════════════════════════════════════════
+#  EXACT-DUPLICATE CHUNK ELEME (FAISS'e yazımdan önce)
+# ═════════════════════════════════════════════════════════════
+def _chunk_key(doc: Document) -> str:
+    """Bir chunk için normalize edilmiş MD5 anahtarı üretir (sadece exact match)."""
+    norm = " ".join(doc.page_content.split())
+    return hashlib.md5(norm.encode("utf-8")).hexdigest()
+
+
+def dedup_chunks(
+    chunks: list[Document], existing_keys: set[str] | None = None
+) -> tuple[list[Document], int]:
+    """
+    Chunk listesindeki birebir aynı (whitespace normalize edilmiş) içerikleri eler.
+    İlk görülen chunk korunur, sonrakiler elenir. existing_keys verilirse
+    (artımlı ekleme senaryosu) bu anahtarlarla çakışan chunk'lar da elenir.
+    Döndürür: (benzersiz_liste, elenen_sayı)
+    """
+    seen: set[str] = set(existing_keys) if existing_keys else set()
+    unique: list[Document] = []
+    n_dup = 0
+
+    for doc in chunks:
+        key = _chunk_key(doc)
+        if key in seen:
+            n_dup += 1
+            continue
+        seen.add(key)
+        unique.append(doc)
+
+    return unique, n_dup
+
+
+# ═════════════════════════════════════════════════════════════
 #  TEK DOSYA İŞLEME BİRİMİ
 # ═════════════════════════════════════════════════════════════
 def process_file(filepath: Path, digest: str, qwen, splitter) -> list[Document]:
@@ -610,6 +643,11 @@ def build_pipeline(force_rebuild: bool = False, skip_llm: bool = False):
             Log.err("Hiç chunk oluşturulamadı!")
             return
 
+        # Exact-duplicate chunk eleme (pdfplumber aynı sayfa/tabloyu çift üretebiliyor)
+        all_chunks, n_dup = dedup_chunks(all_chunks)
+        if n_dup > 0:
+            Log.ok(f"{n_dup} duplicate chunk elendi")
+
         Log.ok(f"Toplam {len(all_chunks)} chunk ile FAISS yeniden inşa ediliyor...")
         vectorstore = FAISS.from_documents(all_chunks, embeddings)
         vectorstore.save_local(str(OUTPUT_DIR))
@@ -627,12 +665,31 @@ def build_pipeline(force_rebuild: bool = False, skip_llm: bool = False):
             existing = FAISS.load_local(
                 str(OUTPUT_DIR), embeddings, allow_dangerous_deserialization=True
             )
-            new_db = FAISS.from_documents(new_chunks, embeddings)
-            existing.merge_from(new_db)
-            existing.save_local(str(OUTPUT_DIR))
-            Log.ok(f"  {len(new_chunks)} chunk mevcut veritabanına eklendi")
+
+            # Mevcut docstore'daki chunk'ların anahtarlarını çıkar ve yeni
+            # chunk'ları hem kendi içinde hem mevcut verilere karşı dedup et
+            existing_keys = {
+                _chunk_key(d) for d in existing.docstore._dict.values()
+            }
+            new_chunks, n_dup = dedup_chunks(new_chunks, existing_keys=existing_keys)
+            if n_dup > 0:
+                Log.ok(f"{n_dup} duplicate chunk elendi")
+
+            if not new_chunks:
+                Log.ok("Tüm yeni chunk'lar zaten mevcut -- eklenecek benzersiz chunk yok.")
+            else:
+                new_db = FAISS.from_documents(new_chunks, embeddings)
+                existing.merge_from(new_db)
+                existing.save_local(str(OUTPUT_DIR))
+                Log.ok(f"  {len(new_chunks)} chunk mevcut veritabanına eklendi")
         else:
             Log.ok("Yeni FAISS veritabanı oluşturuluyor...")
+
+            # Exact-duplicate chunk eleme
+            new_chunks, n_dup = dedup_chunks(new_chunks)
+            if n_dup > 0:
+                Log.ok(f"{n_dup} duplicate chunk elendi")
+
             vectorstore = FAISS.from_documents(new_chunks, embeddings)
             vectorstore.save_local(str(OUTPUT_DIR))
 
