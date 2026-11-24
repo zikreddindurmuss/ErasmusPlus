@@ -1,0 +1,581 @@
+{
+  "meta": {
+    "olusturma_tarihi": "2026-11-22T01:51:28",
+    "uretici_model": "qwen/qwen3.8-27b",
+    "seed": 42,
+    "faiss_index_md5": "bd180f01814de4a9d5268f2921f11d29",
+    "not": "Cevaplı sorular FAISS docstore chunk'larından LLM ile üretildi; kanıt alıntısı chunk içinde birebir doğrulandı. Cevapsız sorular elle yazıldı.",
+    "manuel_duzenlemeler": [
+      "A08",
+      "A17",
+      "A18",
+      "A20",
+      "A21",
+      "A22",
+      "A28",
+      "A36",
+      "A38"
+    ]
+  },
+  "questions": [
+    {
+      "id": "A01",
+      "tur": "cevapli",
+      "soru": "Erasmus başvurusu sırasında 14.12.2025 tarihli Merkezi Erasmus Dil Sınavına giren öğrencilerin sisteme hangi belgeyi yüklemesi gerekiyor?",
+      "beklenen_cevap": "14.12.2025 Erasmus Yabancı Dil Sinavi Sonuçları bağlantısında yer alan sınav sonuçlarının ekran görüntüsü",
+      "kanit_alinti": "14.12.2025 tarihli Merkezi Erasmus Dil Sınavına giren öğrenciler, 14.12.2025 Erasmus Yabancı Dil Sinavi Sonuçları bağlantısında yer alan sınav sonuçlarının ekran görüntüsünü yüklemelidir.",
+      "kaynak_dosya": "2025 PROJE DÖNEMİ (2026-2027 Akademik Yılı) ERASMUS ÖĞRENİM HAREKETLİLİĞİ İLANI – AB Eğitim Programları Koordinatörlüğü.pdf",
+      "sayfa": 4,
+      "chunk_pos": 21
+    },
+    {
+      "id": "A02",
+      "tur": "cevapli",
+      "soru": "Erasmus hareketliliğinde yeşil seyahat desteği alabilmek için seyahatin ne kadarının yeşil araçlarla yapılması gerekiyor?",
+      "beklenen_cevap": "Seyahatin tamamının yarısından fazlası yeşil araçlar kullanılarak yapılmalıdır.",
+      "kanit_alinti": "Yeşil seyahat desteği alınabilmesi için gidişte ve dönüşte yeşil seyahat kullanılması ve seyahatin tamamının yarısından fazlasının yeşil araçlar kullanılarak yapılması gerekmektedir.",
+      "kaynak_dosya": "2025 PROJE DÖNEMİ (2026-2027 Akademik Yılı) ERASMUS ÖĞRENİM HAREKETLİLİĞİ İLANI – AB Eğitim Programları Koordinatörlüğü.pdf",
+      "sayfa": 17,
+      "chunk_pos": 58
+    },
+    {
+      "id": "A03",
+      "tur": "cevapli",
+      "soru": "Erasmus öğrenim hareketliliğinde aynı öğrenim kademesinde (lisans, yüksek lisans veya doktora) bir öğrenci toplamda en fazla kaç ay hibe alabilir?",
+      "beklenen_cevap": "12 ay",
+      "kanit_alinti": "Bir öğrenci, aynı öğrenim kademesinde (lisans, yüksek lisans veya doktora) toplamda 12 ay süreyle hibe alabilir.",
+      "kaynak_dosya": "2025 PROJE DÖNEMİ (2026-2027 Akademik Yılı) ERASMUS ÖĞRENİM HAREKETLİLİĞİ İLANI – AB Eğitim Programları Koordinatörlüğü.pdf",
+      "sayfa": 8,
+      "chunk_pos": 31
+    },
+    {
+      "id": "A04",
+      "tur": "cevapli",
+      "soru": "Erasmus Öğrenim Hareketliliği hangi belgeler ve anlaşmalar çerçevesinde gerçekleştirilir?",
+      "beklenen_cevap": "Standart veya Genişletilmiş Erasmus Üniversite Beyannamesi çerçevesinde ve yükseköğretim kurumunun Erasmus değişim anlaşmaları doğrultusunda.",
+      "kanit_alinti": "Erasmus Öğrenim Hareketliliği, Standart veya Genişletilmiş Erasmus Üniversite Beyannamesi çerçevesinde ve yükseköğretim kurumunun Erasmus değişim anlaşmaları doğrultusunda gerçekleştirilir.",
+      "kaynak_dosya": "2025 PROJE DÖNEMİ (2026-2027 Akademik Yılı) ERASMUS ÖĞRENİM HAREKETLİLİĞİ İLANI – AB Eğitim Programları Koordinatörlüğü.pdf",
+      "sayfa": 8,
+      "chunk_pos": 32
+    },
+    {
+      "id": "A05",
+      "tur": "cevapli",
+      "soru": "Erasmus programında diş hekimliği fakültesi 2. sınıf öğrencileri kaç dönem için yerleştirilir?",
+      "beklenen_cevap": "1 dönem",
+      "kanit_alinti": "2. Sınıf öğrencileri ise 1 dönem için yerleştirileceklerdir.",
+      "kaynak_dosya": "2025 PROJE DÖNEMİ (2026-2027 Akademik Yılı) ERASMUS ÖĞRENİM HAREKETLİLİĞİ İLANI – AB Eğitim Programları Koordinatörlüğü.pdf",
+      "sayfa": 10,
+      "chunk_pos": 40
+    },
+    {
+      "id": "A06",
+      "tur": "cevapli",
+      "soru": "Jaén'e uçakla gelmek için en yakın havalimanı hangisidir ve şehre uzaklığı kaç kilometredir?",
+      "beklenen_cevap": "En yakın havalimanı Federico García Lorca Granada-Jaén Havalimanı'dır ve Jaén'e 98 kilometre uzaklıktadır.",
+      "kanit_alinti": "Fly to Federico García Lorca Granada-Jaén Airport (www.aena.es, which is 98 kilometers away from Jaén)",
+      "kaynak_dosya": "UJAINTERNATIONALGUIDE.pdf",
+      "sayfa": 16,
+      "chunk_pos": 602
+    },
+    {
+      "id": "A07",
+      "tur": "cevapli",
+      "soru": "Jaén eyaletinde İspanya genelindeki en büyük korunan doğal alanlara sahip olduğu doğru mu?",
+      "beklenen_cevap": "Evet, Jaén, İspanya genelindeki en büyük korunan doğal alanlara sahiptir.",
+      "kanit_alinti": "Located in the gateway of Andalusia, Jaén possesses the largest extension of protected natural areas in the whole of Spain.",
+      "kaynak_dosya": "UJAINTERNATIONALGUIDE.pdf",
+      "sayfa": 4,
+      "chunk_pos": 557
+    },
+    {
+      "id": "A08",
+      "tur": "cevapli",
+      "soru": "UJA'nın (Pre-academic) yoğun İspanyolca dil ve kültür kursu hangi öğrenci gruplarına yöneliktir?",
+      "beklenen_cevap": "Uluslararası öğrencilere: (a) dil kursunu tamamladıktan sonra bir sonraki akademik yıldan itibaren UJA'da lisans veya lisansüstü öğrencisi olarak okumaya devam etmek isteyenlere, ya da (b) İspanya'da bir akademik yıl İspanyolca öğrenmek isteyenlere.",
+      "kanit_alinti": "This course is addressed to international students: (a) who either would like to continue studying at UJA from the next academic year on as graduate or postgraduate students (once the language course has successfully been completed as part of their pre-academic learning and upon completion of any admission requirement) or (b) who would like to spend one academic year in Spain learning Spanish.",
+      "kaynak_dosya": "UJAINTERNATIONALGUIDE.pdf",
+      "sayfa": 29,
+      "chunk_pos": 639,
+      "manuel_duzenleme": "Beklenen cevaptaki çeviri hatası düzeltildi (graduate/postgraduate = lisans/lisansüstü)."
+    },
+    {
+      "id": "A09",
+      "tur": "cevapli",
+      "soru": "UJA'da öğrencilerin kullanımına açık toplam kaç bilgisayar laboratuvarı bulunmaktadır?",
+      "beklenen_cevap": "21",
+      "kanit_alinti": "nowadays at UJA there are 21 available computer rooms in both Campus Las Lagun and EPS Linares for any student wishing to use them.",
+      "kaynak_dosya": "UJAINTERNATIONALGUIDE.pdf",
+      "sayfa": 15,
+      "chunk_pos": 599
+    },
+    {
+      "id": "A10",
+      "tur": "cevapli",
+      "soru": "UJA'da resmi master programlarına başvuru işlemleri hangi birim tarafından yürütülüyor?",
+      "beklenen_cevap": "Servicio de Gestión Académica (Campus Las Lagunillas s/n, Secretaría Única, Edif. B5)",
+      "kanit_alinti": "Admission: Servicio de Gestión Académica (Campus Las Lagunillas s/n, Secretaría Única, Edif. B5, www.ujaen.es/serv/sga/)",
+      "kaynak_dosya": "UJAINTERNATIONALGUIDE.pdf",
+      "sayfa": 26,
+      "chunk_pos": 633
+    },
+    {
+      "id": "A11",
+      "tur": "cevapli",
+      "soru": "UJA'da İngilizce, Fransızca veya Almanca gibi başka dillerde verilen derslerin listesine hangi linkten ulaşabilirim?",
+      "beklenen_cevap": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/patie/2025-26",
+      "kanit_alinti": "Consult subjects taught in other languages (English, French or German):\nhttps://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/patie/2025-26",
+      "kaynak_dosya": "Procedures in the UJA_incoming mobility.docx",
+      "sayfa": 1,
+      "chunk_pos": 519
+    },
+    {
+      "id": "A12",
+      "tur": "cevapli",
+      "soru": "UJA'da Erasmus değişim programı bitiminde 'Certificate of Completion of Stay' belgesini almak için hangi ofise başvurmalıyım?",
+      "beklenen_cevap": "Uluslararası İlişkiler Ofisi'ne (International Relations Section, C2-105, 23071 Jaén) başvurmalısınız.",
+      "kanit_alinti": "To obtain this Certificate of Completion of Stay, you must go to the international relations office to register the day of the end of the stay (University of Jaén, International Relations Section, C2-105, 23071 Jaén)",
+      "kaynak_dosya": "Procedures in the UJA_incoming mobility.docx",
+      "sayfa": 1,
+      "chunk_pos": 525
+    },
+    {
+      "id": "A13",
+      "tur": "cevapli",
+      "soru": "UJA'da Erasmus öğrencisi olarak vize başvurusu için gerekli olan kabul mektubu ve diğer belgeler nereden temin edilir?",
+      "beklenen_cevap": "Üniversite tarafından sağlanır.",
+      "kanit_alinti": "From the University we will provide you with the acceptance letter and the necessary documentation for the visa application.",
+      "kaynak_dosya": "Procedures in the UJA_incoming mobility.docx",
+      "sayfa": 1,
+      "chunk_pos": 504
+    },
+    {
+      "id": "A14",
+      "tur": "cevapli",
+      "soru": "UJA'da Erasmus öğrencisi olarak Learning Agreement'i kaç kez değiştirebilirim?",
+      "beklenen_cevap": "Sadece bir kez değiştirebilirsiniz.",
+      "kanit_alinti": "You can only change your Learning Agreement once.",
+      "kaynak_dosya": "Procedures in the UJA_incoming mobility.docx",
+      "sayfa": 1,
+      "chunk_pos": 521
+    },
+    {
+      "id": "A15",
+      "tur": "cevapli",
+      "soru": "UJA'da ev kiralarken 'desgaste normal' (normal kullanım aşınması) kapsamındaki hasarlar için ev sahibi depozitodan kesinti yapabilir mi?",
+      "beklenen_cevap": "Hayır, ev sahibi 'desgaste normal' kapsamına giren durumlar için fianza (depozito) üzerinden kesinti yapamaz.",
+      "kanit_alinti": "Ev sahibi, \"desgaste normal\" kapsamına giren boya eskimeler gibi durumlar için fianza üzerinden kesinti yapamaz.",
+      "kaynak_dosya": "Erasmus+ Öğrenci Bilgi Veri Seti Oluşturma.pdf",
+      "sayfa": 7,
+      "chunk_pos": 319
+    },
+    {
+      "id": "A16",
+      "tur": "cevapli",
+      "soru": "UJA'da Erasmus öğrencisi olarak ev kiralarken ödemem gereken depozito (fianza) yasal olarak en fazla kaç aylık kira tutarını kapsayabilir?",
+      "beklenen_cevap": "İki aylık kira tutarı",
+      "kanit_alinti": "Öğrenciler için yasal üst sınırı iki aylık kira tutarıdır.",
+      "kaynak_dosya": "Erasmus+ Öğrenci Bilgi Veri Seti Oluşturma.pdf",
+      "sayfa": 7,
+      "chunk_pos": 320
+    },
+    {
+      "id": "A17",
+      "tur": "cevapli",
+      "soru": "UJA'ya sunulacak özel sigorta poliçesinde veya onay mektubunda açıkça belirtilmesi zorunlu olan 5 ana teminat maddesi bulunmazsa evrak ne olur?",
+      "beklenen_cevap": "Evrak, 4A yöneticileri tarafından geçersiz (invalid) sayılarak UMOVE sisteminden silinir.",
+      "kanit_alinti": "Eğer poliçede bu beş madde açıkça belirtilmemişse, evrak UMOVE sistemi Türkiye Cumhuriyeti ile İspanya Krallığı arasındaki İkili Sosyal Güvenlik Anlaşmaları uyarınca, 4A yöneticileri tarafından geçersiz sayılarak (invalid) silinecektir.",
+      "kaynak_dosya": "Erasmus+ Öğrenci Bilgi Veri Seti Oluşturma.pdf",
+      "sayfa": 9,
+      "chunk_pos": 353,
+      "manuel_duzenleme": "Beklenen cevap sadeleştirildi (anlam aynı)."
+    },
+    {
+      "id": "A18",
+      "tur": "cevapli",
+      "soru": "Erasmus Öğrenim Anlaşması (Learning Agreement) formu hangi adresten doldurulmalıdır?",
+      "beklenen_cevap": "www.app.erasmus.ankara.edu.tr adresinden çevrimiçi olarak doldurulmalıdır. [NOT: Belgelerde iki sürüm var; www.app.erasmus.ankara.edu.tr (eski yol haritası) veya https://erasmusport.ankara.edu.tr (2024 proje dönemi yol haritası) adreslerinden biri verilirse DOĞRU kabul edilir.]",
+      "kanit_alinti": "Öğrenim Anlaşması (Learning Agreement) Formunun www.app.erasmus.ankara.edu.tr adresinden çevrimiçi (online) olarak doldurulması zorunludur.",
+      "kaynak_dosya": "OGRENIM-HAREKETLILIGI-YOL-HARITASI.pdf",
+      "sayfa": 2,
+      "chunk_pos": 451,
+      "manuel_duzenleme": "Korpusta iki yol haritası sürümü var ve portal adresi farklı: OGRENIM-HAREKETLILIGI-YOL-HARITASI.pdf → www.app.erasmus.ankara.edu.tr, Ogrenim-Yol-Haritasi-2024-proje-donemi → https://erasmusport.ankara.edu.tr. Adil olmak için iki adres de doğru kabul ediliyor."
+    },
+    {
+      "id": "A19",
+      "tur": "cevapli",
+      "soru": "Erasmus öğrenim anlaşmamın durumu 'Pending Applicant Delivery' olarak görünüyorsa ne yapmam gerekiyor?",
+      "beklenen_cevap": "Ofise gelerek belgenizi teslim almanız gerekiyor.",
+      "kanit_alinti": "Bu durumda, ofisimize gelerek belgenizi teslim alabilirsiniz.",
+      "kaynak_dosya": "OGRENIM-HAREKETLILIGI-YOL-HARITASI.pdf",
+      "sayfa": 2,
+      "chunk_pos": 452
+    },
+    {
+      "id": "A20",
+      "tur": "cevapli",
+      "soru": "Ankara Üniversitesi'nde Erasmus öğrenim hareketliliği için hazırlanan belgeler nereden yüklenmeli ve bu işlem yapılmazsa ne olur?",
+      "beklenen_cevap": "Belgeler www.app.erasmus.ankara.edu.tr adresindeki hesaba yüklenmelidir. Evraklar tamamlanmadan hibe ödenmez. [NOT: Belgelerde iki sürüm var; www.app.erasmus.ankara.edu.tr (eski yol haritası) veya https://erasmusport.ankara.edu.tr (2024 proje dönemi yol haritası) adreslerinden biri verilirse DOĞRU kabul edilir.]",
+      "kanit_alinti": "Bu belgelerin tamamını www.app.erasmus.ankara.edu.tr adresindeki hesabınıza yüklemelisiniz. Bu evraklarınızı tamamlamadan hibeniz ödenmemektedir.",
+      "kaynak_dosya": "OGRENIM-HAREKETLILIGI-YOL-HARITASI.pdf",
+      "sayfa": 4,
+      "chunk_pos": 456,
+      "manuel_duzenleme": "Korpusta iki yol haritası sürümü var ve portal adresi farklı: OGRENIM-HAREKETLILIGI-YOL-HARITASI.pdf → www.app.erasmus.ankara.edu.tr, Ogrenim-Yol-Haritasi-2024-proje-donemi → https://erasmusport.ankara.edu.tr. Adil olmak için iki adres de doğru kabul ediliyor."
+    },
+    {
+      "id": "A21",
+      "tur": "cevapli",
+      "soru": "Erasmus+ öğrenim anlaşması (Learning Agreement) belgesi karşı kurum tarafından e-posta ile gönderilirse Ankara Üniversitesi sisteminde nasıl yüklenir?",
+      "beklenen_cevap": "https://erasmusport.ankara.edu.tr/ adresindeki hesaba giriş yapılarak 'Dosyalar' bölümüne belge yüklenmelidir. [NOT: Belgelerde iki sürüm var; www.app.erasmus.ankara.edu.tr (eski yol haritası) veya https://erasmusport.ankara.edu.tr (2024 proje dönemi yol haritası) adreslerinden biri verilirse DOĞRU kabul edilir.]",
+      "kanit_alinti": "https://erasmusport.ankara.edu.tr/ adresindeki hesabınıza giriş yaparak \"Dosyalar\" bölümüne belgeyi yüklemelisiniz.",
+      "kaynak_dosya": "Ogrenim-Yol-Haritasi-2024-proje-donemi.docx-SON.pdf",
+      "sayfa": 3,
+      "chunk_pos": 479,
+      "manuel_duzenleme": "Korpusta iki yol haritası sürümü var ve portal adresi farklı: OGRENIM-HAREKETLILIGI-YOL-HARITASI.pdf → www.app.erasmus.ankara.edu.tr, Ogrenim-Yol-Haritasi-2024-proje-donemi → https://erasmusport.ankara.edu.tr. Adil olmak için iki adres de doğru kabul ediliyor."
+    },
+    {
+      "id": "A22",
+      "tur": "cevapli",
+      "soru": "Erasmus Öğrenim Anlaşması (Learning Agreement) formunu doldurmaya başlamak için hangi adresi kullanmam gerekiyor?",
+      "beklenen_cevap": "https://erasmusport.ankara.edu.tr [NOT: Belgelerde iki sürüm var; www.app.erasmus.ankara.edu.tr (eski yol haritası) veya https://erasmusport.ankara.edu.tr (2024 proje dönemi yol haritası) adreslerinden biri verilirse DOĞRU kabul edilir.]",
+      "kanit_alinti": "Öğrenim Anlaşması (Learning Agreement) Formunun\nhttps://erasmusport.ankara.edu.tr adresinden doldurulmaya başlanabilir.",
+      "kaynak_dosya": "Ogrenim-Yol-Haritasi-2024-proje-donemi.docx-SON.pdf",
+      "sayfa": 2,
+      "chunk_pos": 477,
+      "manuel_duzenleme": "Korpusta iki yol haritası sürümü var ve portal adresi farklı: OGRENIM-HAREKETLILIGI-YOL-HARITASI.pdf → www.app.erasmus.ankara.edu.tr, Ogrenim-Yol-Haritasi-2024-proje-donemi → https://erasmusport.ankara.edu.tr. Adil olmak için iki adres de doğru kabul ediliyor."
+    },
+    {
+      "id": "A23",
+      "tur": "cevapli",
+      "soru": "2024 proje dönemi kapsamında 2025-2026 Erasmus+ öğrenim hareketliliği en geç hangi tarihte sona ermelidir?",
+      "beklenen_cevap": "31 Temmuz 2026",
+      "kanit_alinti": "2025-2026 Erasmus+ Öğrenim Hareketliliği, 2024 Proje Dönemi kapsamında yürüten bir programdır ve en geç 31 Temmuz 2026 tarihinde sona ermelidir.",
+      "kaynak_dosya": "Ogrenim-Yol-Haritasi-2024-proje-donemi.docx-SON.pdf",
+      "sayfa": 1,
+      "chunk_pos": 473
+    },
+    {
+      "id": "A24",
+      "tur": "cevapli",
+      "soru": "UJA Erasmus platformunda ders eşleştirmelerini yaparken neden önce UJA derslerini doldurup sonra hedef üniversite derslerini eklememeliyim?",
+      "beklenen_cevap": "Bu durumda platform kilitlenecektir.",
+      "kanit_alinti": "no intentes rellenar primero todas las asignaturas de la UJA con la intención de añadir después las de la Universidad de destino, porque en este caso la plataforma se bloqueará.",
+      "kaynak_dosya": "InstruccionesParaLaTramitacionErasmus2022-23.pdf",
+      "sayfa": 1,
+      "chunk_pos": 414
+    },
+    {
+      "id": "A25",
+      "tur": "cevapli",
+      "soru": "UJA'daki Erasmus sözleşmemde ders değişikliği yaparsam, eski dersin kaydını iptal etmem ve yeni derse kayıt olmam için ne yapmam gerekiyor?",
+      "beklenen_cevap": "Sözleşmeden çıkardığınız orijinal dersin kaydını iptal etmeli ve yeni derse kayıt olmalısınız; bunun için UJA'da ders değişikliği için bir kayıt dönemi açılır.",
+      "kanit_alinti": "TE ASEGURES DE QUE HAS CANCELADO LA MATRÍCULA DE LA ASIGNATURA EN ORIGEN QUE HAS ELIMINADO DE TU CONTRATO Y TE HACES MATRICULADO EN LA NUEVA (para ello se abre un plazo de cambio de matrícula en la UJA).",
+      "kaynak_dosya": "InstruccionesParaLaTramitacionErasmus2022-23.pdf",
+      "sayfa": 3,
+      "chunk_pos": 428
+    },
+    {
+      "id": "A26",
+      "tur": "cevapli",
+      "soru": "UJA'da bir acil durum (kaza, hırsızlık vb.) yaşandığında aranması gereken genel acil durum numarası nedir?",
+      "beklenen_cevap": "112",
+      "kanit_alinti": "Emergencies: 112",
+      "kaynak_dosya": "PROTOCOL EMERGENCIES_STUDENTS MOBILITY.docx.pdf",
+      "sayfa": 5,
+      "chunk_pos": 543
+    },
+    {
+      "id": "A27",
+      "tur": "cevapli",
+      "soru": "UJA'da Erasmus öğrencisi olarak acil sağlık hizmetlerine başvururken kimlik belgesi olarak ne sunmam gerekiyor?",
+      "beklenen_cevap": "Pasaport veya kimlik kartı",
+      "kanit_alinti": "ALWAYS present proof of your identity (passport or identity card).",
+      "kaynak_dosya": "PROTOCOL EMERGENCIES_STUDENTS MOBILITY.docx.pdf",
+      "sayfa": 3,
+      "chunk_pos": 537
+    },
+    {
+      "id": "A28",
+      "tur": "cevapli",
+      "soru": "UJA'ya Erasmus olarak giden öğrencilerin sunması gereken sağlık sigortası poliçesi hangi İspanyol sigorta şirketlerinden alınabilir?",
+      "beklenen_cevap": "ASISA, UNIVERSITAS, MUNDI, AXA, ONCAMPUS, GENERALI SEGUROS, ADESLAS, SANITAS, CIGNA, DKV, MAFRE SEGUROS",
+      "kanit_alinti": "ASISA - UNIVERSITAS MUNDI AXA - ONCAMPUS\nGENERALI SEGUROS - ADESLAS- SANITAS CIGNA - DKV - MAFRE SEGUROS",
+      "kaynak_dosya": "national_SSU_SLU_Student.pdf",
+      "sayfa": 2,
+      "chunk_pos": 436,
+      "manuel_duzenleme": "Baştaki \": \" biçim hatası temizlendi."
+    },
+    {
+      "id": "A29",
+      "tur": "cevapli",
+      "soru": "UJA'ya Erasmus için gelen öğrencilerde vize reddi durumunda itiraz hakkı ne kadar süre içinde kullanılabilir?",
+      "beklenen_cevap": "Vize reddi bildirimini aldıkları tarihten itibaren 1 ay içinde yazılı olarak itiraz edebilirler.",
+      "kanit_alinti": "Applicants have the right to appeal in writing within 1 month of receiving the visa rejection notice, starting from the day after the visa rejection notice is received.",
+      "kaynak_dosya": "national_SSU_SLU_Student.pdf",
+      "sayfa": 4,
+      "chunk_pos": 446
+    },
+    {
+      "id": "A30",
+      "tur": "cevapli",
+      "soru": "Erasmus kapsamında 500 ila 1999 km mesafe için standart seyahat hibesi ne kadardır?",
+      "beklenen_cevap": "309 Avro",
+      "kanit_alinti": "| 500 ila 1999 KM arasında | 309 | 417 |",
+      "kaynak_dosya": "2026-2027 Erasmus Hibe Miktarları, Seyahat Destekleri ve Seçim Ölçütleri.txt",
+      "sayfa": 1,
+      "chunk_pos": 69
+    },
+    {
+      "id": "A31",
+      "tur": "cevapli",
+      "soru": "Erasmus seçim kriterlerinde engelli öğrencilere kaç puan eklenir?",
+      "beklenen_cevap": "+10 puan",
+      "kanit_alinti": "Engelli öğrencilere (engellilik belgelenmek kaydıyla) | +10",
+      "kaynak_dosya": "2026-2027 Erasmus Hibe Miktarları, Seyahat Destekleri ve Seçim Ölçütleri.txt",
+      "sayfa": 1,
+      "chunk_pos": 70
+    },
+    {
+      "id": "A32",
+      "tur": "cevapli",
+      "soru": "UJA'da Self-enrollment sırasında 'No appointment available' hatası alırsam ne yapmam gerekiyor?",
+      "beklenen_cevap": "https://www.ujaen.es/servicios/serinco/tramites-y-servicios/estudiantes-entrantes-inco ming-students adresindeki formu doldurmalı veya C-2 binasındaki International Relations and Cooperation Service'e bizzat gitmeliyim.",
+      "kanit_alinti": "You must complete the following form: https://www.ujaen.es/servicios/serinco/tramites-y-servicios/estudiantes-entrantes-inco ming-students or go in person to the International Relations and Cooperation Service (Building C-2)",
+      "kaynak_dosya": "INCOMING MOBILITY STUDENTS. FREQUENTLY ASKED QUESTIONS ABOUT ACADEMIC CONTRACT AND ENROLLMENT AT UJA..pdf",
+      "sayfa": 1,
+      "chunk_pos": 399
+    },
+    {
+      "id": "A33",
+      "tur": "cevapli",
+      "soru": "Erasmus+ programı kapsamında UJA'da İspanyolca derslerine kayıt olmak için bir yarıyıl içinde en fazla kaç ders alabilirim ve bu derslerin toplam ECTS değeri nedir?",
+      "beklenen_cevap": "En fazla 2 ders (1 genel + 1 spesifik) alınabilir ve toplam ECTS değeri 12'dir.",
+      "kanit_alinti": "El alumnado del PROGRAMA ERASMUS + puede matricularse en un máximo de DOS cursos de español (máx. 12 ECTS) por cuatrimestre:",
+      "kaynak_dosya": "_Información cursos de español CEALM 25-26 (Info para coordinadores, estudiantes y buddies).docx",
+      "sayfa": 1,
+      "chunk_pos": 73
+    },
+    {
+      "id": "A34",
+      "tur": "cevapli",
+      "soru": "2026-2027 Akademik Yılı Erasmus+ programına yerleşen öğrencilerin faaliyetlerini en geç hangi tarihte tamamlaması gerekiyor?",
+      "beklenen_cevap": "31.07.2027",
+      "kanit_alinti": "2026-2027 Akademik Yılı kapsamında Erasmus+ programına yerleşen öğrenciler (hibeli veya hibesiz), en geç 31.07.2027 tarihinde faaliyetlerini tamamlamalıdır.",
+      "kaynak_dosya": "2025 Proje Dönemi (2026-2027 Akademik Yılı) Erasmus Öğrenim Hareketliliği Nihai Sonuçları – AB Eğitim Programları Koordinatörlüğü.pdf",
+      "sayfa": 2,
+      "chunk_pos": 3
+    },
+    {
+      "id": "A35",
+      "tur": "cevapli",
+      "soru": "Erasmus öğrencileri için ev bulma sürecinde 'Erasmus Life', 'Spacest' veya 'Uniplaces' gibi ajansların sunduğu hizmetlerin en büyük dezavantajı nedir?",
+      "beklenen_cevap": "Bu ajanslar oldukça yüksek ve geri ödemesiz hizmet komisyonları talep etmektedir ve yerel problemleri çözmekte yetersiz kalmaktadır.",
+      "kanit_alinti": "Bu dijital boşluğu, \"Erasmus Life\", \"Spacest\" veya \"Uniplaces\" gibi çok uluslu ajanslar oldukça yüksek ve geri ödemesiz hizmet komisyonlarıyla doldurmaya çalışmaktadır. Öğrenciler çaresizlikten bu komisyonları ödeseler bile, bu ajanslar yerel problemleri çözmekte yetersiz kalmaktadır.",
+      "kaynak_dosya": "Erasmus+ Girişimi İçin Pazar Araştırması.pdf",
+      "sayfa": 13,
+      "chunk_pos": 206
+    },
+    {
+      "id": "A36",
+      "tur": "cevapli",
+      "soru": "Vize/başlangıç gecikmeleri yüzünden henüz Türkiye'deyken İspanya'daki evinin kirasını boşuna ödemek zorunda kalan Erasmus öğrencisi aylık ne kadar kira ödüyordu?",
+      "beklenen_cevap": "Aylık 339 Euro gibi bir tutar (Nisan ve Mayıs kiralarını Türkiye'den ödemek zorunda kaldı).",
+      "kanit_alinti": "konaklama zorunluluğu nedeniyle yurt dışında evinin kirasını (aylık 339 Euro gibi meblağlar) işlemeyen bir süre için ödemek zorunda kalmıştır.",
+      "kaynak_dosya": "Erasmus Grupları ve Öğrenci Sorunları Araştırması.pdf",
+      "sayfa": 5,
+      "chunk_pos": 113,
+      "manuel_duzenleme": "Üretilen soru kaynağı yanlış temsil ediyordu (genel kira değil, gecikme yüzünden boşa ödenen kira); soru yeniden yazıldı."
+    },
+    {
+      "id": "A37",
+      "tur": "cevapli",
+      "soru": "Jaén'de üniversiteye giden veya üniversite çevresinde duran şehir içi toplu taşıma hatlarından biri olan Línea 4'ün güzergahı nedir?",
+      "beklenen_cevap": "Alcantarilla-Universidad-Centro Comercial",
+      "kanit_alinti": "- **Línea 4:** Alcantarilla-Universidad-Centro Comercial (Horarios Linea 4)",
+      "kaynak_dosya": "Information of interest about Jaén and Linares.docx",
+      "sayfa": 1,
+      "chunk_pos": 409
+    },
+    {
+      "id": "A38",
+      "tur": "cevapli",
+      "soru": "UJA öğrenci e-postası (@red.ujaen.es) hangi e-posta altyapısını kullanıyor ve hangi kimlik bilgileriyle giriş yapılıyor?",
+      "beklenen_cevap": "UJA e-postası bir GMAIL (Google) hesabıdır; UMOVE kaydını tamamlayınca gelen UJA ICT (TIC) hesabının kullanıcı adı (kullanıcı@red.ujaen.es) ve aynı şifreyle giriş yapılır.",
+      "kanit_alinti": "via GOOGLE, UJA email is a GMAIL (GOOGLE) account.",
+      "kaynak_dosya": "actvivar cuenta TIC_incoming.docx",
+      "sayfa": 1,
+      "chunk_pos": 81,
+      "manuel_duzenleme": "Üretilen beklenen cevap şablon yer tutucusuydu (${user}/${password}); aynı chunk'taki somut bilgiye göre soru yeniden yazıldı."
+    },
+    {
+      "id": "U01",
+      "tur": "cevapsiz",
+      "soru": "UJA kampüsündeki yemekhanede (comedor) günün menüsü kaç euro?",
+      "beklenen_cevap": "Belgelerde bu bilgi yok; doğru davranış fallback (bilmiyorum / koordinatöre yönlendirme).",
+      "kanit_alinti": null,
+      "kaynak_dosya": null,
+      "sayfa": null,
+      "yokluk_kontrolu": {
+        "regex": "comedor|yemekhane|cafeter|men[uú] del d",
+        "regex_eslesmeleri": [],
+        "retrieval_top8_hakem_cevap_var": false,
+        "hakem_aciklama": "Parçalarda yemekhanenin günlük menü fiyatı (comedor) belirtilmemiştir; sadece kendi yemeğini yapan öğrenciler için aylık yaklaşık 200 €'luk bir tahmini gider listesi bulunmaktadır."
+      }
+    },
+    {
+      "id": "U02",
+      "tur": "cevapsiz",
+      "soru": "Erasmus sırasında İspanya'da öğrenci olarak haftada en fazla kaç saat yarı zamanlı çalışabilirim?",
+      "beklenen_cevap": "Belgelerde bu bilgi yok; doğru davranış fallback (bilmiyorum / koordinatöre yönlendirme).",
+      "kanit_alinti": null,
+      "kaynak_dosya": null,
+      "sayfa": null,
+      "yokluk_kontrolu": {
+        "regex": "çalışabil|yarı zamanlı|part-time|trabajar|work permit",
+        "regex_eslesmeleri": [],
+        "retrieval_top8_hakem_cevap_var": false,
+        "hakem_aciklama": "Parçalarda Erasmus süresi, vize, barınma ve ders anlaşmaları hakkında bilgi var ancak haftalık çalışma saati limitine dair spesifik bir rakam veya kural yer almıyor."
+      }
+    },
+    {
+      "id": "U03",
+      "tur": "cevapsiz",
+      "soru": "Türk ehliyetimle İspanya'da kaç ay boyunca araba kullanabilirim?",
+      "beklenen_cevap": "Belgelerde bu bilgi yok; doğru davranış fallback (bilmiyorum / koordinatöre yönlendirme).",
+      "kanit_alinti": null,
+      "kaynak_dosya": null,
+      "sayfa": null,
+      "yokluk_kontrolu": {
+        "regex": "ehliyet|driving licen|permiso de conducir|licencia de conducir",
+        "regex_eslesmeleri": [],
+        "retrieval_top8_hakem_cevap_var": false,
+        "hakem_aciklama": "Belgeler vize, ikamet ve sağlık prosedürlerini anlatmaktadır; Türk ehliyetiyle İspanya'da araç kullanım süresine dair spesifik bir bilgi (ay sayısı) içermemektedir."
+      }
+    },
+    {
+      "id": "U04",
+      "tur": "cevapsiz",
+      "soru": "Erasmus'a gitmeden önce askerlik tecilim için askerlik şubesine hangi belgeyi vermem gerekiyor?",
+      "beklenen_cevap": "Belgelerde bu bilgi yok; doğru davranış fallback (bilmiyorum / koordinatöre yönlendirme).",
+      "kanit_alinti": null,
+      "kaynak_dosya": null,
+      "sayfa": null,
+      "yokluk_kontrolu": {
+        "regex": "asker|tecil|military",
+        "regex_eslesmeleri": [],
+        "retrieval_top8_hakem_cevap_var": false,
+        "hakem_aciklama": "Belgelerde Erasmus sürecine ait gerekli evraklar (davet mektubu, öğrenim anlaşması, vize vb.) listelenmiş ancak askerlik şubesine verilecek spesifik belge (örneğin ıslak imzalı davet mektubu veya öğrenim belgesi) hakkında açık bir bilgi bulunmamaktadır."
+      }
+    },
+    {
+      "id": "U05",
+      "tur": "cevapsiz",
+      "soru": "Jaén'de belediyenin bisiklet kiralama sistemi var mı, aylık ücreti ne kadar?",
+      "beklenen_cevap": "Belgelerde bu bilgi yok; doğru davranış fallback (bilmiyorum / koordinatöre yönlendirme).",
+      "kanit_alinti": null,
+      "kaynak_dosya": null,
+      "sayfa": null,
+      "yokluk_kontrolu": {
+        "regex": "bisiklet|bicicleta|bicycle|bike",
+        "regex_eslesmeleri": [],
+        "retrieval_top8_hakem_cevap_var": false,
+        "hakem_aciklama": "Belgelerde Jaén'deki bisiklet kiralama sistemi veya aylık ücreti hakkında herhangi bir bilgi bulunmamaktadır; parçalar konaklama, belediye randevu sistemleri ve toplu taşıma kartı (otobüs) ile ilgilidir."
+      }
+    },
+    {
+      "id": "U06",
+      "tur": "cevapsiz",
+      "soru": "UJA kampüsünde öğrenciler için otopark ücreti ne kadar?",
+      "beklenen_cevap": "Belgelerde bu bilgi yok; doğru davranış fallback (bilmiyorum / koordinatöre yönlendirme).",
+      "kanit_alinti": null,
+      "kaynak_dosya": null,
+      "sayfa": null,
+      "yokluk_kontrolu": {
+        "regex": "parking|aparcamiento|otopark",
+        "regex_eslesmeleri": [],
+        "retrieval_top8_hakem_cevap_var": false,
+        "hakem_aciklama": "Belgelerde UJA kampüsündeki otopark ücretine dair spesifik bir rakam veya bilgi bulunmamaktadır. Kaynak 5 ve 6'da genel yaşam masrafları (yemek, ulaşım vb.) listelenmiş ancak otopark ücreti belirtilmemiştir."
+      }
+    },
+    {
+      "id": "U07",
+      "tur": "cevapsiz",
+      "soru": "UJA'nın kapalı yüzme havuzunu Erasmus öğrencileri kaç euroya kullanabiliyor?",
+      "beklenen_cevap": "Belgelerde bu bilgi yok; doğru davranış fallback (bilmiyorum / koordinatöre yönlendirme).",
+      "kanit_alinti": null,
+      "kaynak_dosya": null,
+      "sayfa": null,
+      "yokluk_kontrolu": {
+        "regex": "piscina|swimming|yüzme",
+        "regex_eslesmeleri": [],
+        "retrieval_top8_hakem_cevap_var": false,
+        "hakem_aciklama": "Verilen parçalarda UJA'nın kapalı yüzme havuzu kullanım ücreti veya Erasmus öğrencilerine özel fiyat bilgisi yer almamaktadır. Parçalar sigorta, finansal yardım ve bürokratik süreçler hakkında bilgi içermektedir."
+      }
+    },
+    {
+      "id": "U08",
+      "tur": "cevapsiz",
+      "soru": "UJA öğrenci kartıyla Jaén şehir otobüslerinde yüzde kaç indirim alıyorum?",
+      "beklenen_cevap": "Belgelerde bu bilgi yok; doğru davranış fallback (bilmiyorum / koordinatöre yönlendirme).",
+      "kanit_alinti": null,
+      "kaynak_dosya": null,
+      "sayfa": null,
+      "yokluk_kontrolu": {
+        "regex": "(bus|otobüs|autob)[^.]{0,80}(indirim|discount|descuento|bono)",
+        "regex_eslesmeleri": [],
+        "retrieval_top8_hakem_cevap_var": false,
+        "hakem_aciklama": "Parçalarda otobüs hatları ve kart başvuru linkleri yer almakla birlikte, UJA öğrenci kartıyla alınacak spesifik indirim yüzdesi (örneğin %50, %20 vb.) hiçbir belgede açıkça belirtilmemiştir."
+      }
+    },
+    {
+      "id": "U09",
+      "tur": "cevapsiz",
+      "soru": "Jaén'den Madrid'e trenle gitmek kaç euro tutuyor?",
+      "beklenen_cevap": "Belgelerde bu bilgi yok; doğru davranış fallback (bilmiyorum / koordinatöre yönlendirme).",
+      "kanit_alinti": null,
+      "kaynak_dosya": null,
+      "sayfa": null,
+      "yokluk_kontrolu": {
+        "regex": "madrid[^.]{0,80}(€|euro|avro)",
+        "regex_eslesmeleri": [],
+        "retrieval_top8_hakem_cevap_var": false,
+        "hakem_aciklama": "Belgelerde Jaén'den Madrid'e trenle gitmenin maliyeti (euro cinsinden) belirtilmemiştir; sadece ulaşım seçenekleri ve istasyon bilgileri yer almaktadır."
+      }
+    },
+    {
+      "id": "U10",
+      "tur": "cevapsiz",
+      "soru": "UJA'da Erasmus öğrencileri için yaz okulu (curso de verano) var mı, ücreti ne kadar?",
+      "beklenen_cevap": "Belgelerde bu bilgi yok; doğru davranış fallback (bilmiyorum / koordinatöre yönlendirme).",
+      "kanit_alinti": null,
+      "kaynak_dosya": null,
+      "sayfa": null,
+      "yokluk_kontrolu": {
+        "regex": "yaz okulu|curso de verano|summer school|summer course",
+        "regex_eslesmeleri": [],
+        "retrieval_top8_hakem_cevap_var": false,
+        "hakem_aciklama": "Verilen parçalarda UJA'daki Erasmus öğrencileri için yaz okulu (curso de verano) olup olmadığına veya ücretine dair herhangi bir spesifik bilgi bulunmamaktadır. Parçalar kira, sigorta, OLA onayı ve varış prosedürleri hakkında genel bilgiler içermektedir."
+      }
+    },
+    {
+      "id": "A39",
+      "tur": "cevapli",
+      "soru": "UJA'da 2025-2026 akademik yılı için Noel tatili ne zaman başlıyor ve bitiyor?",
+      "beklenen_cevap": "22 Aralık 2025'ten 6 Ocak 2026'ya kadar.",
+      "kanit_alinti": "Desde el 22 de diciembre de 2025 al 6 de enero de 2026.",
+      "kaynak_dosya": "CG202324_anexo10_Calendario_académico_2025_2026_Aprobado.pdf",
+      "sayfa": 2,
+      "chunk_pos": 85
+    },
+    {
+      "id": "A40",
+      "tur": "cevapli",
+      "soru": "UJA 2025-2026 akademik takviminde CE2 kısaltması neyi ifade ediyor?",
+      "beklenen_cevap": "Convocatoria Extraordinaria II (İkinci Olağanüstü Sınav Dönemi)",
+      "kanit_alinti": "Festivos laborales Convocatoria Extraordinaria II (CE2)",
+      "kaynak_dosya": "CG202324_anexo10_Calendario_académico_2025_2026_Aprobado.pdf",
+      "sayfa": 4,
+      "chunk_pos": 95
+    }
+  ]
+}
