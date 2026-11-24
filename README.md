@@ -20,7 +20,7 @@ Context Awareness: Remembers the entire conversation history, explaining complex
 Data-Driven Evolution: Every unanswered query is captured via "fallback logging," serving as a data mine for continuous system improvement.
 
 🛠️ Technical Stack (Scalable Architecture)
-LLM Engine: Meta Llama-3.3 (High-speed inference via Groq API)
+LLM Engine: OpenAI gpt-oss-120b, open-weight (high-speed inference via Groq API free tier; configurable with GROQ_MODEL)
 
 Vector Database: FAISS (Optimized for milisecond-level retrieval across massive datasets)
 

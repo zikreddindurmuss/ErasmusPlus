@@ -10,6 +10,9 @@ import memory_store
 load_dotenv()
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+# Groq üzerinde çalışan model. Groq bir modeli kaldırdığında (llama-3.3-70b-versatile
+# kaldırıldı ve 404 dönüyordu) kod değiştirmeden .env içinden GROQ_MODEL ile değiştirilebilir.
+GROQ_MODEL = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b")
 
 if not GROQ_API_KEY:
     raise ValueError("GROQ_API_KEY bulunamadı! Lütfen .env dosyasını kontrol edin.")
@@ -28,15 +31,43 @@ vectorstore = FAISS.load_local(
 memory_store.init_db()
 
 
+# ── Retrieval ayarları ──
+# "mmr_cap" (varsayılan): MMR ile çeşitlendirilmiş geniş aday havuzundan,
+#   her kaynak dosyadan en fazla MAX_PER_SOURCE chunk alınır. Tek bir büyük
+#   belgenin (ör. 174 chunk'lık "Veri Seti" PDF'i) top-k'yi doldurup asıl
+#   kaynağı dışarıda bırakmasını önler (eval_v2: başarısız 15 örneğin 14'ü).
+# "similarity": eski davranış (saf benzerlik, sınır yok). Geri dönüş ve
+#   karşılaştırma için .env içinden RETRIEVAL_MODE=similarity ile açılabilir.
+RETRIEVAL_MODE = os.getenv("RETRIEVAL_MODE", "mmr_cap")
+MAX_PER_SOURCE = 2
+MMR_FETCH_K = 30       # MMR'ın seçeceği aday sayısı
+MMR_LAMBDA = 0.7       # 1.0 = saf benzerlik, 0.0 = saf çeşitlilik
+
+
 def _retrieve(query: str, k: int, university: str | None = None):
     """
     FAISS semantik arama — opsiyonel `university` metadata filtresiyle.
     Çok-üniversiteli yapıya hazırlık: university verilirse yalnızca o
-    üniversitenin chunk'ları döner. university=None iken filtre uygulanmaz,
-    yani varsayılan davranış birebir korunur.
+    üniversitenin chunk'ları döner. university=None iken filtre uygulanmaz.
     """
     flt = {"university": university} if university else None
-    return vectorstore.similarity_search(query, k=k, filter=flt)
+    if RETRIEVAL_MODE == "similarity":
+        return vectorstore.similarity_search(query, k=k, filter=flt)
+
+    candidates = vectorstore.max_marginal_relevance_search(
+        query, k=MMR_FETCH_K, fetch_k=MMR_FETCH_K * 2,
+        lambda_mult=MMR_LAMBDA, filter=flt,
+    )
+    out, per_source = [], {}
+    for doc in candidates:
+        src = doc.metadata.get("source")
+        if per_source.get(src, 0) >= MAX_PER_SOURCE:
+            continue
+        out.append(doc)
+        per_source[src] = per_source.get(src, 0) + 1
+        if len(out) == k:
+            break
+    return out
 
 
 # ── Konu-odaklı Boost Yapılandırması ──
@@ -93,31 +124,43 @@ BOOST_TOPICS = {
 
 # Her eşleşen konu için çekilecek ek chunk sayısı (eski finansal boost ile aynı)
 BOOST_K = 4
+# Ana semantik aramada çekilecek chunk sayısı
+MAIN_K = 5
+
+
+def retrieve_context(user_message: str, university: str | None = None) -> list:
+    """
+    Botun cevap üretirken gördüğü belge parçalarını döndürür.
+    get_ai_response ve değerlendirme scripti (eval_v2.py) aynı fonksiyonu
+    kullanır; böylece hakem, botun gerçekten gördüğü bağlamı görür.
+    """
+    # ── Hibrit Arama (Hybrid Retrieval) ──
+    # 1) Ana semantik arama: kullanıcının tam sorusu
+    docs_main = _retrieve(user_message, MAIN_K, university)
+
+    # 2) Konu-odaklı ek arama (Boost): mesajda bir konunun anahtar
+    #    kelimelerinden biri geçiyorsa, o konunun sorgusu için ek chunk'lar
+    #    çekilir. Veri-odaklı — konular BOOST_TOPICS'te tanımlıdır.
+    msg_lower = user_message.lower()
+    docs_boost = []
+    for topic in BOOST_TOPICS.values():
+        if any(kw in msg_lower for kw in topic["keywords"]):
+            docs_boost.extend(_retrieve(topic["boost_query"], BOOST_K, university))
+
+    # 3) Birleştir ve tekrar edenleri çıkar (deduplicate)
+    seen_ids = set()
+    docs = []
+    for doc in docs_main + docs_boost:
+        doc_id = f"{doc.metadata.get('source', '')}_{doc.metadata.get('page', '')}_{doc.page_content[:80]}"
+        if doc_id not in seen_ids:
+            seen_ids.add(doc_id)
+            docs.append(doc)
+    return docs
 
 
 async def get_ai_response(user_message: str, user_id: int, university: str | None = None) -> str:
     try:
-        # ── Hibrit Arama (Hybrid Retrieval) ──
-        # 1) Ana semantik arama: kullanıcının tam sorusu
-        docs_main = _retrieve(user_message, 5, university)
-
-        # 2) Konu-odaklı ek arama (Boost): mesajda bir konunun anahtar
-        #    kelimelerinden biri geçiyorsa, o konunun sorgusu için ek chunk'lar
-        #    çekilir. Veri-odaklı — konular BOOST_TOPICS'te tanımlıdır.
-        msg_lower = user_message.lower()
-        docs_boost = []
-        for topic in BOOST_TOPICS.values():
-            if any(kw in msg_lower for kw in topic["keywords"]):
-                docs_boost.extend(_retrieve(topic["boost_query"], BOOST_K, university))
-
-        # 3) Birleştir ve tekrar edenleri çıkar (deduplicate)
-        seen_ids = set()
-        docs = []
-        for doc in docs_main + docs_boost:
-            doc_id = f"{doc.metadata.get('source', '')}_{doc.metadata.get('page', '')}_{doc.page_content[:80]}"
-            if doc_id not in seen_ids:
-                seen_ids.add(doc_id)
-                docs.append(doc)
+        docs = retrieve_context(user_message, university)
 
         # Bulunan metin parçalarını kaynak etiketleriyle birleştir
         context_parts = []
@@ -172,7 +215,7 @@ async def get_ai_response(user_message: str, user_id: int, university: str | Non
 
         # Modele mesaj geçmişiyle birlikte gönder
         response = await client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
+            model=GROQ_MODEL,
             temperature=0.0,
             messages=messages
         )
